@@ -1,5 +1,5 @@
 export default function Hero({ title, subtitle, imageOn = false }:
-  {title:any, subtitle:any})
+  {title:any; subtitle:any; imageOn:any;})
   {
     return (
         <div>
