@@ -1,12 +1,11 @@
-export default function Hero(){
+export default function Hero({ title, subtitle, imageOn = false }:
+  {title:any, subtitle:any})
+  {
     return (
         <div>
-          <h1>iGEM Kyoto</h1>
-          <br></br>
-          <p>iGEM × Kyoto = ∞
-            <br></br>We are iGEM Kyoto, Kyoto University team competing in the international Genetically Engineered Machine competition, in short iGEM.
-            <br></br>Challenges in the 15th year
-          </p>
+          <h1>{title}</h1>
+          <p>{subtitle}</p>
+          {imageOn && <figure> [画像] </figure>}
         </div>
     )
-}
+  }
