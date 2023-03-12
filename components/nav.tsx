@@ -5,7 +5,7 @@ export default function Nav(){
         <nav>
             <ul>
                 <li>
-                    <Link href="/" legacyBehavior>
+                    <Link href="/blog" legacyBehavior>
                             <a className="home">Home</a>
                     </Link>
                 </li>
