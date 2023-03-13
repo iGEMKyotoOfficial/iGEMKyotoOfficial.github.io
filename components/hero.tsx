@@ -1,4 +1,4 @@
-import styles from 'styles/hero.module.css'
+import styles from 'src/styles/hero.module.css'
 
 export default function Hero({ title, subtitle, imageOn = false }:
   {title:any; subtitle:any; imageOn:any;})
