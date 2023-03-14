@@ -1,0 +1,15 @@
+.list {
+    font-size: var(--heading3);
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    padding: 1em 2em;
+    background-color: var(--gray-75);
+    color: var(--white);
+    display: flex;
+    gap: 2em;
+}
+
+.list a:hover {
+    color: var(--lightskyblue);
+}
