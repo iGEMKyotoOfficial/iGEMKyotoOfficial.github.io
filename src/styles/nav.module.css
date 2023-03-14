@@ -17,7 +17,7 @@
 }
 
 @media (hover: none) {
-    .list a:hover {
+    .list a {
         -webkit-tap-highlight-color: transparent;
     }
 
