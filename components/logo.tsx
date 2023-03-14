@@ -5,11 +5,11 @@ import logo from 'images/図1.jpg'
 export default function Logo(){
     return(
         <Link href="/blog" legacyBehavior>
-            <figure style={{ width: '10vw', margin: 'left' }}><Image
+            <figure style={{ width: '8vw', margin: 'left' }}><Image
               src={logo}
               alt=""
               layout="responsive"
-              sizes="20vw"
+              sizes="10vw"
             /></figure>
         </Link>
     )
