@@ -17,11 +17,11 @@
 }
 
 @media (hover: none) {
-    .list a {
+    .list a:hover {
         -webkit-tap-highlight-color: transparent;
     }
 
     .list a:active {
-        color: var(--lightskyblue)
+        color: var(--lightskyblue);
     }
 }
