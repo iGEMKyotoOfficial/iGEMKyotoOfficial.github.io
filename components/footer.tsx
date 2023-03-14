@@ -5,7 +5,7 @@ export default function Footer(){
     return (
         <footer className={styles.wrapper}>
             <div className={styles.flexContainer}>
-                <Logo />
+                iGEM Kyoto
                 [ソーシャル]
             </div>
         </footer>
