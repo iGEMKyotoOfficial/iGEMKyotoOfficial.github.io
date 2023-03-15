@@ -20,7 +20,6 @@ export default function About() {
                     2012
                     2011
                   "
-          imageOn
         />
     </Container>
   )
