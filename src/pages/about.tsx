@@ -1,5 +1,6 @@
 import Container from 'components/container'
 import Hero from 'components/hero'
+import PostBody from 'components/post-body'
 
 export default function About() {
   return (
@@ -9,6 +10,7 @@ export default function About() {
           subtitle="私たち iGEM Kyoto は合成生物学の世界大会 iGEM に向けて活動している京大生チームです。"
         />
 
+        <PostBody>
         <h2>iGEM Kyoto について</h2>
         <p>
           iGEM Kyoto は、iGEM への出場を通して、学生が責任と自主性に基づき自由に研究活動を行うことを目的とする、京都大学の学生チームです。
@@ -54,7 +56,9 @@ export default function About() {
           さらには、現地開催での大会においては、ポスターセッションにおけるディスカッションなどを通して海外の学生チームと交流する機会が与えられます。
           サイエンスを学ぶ同世代の優秀な学生の発表に生身で触れることができ、私たちにとって刺激を受ける場になっているだけでなく、コラボレーションなどを通して将来の研究者のオープンコミュニティ形成に繋がる場にもなっています。
         </p>
-        
+        <br></br>
+        </PostBody>
+
     </Container>
   )
 }
