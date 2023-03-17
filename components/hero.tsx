@@ -7,10 +7,12 @@ export default function Hero({ title, subtitle, imageOn = false }:
   { title: any; subtitle: any; imageOn: any; }) {
   return (
     <div className={styles.flexContainer}>
-      <div className={styles.text}>
-        <h1 className={styles.title}>{title}</h1>
-        <p className={styles.subtitle}>{subtitle}</p>
-      </div>
+      <Container large={false}>
+        <div className={styles.text}>
+          <h1 className={styles.title}>{title}</h1>
+          <p className={styles.subtitle}>{subtitle}</p>
+        </div>
+      </Container>
       <Container large={true}>
         {imageOn && (
           <figure className={styles.image}>
