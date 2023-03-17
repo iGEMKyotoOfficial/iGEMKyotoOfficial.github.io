@@ -8,12 +8,12 @@ export default function Hero({ title, subtitle, imageOn = false }:
   return (
     <div className={styles.flexContainer}>
       <Container large={false}>
-        <div className={styles.text}>
+        <div className={styles.text} style={{backgroundImage: `url(../images/dna-3539309.jpg)`}}>
           <h1 className={styles.title}>{title}</h1>
           <p className={styles.subtitle}>{subtitle}</p>
         </div>
       </Container>
-      <Container large={true}>
+      {/* <Container large={true}>
         {imageOn && (
           <figure className={styles.image}>
             <Image
@@ -23,7 +23,7 @@ export default function Hero({ title, subtitle, imageOn = false }:
             />
           </figure>
         )}
-      </Container>
+      </Container> */}
     </div>
   )
 }
