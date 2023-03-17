@@ -7,8 +7,8 @@ import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-colum
 export default function About() {
   return (
 
-    <Container>
-      <Hero
+    <Container large={false}>
+      <Hero imageOn={false}
         title="About"
         subtitle="私たち iGEM Kyoto は合成生物学の世界大会 iGEM に向けて活動している京大生チームです。"
       />

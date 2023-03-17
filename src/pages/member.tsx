@@ -3,8 +3,8 @@ import Hero from 'components/hero'
 
 export default function About() {
   return (
-    <Container>
-        <Hero
+    <Container large={false}>
+        <Hero imageOn={false}
           title="Member"
           subtitle="2023
                     2022
