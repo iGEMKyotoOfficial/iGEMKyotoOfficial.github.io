@@ -14,7 +14,14 @@ export default function Hero({ title, subtitle, imageOn = true }:
         </div>
         {imageOn && (
           <figure>
-            <Image src={cube} alt="" layout="responsive" />
+            <Image 
+              src={cube} 
+              alt="" 
+              layout="responsive"
+              sizes="100vw"
+              priority
+              placeholder="blur"
+              />
           </figure>
         )}
       </Container>
