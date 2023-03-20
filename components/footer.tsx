@@ -1,6 +1,7 @@
 import Container from 'components/container'
 import Logo from 'components/logo'
 import styles from 'src/styles/footer.module.css'
+import Social from 'components/social'
 import Link from 'next/link'
 
 export default function Footer(){
@@ -11,7 +12,7 @@ export default function Footer(){
                     <Link href="/blog" legacyBehavior>
                         <a className="home">iGEM Kyoto</a>
                     </Link>
-                    [ソーシャル]
+                    <Social />
                 </div>
             </Container>
         </footer>
