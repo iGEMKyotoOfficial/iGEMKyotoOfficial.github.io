@@ -7,9 +7,9 @@ import {
     faFacebookF,
 } from '@fortawesome/free-brands-svg-icons'
 
-export default function Social({ iconSize='initial' }) {
+export default function Social({ iconSize = "24px" }) {
     return (
-        <ul className={styles.list} style={{ '--icon-size': iconSize }}>
+        <ul className={styles.list} /* style={{ '--icon-size': iconSize }} */>
             <li>
                <a href="https://twitter.com/iGEMkyoto">
                     <FontAwesomeIcon icon={faTwitter} />
