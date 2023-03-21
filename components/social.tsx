@@ -13,19 +13,19 @@ export default function Social({ iconSize = "24px" }) {
             <li>
                <a href="https://twitter.com/iGEMkyoto">
                     <FontAwesomeIcon icon={faTwitter} />
-                    <span className="sr-only">Twitter</span>
+                    <span className="sr-only" > iGEM </span>
                </a>
             </li>
             <li>
                 <a href="https://www.instagram.com/igemkyoto/">
                     <FontAwesomeIcon icon={faInstagram} />
-                    <span className="sr-only">Instagram</span>
+                    <span className="sr-only" > Kyoto </span>
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/IgemKyoto/">
                     <FontAwesomeIcon icon={faFacebookF} />
-                    <span className="sr-only">Facebook</span>
+                    <span className="sr-only" > SNS </span>
                 </a>
             </li>
         </ul>

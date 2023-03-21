@@ -1,5 +1,4 @@
 import Container from 'components/container'
-import Logo from 'components/logo'
 import styles from 'src/styles/footer.module.css'
 import Social from 'components/social'
 import Link from 'next/link'
