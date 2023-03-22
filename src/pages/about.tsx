@@ -11,7 +11,7 @@ export default function About() {
   return (
 
     <Container large={false}>
-      <Meta pageTitle="About" />
+      <Meta pageTitle="About" pageDesc="iGEM Kyotoについて" />
       
       <Hero imageOn={false}
         title="About"

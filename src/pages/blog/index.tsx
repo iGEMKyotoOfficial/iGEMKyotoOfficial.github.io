@@ -4,8 +4,8 @@ import Hero from 'components/hero'
 
 export default function Home() {
   return (
-    <Container>
-      <Meta pageTitle="Home" />
+    <Container large={true}>
+      <Meta pageTitle="Home" pageDesc="/>
         <Hero
           title="iGEM Kyoto"
           subtitle="iGEM × Kyoto = ∞"
