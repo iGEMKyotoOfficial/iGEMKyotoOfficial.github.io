@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Meta from 'components/meta'
 import Container from 'components/container'
 import Hero from 'components/hero'
 import PostBody from 'components/post-body'
@@ -11,9 +11,8 @@ export default function About() {
   return (
 
     <Container large={false}>
-      <Head>
-        <title>About</title>
-      </Head>
+      <Meta pageTitle="About" />
+      
       <Hero imageOn={false}
         title="About"
         subtitle="私たち iGEM Kyoto は合成生物学の世界大会 iGEM に向けて活動している京大生チームです。"

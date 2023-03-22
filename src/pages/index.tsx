@@ -1,16 +1,19 @@
+import Meta from 'components/meta'
+import Container from 'components/container'
 import Hero from 'components/hero'
 
-export default function index() {
+export default function Home() {
   return (
-    <>
-      <Hero
-        title="iGEM Kyoto"
-        subtitle="iGEM × Kyoto = ∞"
-        imageOn
-      />
-      <p>
-        コンヌツKyotoでおま
-      </p>
-    </>
+    <Container>
+      <Meta />
+        <Hero
+          title="iGEM Kyoto"
+          subtitle="iGEM × Kyoto = ∞"
+          imageOn
+        />
+        <p>
+          コンヌツKyotoでおま
+        </p>
+    </Container>
   )
 }
