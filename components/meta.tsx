@@ -4,9 +4,9 @@ import Head from 'next/head'
 import { siteMeta } from 'lib/constants'
 const{ siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } = siteMeta
 
-export default function Meta({ pageTitle, pageDesc }:{pageTitle:any;pageDesc:any}) {
+export default function Meta({ pageTitle = siteTitle, pageDesc = siteDesc }:{pageTitle?:string; pageDesc?:string}) {
     // ページのタイトル
-    const title = pageTitle ? '${pageTitle} | ${siteTitle}' : siteTitle
+    const title = pageTitle ? (pageTitle + ' | ' + siteTitle) : siteTitle
 
     // ページの説明
     const desc = pageDesc ?? siteDesc
