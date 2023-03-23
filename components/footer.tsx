@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Footer(){
     return (
         <footer className={styles.wrapper}>
-            <Container large={false}>
+            <Container>
                 <div className={styles.flexContainer}>
                     <Link href="/blog" legacyBehavior>
                         <a className="home">iGEM Kyoto</a>

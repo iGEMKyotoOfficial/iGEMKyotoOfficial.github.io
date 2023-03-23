@@ -4,12 +4,11 @@ import Hero from 'components/hero'
 
 export default function Home() {
   return (
-    <Container large={true}>
+    <Container large>
       <Meta />
         <Hero
           title="iGEM Kyoto"
           subtitle="iGEM × Kyoto = ∞"
-          imageOn
         />
         <p>
           コンヌツKyotoでおま

@@ -10,10 +10,10 @@ import eyecatch from 'images/dna-3539309.jpg'
 export default function About() {
   return (
 
-    <Container large={false}>
+    <Container>
       <Meta pageTitle="About" pageDesc="iGEM Kyotoについて" />
       
-      <Hero imageOn={false}
+      <Hero
         title="About"
         subtitle="私たち iGEM Kyoto は合成生物学の世界大会 iGEM に向けて活動している京大生チームです。"
       />
