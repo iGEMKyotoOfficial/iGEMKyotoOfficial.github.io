@@ -11,7 +11,13 @@ export default function About() {
   return (
 
     <Container>
-      <Meta pageTitle="About" pageDesc="iGEM Kyotoについて" />
+      <Meta 
+        pageTitle="About"
+        pageDesc="iGEM Kyotoについて"
+        pageImg={eyecatch.src}
+        pageImgW={eyecatch.width}
+        pageImgH={eyecatch.height}
+       />
       
       <Hero
         title="About"
