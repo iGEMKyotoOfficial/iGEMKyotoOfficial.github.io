@@ -10,14 +10,14 @@ import siteImg from 'images/図1.jpg'
 
 export default function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }:{pageTitle?:string; pageDesc?:string; pageImg?:string; pageImgW?:string; pageImgH?:string;}) {
     // ページのタイトル
-    const title = pageTitle ? '$(pageTitle} | ${siteTitle)' : siteTitle
+    const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
 
     // ページの説明
     const desc = pageDesc ?? siteDesc
 
     //ページのURL
     const router = useRouter()
-    const url = '${siteUrl}${router.asPath}'
+    const url = `${siteUrl}${router.asPath}`
 
     //OPG画像
     const img = pageImg || siteImg.src
