@@ -10,9 +10,6 @@ export default function Home() {
           title="iGEM Kyoto"
           subtitle="iGEM × Kyoto = ∞"
         />
-        <p>
-          コンヌツKyotoでおま
-        </p>
     </Container>
   )
 }
