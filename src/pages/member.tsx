@@ -52,6 +52,10 @@ export default function About() {
         </Link>
       </p>
 
+      <p className="styles.member">
+        2023
+      </p>
+
       <p className="/2023">
 
       </p>

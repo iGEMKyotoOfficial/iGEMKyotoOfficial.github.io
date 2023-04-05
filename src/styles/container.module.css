@@ -4,3 +4,7 @@
     margin: 0 auto;
     line-height: 180%;
 }
+
+.member {
+  font-size: var(--heading1);
+}
