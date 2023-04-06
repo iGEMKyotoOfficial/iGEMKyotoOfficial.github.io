@@ -10,7 +10,7 @@ import eyecatch from 'images/dna-3539309.jpg'
 export default function About() {
   return (
 
-    <Container>
+    <Container >
       <Meta 
         pageTitle="About"
         pageDesc="iGEM Kyotoについて"
