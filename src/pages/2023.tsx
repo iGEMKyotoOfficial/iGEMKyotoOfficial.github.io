@@ -7,7 +7,7 @@ export default function About() {
       <Container>
          <Hero
           title="Member"
-          subtitle={undefined}        
+          subtitle="2023"       
         />
           
           <p className="member">

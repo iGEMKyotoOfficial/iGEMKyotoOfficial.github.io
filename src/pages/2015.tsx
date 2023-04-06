@@ -7,7 +7,7 @@ export default function About() {
     <Container>
       <Hero
         title="Member"
-        subtitle={undefined}
+        subtitle="2015"
       />
 
       <p className="member">
@@ -54,7 +54,7 @@ export default function About() {
       <br />
       <br />
       <p className="/2015">
-        
+
         <b>助川桃枝</b>:教育学部2回生
         <br /> 松本宙:農学部2回生
         <br /> 李豪:農学部2回生

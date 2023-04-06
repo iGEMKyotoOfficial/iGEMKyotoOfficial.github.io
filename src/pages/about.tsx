@@ -21,7 +21,7 @@ export default function About() {
       
       <Hero
         title="About"
-        subtitle="私たち iGEM Kyoto は合成生物学の世界大会 iGEM に向けて活動している京大生チームです。"
+        subtitle="iGEM Kyoto とは？"
       />
 
       <figure>

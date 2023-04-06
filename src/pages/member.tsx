@@ -7,7 +7,7 @@ export default function About() {
     <Container>
       <Hero
         title="Member"
-        subtitle={undefined}
+        subtitle="2023"
       />
 
       <p className="member">
@@ -50,10 +50,6 @@ export default function About() {
         <Link href="/2011" legacyBehavior>
           <a className="2011">2011&ensp;</a>
         </Link>
-      </p>
-
-      <p className="styles.member">
-        2023
       </p>
 
       <p className="/2023">
