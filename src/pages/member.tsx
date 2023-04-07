@@ -1,6 +1,7 @@
 import Container from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -52,9 +53,17 @@ export default function About() {
         </Link>
       </p>
 
-      <p className="/2023">
-        
-      </p>
+      <div className="/2023">
+        <figure>
+          <Image
+            src="/2023_sekikawa.jpg"
+            alt=""
+            layout="fill"
+            objectFit="cover"
+            sizes="(min-width: 1152px) 576px, 50vw"
+          />
+        </figure>
+      </div>
     </Container>
   )
 }
