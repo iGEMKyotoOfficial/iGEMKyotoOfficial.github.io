@@ -1,6 +1,7 @@
 import Container from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function About() {
     return (
@@ -53,7 +54,7 @@ export default function About() {
           </p>
 
         <p className="/2022">
-        
+          
         </p>
       </Container>
   )

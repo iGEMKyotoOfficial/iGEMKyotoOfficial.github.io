@@ -53,7 +53,7 @@ export default function About() {
       </p>
 
       <p className="/2023">
-
+        
       </p>
     </Container>
   )
