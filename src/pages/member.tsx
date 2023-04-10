@@ -3,6 +3,9 @@ import Hero from 'components/hero'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import sekikawa from 'images/2023_sekikawa.jpg'
+import mitoma from 'images/2023_mitoma.jpg'
+
 export default function About() {
   return (
     <Container>
@@ -53,17 +56,61 @@ export default function About() {
         </Link>
       </p>
 
-      <div className="/2023">
-        <figure>
-          <Image
-            src="/2023_sekikawa.jpg"
-            alt=""
-            layout="fill"
-            objectFit="cover"
-            sizes="(min-width: 1152px) 576px, 50vw"
-          />
-        </figure>
-      </div>
+      <br />
+
+      <table className="team-table">
+        <tr>
+          <th className="team-table-photo">
+            <figure>
+              <Image
+                src={sekikawa}
+                alt=""
+                width="250"
+                height="250"
+                sizes="(min-width: 1152px) 576px, 50vw"
+              />
+            </figure>
+          </th>
+          <th className="team-table-profile">
+            <p>
+              関川 隆 <br />
+              Ryu SEKIKAWA <br />
+              Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto University <br />
+              Role: Human Practice <br />
+              Hobby: 鉄道旅行 <br />
+              一般的な変人京大生です
+            </p>
+          </th>
+        </tr>
+      </table>
+
+      <br />
+
+      <table className="team-table">
+        <tr>
+          <th className="team-table-photo">
+            <figure>
+              <Image
+                src={mitoma}
+                alt=""
+                width="250"
+                height="250"
+                sizes="(min-width: 1152px) 576px, 50vw"
+              />
+            </figure>
+          </th>
+          <th className="team-table-profile">
+            <p>
+              三笘 隼人 <br />
+              Hayato MITOMA <br />
+              Sophomore of the Faculty of Science, Kyoto University <br />
+              Role: Wet Experiment <br />
+              Hobby:  <br />
+              Everything happens for a reason.
+            </p>
+          </th>
+        </tr>
+      </table>
     </Container>
   )
 }
