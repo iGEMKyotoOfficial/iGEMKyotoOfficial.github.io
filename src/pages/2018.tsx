@@ -10,7 +10,7 @@ export default function About() {
           subtitle="2018"      
         />
           
-          <p className="member">
+          <div className="member">
             <Link href="/2023" legacyBehavior> 
               <a className="2023">2023&ensp;</a>
             </Link>
@@ -50,7 +50,7 @@ export default function About() {
             <Link href="/2011" legacyBehavior> 
               <a className="2011">2011&ensp;</a> 
             </Link>
-          </p>
+          </div>
 
         <p className="/2018">
         
