@@ -126,8 +126,6 @@ export default function About() {
         </Row>
       </Container>
     </Contain>
-
-
   )
 }
 
