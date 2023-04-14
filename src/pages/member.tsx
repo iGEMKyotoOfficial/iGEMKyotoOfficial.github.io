@@ -4,8 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'reactstrap';
 
-import sekikawa from 'images/2023_sekikawa.jpg'
-import mitoma from 'images/2023_mitoma.jpg'
+import sekikawa from 'images/member.2023/2023_sekikawa.jpg'
+import mitoma from 'images/member.2023/2023_mitoma.jpg'
 
 export default function About() {
   return (
@@ -15,7 +15,7 @@ export default function About() {
         subtitle="2023"
       />
 
-      <p className="member">
+      <div className="member">
         <Link href="/2023" legacyBehavior>
           <a className="2023">2023&ensp;</a>
         </Link>
@@ -55,7 +55,7 @@ export default function About() {
         <Link href="/2011" legacyBehavior>
           <a className="2011">2011&ensp;</a>
         </Link>
-      </p>
+      </div>
 
       <br />
 
@@ -114,14 +114,14 @@ export default function About() {
       </table>
       <Container>
         <Row>
-          <Col sm>
-            <span>One of three columns</span>
+          <Col>
+            <span>1 of 3</span>
           </Col>
-          <Col sm>
-            <span>One of three columns</span>
+          <Col md="auto">
+            <span>Variable width content</span>
           </Col>
-          <Col sm>
-            <span>One of three columns</span>
+          <Col lg="2">
+            <span>3 of 3</span>
           </Col>
         </Row>
       </Container>
