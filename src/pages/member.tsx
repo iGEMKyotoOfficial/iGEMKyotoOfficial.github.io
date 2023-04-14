@@ -1,14 +1,15 @@
-import Container from 'components/container'
+import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 import Image from 'next/image'
+import { Container, Row, Col } from 'reactstrap';
 
 import sekikawa from 'images/2023_sekikawa.jpg'
 import mitoma from 'images/2023_mitoma.jpg'
 
 export default function About() {
   return (
-    <Container>
+    <Contain>
       <Hero
         title="Member"
         subtitle="2023"
@@ -111,6 +112,24 @@ export default function About() {
           </th>
         </tr>
       </table>
-    </Container>
+      <Container>
+        <Row>
+          <Col sm>
+            <span>One of three columns</span>
+          </Col>
+          <Col sm>
+            <span>One of three columns</span>
+          </Col>
+          <Col sm>
+            <span>One of three columns</span>
+          </Col>
+        </Row>
+      </Container>
+    </Contain>
+
+
   )
 }
+
+
+

@@ -1,11 +1,11 @@
-import Container from 'components/container'
+import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function About() {
     return (
-      <Container>
+      <Contain>
          <Hero
           title="Member"
           subtitle="2022"       
@@ -56,6 +56,6 @@ export default function About() {
         <p className="/2022">
          
         </p>
-      </Container>
+      </Contain>
   )
 }

@@ -2,7 +2,7 @@ import styles from 'src/styles/two-column.module.css'
 
 export function TwoColumn({ children }:{children:any}) {
     return (
-        <div className={styles.flexContainer}>
+        <div className={styles.flexContain}>
             {children}
         </div>
     )

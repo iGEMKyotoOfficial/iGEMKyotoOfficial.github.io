@@ -1,10 +1,10 @@
-import Container from 'components/container'
+import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 
 export default function About() {
     return (
-      <Container>
+      <Contain>
          <Hero
           title="Member"
           subtitle="2013"       
@@ -93,6 +93,6 @@ export default function About() {
           <br />安田裕助 :  理学部1回生
         </p>
         <br />
-      </Container>
+      </Contain>
   )
 }

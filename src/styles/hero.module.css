@@ -1,4 +1,4 @@
-.flexContainer {
+.flexContain {
     composes: sideBySideCenter from 'src/styles/utils.module.css'
 }
 

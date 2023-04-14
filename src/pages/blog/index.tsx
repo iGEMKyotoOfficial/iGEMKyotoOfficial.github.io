@@ -1,12 +1,12 @@
 import Meta from 'components/meta'
-import Container from 'components/container'
+import Contain from 'components/container'
 import Hero from 'components/hero'
 import Image from 'next/image'
 import fushimi from 'images/fushimi-inari-shrine-1886975.jpg'
 
 export default function Home() {
   return (
-    <Container large>
+    <Contain large>
       <Meta pageTitle="Home" pageDesc="" />
       <Hero
         title="iGEM Kyoto"
@@ -23,6 +23,6 @@ export default function Home() {
         />
       </figure>
 
-    </Container>
+    </Contain>
   )
 }

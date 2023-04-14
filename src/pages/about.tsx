@@ -1,5 +1,5 @@
 import Meta from 'components/meta'
-import Container from 'components/container'
+import Contain from 'components/container'
 import Hero from 'components/hero'
 import PostBody from 'components/post-body'
 import Contact from 'components/contact'
@@ -10,7 +10,7 @@ import eyecatch from 'images/dna-3539309.jpg'
 export default function About() {
   return (
 
-    <Container >
+    <Contain >
       <Meta 
         pageTitle="About"
         pageDesc="iGEM Kyotoについて"
@@ -90,6 +90,6 @@ export default function About() {
         </TwoColumnSidebar>
       </TwoColumn>
 
-    </Container>
+    </Contain>
   )
 }
