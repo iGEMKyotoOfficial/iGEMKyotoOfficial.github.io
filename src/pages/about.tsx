@@ -15,8 +15,8 @@ export default function About() {
         pageTitle="About"
         pageDesc="iGEM Kyotoについて"
         pageImg={eyecatch.src}
-        pageImgW={eyecatch.width}
-        pageImgH={eyecatch.height}
+        pageImgW={eyecatch.width.toString()}
+        pageImgH={eyecatch.height.toString()}
        />
       
       <Hero
