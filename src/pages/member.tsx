@@ -2,7 +2,8 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap'
+import Frame from 'components/member.people'
 
 import sekikawa from 'images/member.2023/2023_sekikawa.jpg'
 import mitoma from 'images/member.2023/2023_mitoma.jpg'
@@ -112,19 +113,9 @@ export default function About() {
           </th>
         </tr>
       </table>
-      <Container>
-        <Row>
-          <Col>
-            <span>1 of 3</span>
-          </Col>
-          <Col md="auto">
-            <span>Variable width content</span>
-          </Col>
-          <Col lg="2">
-            <span>3 of 3</span>
-          </Col>
-        </Row>
-      </Container>
+      <Frame>
+
+      </Frame>
     </Contain>
   )
 }
