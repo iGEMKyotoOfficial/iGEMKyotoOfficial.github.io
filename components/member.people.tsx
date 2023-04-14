@@ -6,33 +6,25 @@ import { Container, Row, Col } from 'reactstrap'
 
 function Frame() {
     return (
-      <>
-        <Container>
-          <Row className="justify-content-md-center">
-            <Col lg="2">
-              <span>1 of 3</span>
-            </Col>
-            <Col md="auto">
-              <span>Variable width content</span>
-            </Col>
-            <Col lg="2">
-              <span>3 of 3</span>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <span>1 of 3</span>
-            </Col>
-            <Col md="auto">
-              <span>Variable width content</span>
-            </Col>
-            <Col lg="2">
-              <span>3 of 3</span>
-            </Col>
-          </Row>
-        </Container>
-      </>
+        <>
+            <Container>
+                <Row>
+                    <Col>
+                        <span>
+                            <figure>
+                                
+                            </figure>
+                        </span>
+                    </Col>
+                    <Col>
+                        <span>
+
+                        </span>
+                    </Col>
+                </Row>
+            </Container>
+        </>
     );
-  }
-  
-  export default Frame;
+}
+
+export default Frame;

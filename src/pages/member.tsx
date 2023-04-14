@@ -114,7 +114,7 @@ export default function About() {
         </tr>
       </table>
       <Frame>
-
+        
       </Frame>
     </Contain>
   )
