@@ -47,6 +47,11 @@ h3{
   font-size: var(--heading3);
 }
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
 /* 基本設定　 */
 span > img {
   transition: 0.2s;

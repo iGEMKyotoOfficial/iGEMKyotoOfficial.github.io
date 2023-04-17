@@ -3,6 +3,7 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Image from 'next/image'
 import fushimi from 'images/fushimi-inari-shrine-1886975.jpg'
+import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Home() {
   return (

@@ -11,8 +11,12 @@
 }
 
 @media (hover: hover) {
+    .list a:not(:hover) {
+        color: white;
+        text-decoration: none;
+    }
     .list a:hover {
-        color: var(--lightskyblue);
+        color: var(--lightskyblue)
     }
 }
 
