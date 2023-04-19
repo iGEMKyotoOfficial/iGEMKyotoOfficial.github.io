@@ -6,32 +6,27 @@ import { Container, Row, Col } from 'reactstrap'
 import member from '@/pages/member'
 
 export default function Frame({ children, subtitle, imageOn = true, src }:
-    { children: any; subtitle: any; imageOn?: boolean; src: any}) {
+    { children: any; subtitle: any; imageOn?: boolean; src: any }) {
     return (
         <>
             <Container>
                 <Row>
                     <Col>
-                        <span>
-                            {imageOn && (
-                                <figure>
-                                    <Image
-                                        src={src}
-                                        alt=""
-                                        layout="responsive"
-                                        sizes="(min-width: 1152px) 576px, 50vw"
-                                        width="250"
-                                        height="250"
-                                    />
-                                </figure>
-                            )}
-                        </span>
+                        {imageOn && (
+                            <figure>
+                                <Image
+                                    src={src}
+                                    alt=""
+                                    sizes="(min-width: 1152px) 576px, 50vw"
+                                    width="250"
+                                    height="250"
+                                />
+                            </figure>
+                        )}
                     </Col>
                     <Col>
-                        <span>
-                            <h1 className='people.name'>{subtitle}</h1>
-                            <p>{children}</p>
-                        </span>
+                        <h1 className='people.name'>{subtitle}</h1>
+                        <p>{children}</p>
                     </Col>
                 </Row>
             </Container>
