@@ -66,6 +66,7 @@ export default function About() {
         Hobby:  <br />
         Everything happens for a reason.
       </Frame>
+      <br />
       <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
         Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto University <br />
         Role: Human Practice <br />
