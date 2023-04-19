@@ -114,9 +114,10 @@ export default function About() {
         </tr>
       </table>
       <Frame subtitle="三笘 隼人 Hayato MITOMA">
-        {'Sophomore of the Faculty of Science, Kyoto University \n
-        Hobby:  \n
-        Everything happens for a reason.'}
+        Sophomore of the Faculty of Science, Kyoto University <br />
+        Role: Wet Experiment <br />
+        Hobby:  <br />
+        Everything happens for a reason.
       </Frame>
     </Contain>
   )

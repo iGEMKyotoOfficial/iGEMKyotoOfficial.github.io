@@ -5,7 +5,6 @@
 .text {
     padding-top: calc(var(--display) * 0.5);
     padding-bottom: calc(var(--display) * 0.7);
-    white-space: pre-line;
 }
 
 .title {
