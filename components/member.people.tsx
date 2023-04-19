@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { Container, Row, Col } from 'reactstrap'
 import member from '@/pages/member'
 
-export default function Frame({ children, subtitle, imageOn = false }:
-    { children: any; subtitle: any; imageOn?: boolean; }) {
+export default function Frame({ children, subtitle, imageOn = true, src }:
+    { children: any; subtitle: any; imageOn?: boolean; src: any}) {
     return (
         <>
             <Container>
@@ -16,12 +16,12 @@ export default function Frame({ children, subtitle, imageOn = false }:
                             {imageOn && (
                                 <figure>
                                     <Image
-                                        src={member}
+                                        src={src}
                                         alt=""
                                         layout="responsive"
                                         sizes="(min-width: 1152px) 576px, 50vw"
-                                        priority
-                                        placeholder="blur"
+                                        width="250"
+                                        height="250"
                                     />
                                 </figure>
                             )}
