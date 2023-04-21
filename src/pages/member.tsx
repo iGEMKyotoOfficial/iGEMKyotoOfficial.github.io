@@ -59,11 +59,24 @@ export default function About() {
       </div>
 
       <br />
-
+      <Frame subtitle=" ()" src={}>
+        Sophomore of the Faculty of Science, Kyoto University <br />
+        Role:  <br />
+        Hobby:  <br />
+        Everything happens for a reason.
+      </Frame>
+      <br />
+      <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={}>
+        Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Wiki, Accounting, Design <br />
+        Hobby: Basketball <br />
+        Everything happens for a reason.
+      </Frame>
+      <br />
       <Frame subtitle="三笘 隼人 (Hayato MITOMA)" src={mitoma}>
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role: Wet Experiment <br />
-        Hobby:  <br />
+        Hobby: 生物採集 <br />
         Everything happens for a reason.
       </Frame>
       <br />
@@ -76,6 +89,3 @@ export default function About() {
     </Contain>
   )
 }
-
-
-
