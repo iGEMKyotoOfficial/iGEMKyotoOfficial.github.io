@@ -63,9 +63,9 @@ export default function About() {
       <br />
       <Frame subtitle="石橋 凌平 (Ryohei ISHIBASHI)" src={ishibashi}>
         Sophomore of the Faculty of Science, Kyoto University <br />
-        Role:  <br />
-        Hobby:  <br />
-        Everything happens for a reason.
+        Role: Team Leader <br />
+        Hobby: 旅行、映画 <br />
+        
       </Frame>
       <br />
       <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
@@ -77,9 +77,9 @@ export default function About() {
       <br />
       <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={tsuchida}>
         Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
-        Role: Wiki, Accounting, Design <br />
+        Role: Wiki, Accounting and Design <br />
         Hobby: Basketball <br />
-        Everything happens for a reason.
+        Representative of paper driver
       </Frame>
       <br />
       <Frame subtitle="三笘 隼人 (Hayato MITOMA)" src={mitoma}>
@@ -87,6 +87,13 @@ export default function About() {
         Role: Wet Experiment <br />
         Hobby: 生物採集 <br />
         Everything happens for a reason.
+      </Frame>
+      <br />
+      <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={mitoma}>
+        Junior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University  <br />
+        Role: Wet Experiment <br />
+        Hobby: 執筆 <br />
+        パラジウム触媒万能
       </Frame>
     </Contain>
   )
