@@ -5,8 +5,10 @@ import Image from 'next/image'
 import { Container, Row, Col } from 'reactstrap'
 import Frame from 'components/member.people'
 
+import ishibashi from 'images/member.2023/2023_ishibashi.jpg'
 import sekikawa from 'images/member.2023/2023_sekikawa.jpg'
 import mitoma from 'images/member.2023/2023_mitoma.jpg'
+import tsuchida from 'images/member.2023/2023_tsuchida.jpg'
 
 export default function About() {
   return (
@@ -59,14 +61,21 @@ export default function About() {
       </div>
 
       <br />
-      <Frame subtitle=" ()" src={}>
+      <Frame subtitle="石橋 凌平 (Ryohei ISHIBASHI)" src={ishibashi}>
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role:  <br />
         Hobby:  <br />
         Everything happens for a reason.
       </Frame>
       <br />
-      <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={}>
+      <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
+        Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto University <br />
+        Role: Human Practice <br />
+        Hobby: 鉄道旅行 <br />
+        一般的な変人京大生です
+      </Frame>
+      <br />
+      <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={tsuchida}>
         Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
         Role: Wiki, Accounting, Design <br />
         Hobby: Basketball <br />
@@ -78,13 +87,6 @@ export default function About() {
         Role: Wet Experiment <br />
         Hobby: 生物採集 <br />
         Everything happens for a reason.
-      </Frame>
-      <br />
-      <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
-        Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto University <br />
-        Role: Human Practice <br />
-        Hobby: 鉄道旅行 <br />
-        一般的な変人京大生です
       </Frame>
     </Contain>
   )

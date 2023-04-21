@@ -17,7 +17,6 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                                 <Image
                                     src={src}
                                     alt=""
-                                    sizes="(min-width: 1152px) 576px, 50vw"
                                     width="250"
                                     height="250"
                                 />
