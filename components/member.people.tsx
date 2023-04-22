@@ -13,17 +13,17 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                 <Row>
                     <Col>
                         {imageOn && (
-                            <figure>
+                            <figure style={{position:'relative', width:"250px", height:"250px"}}>
                                 <Image
                                     src={src}
                                     alt=""
-                                    width="250"
-                                    height="250"
+                                    layout='fill'
+                                    objectFit='cover'
                                 />
                             </figure>
                         )}
                     </Col>
-                    <Col>
+                    <Col xs='8'>
                         <h1 className='people.name'>{subtitle}</h1>
                         <p>{children}</p>
                     </Col>

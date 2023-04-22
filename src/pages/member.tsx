@@ -6,9 +6,12 @@ import { Container, Row, Col } from 'reactstrap'
 import Frame from 'components/member.people'
 
 import ishibashi from 'images/member.2023/2023_ishibashi.jpg'
+import abe from 'images/member.2023/2023_abe.jpg'
+import uchiyama from 'images/member.2023/2023_uchiyama.jpg'
 import sekikawa from 'images/member.2023/2023_sekikawa.jpg'
-import mitoma from 'images/member.2023/2023_mitoma.jpg'
 import tsuchida from 'images/member.2023/2023_tsuchida.jpg'
+import fukuoka from 'images/member.2023/2023_fukuoka.jpg'
+import mitoma from 'images/member.2023/2023_mitoma.jpg'
 
 export default function About() {
   return (
@@ -63,14 +66,28 @@ export default function About() {
       <br />
       <Frame subtitle="石橋 凌平 (Ryohei ISHIBASHI)" src={ishibashi}>
         Sophomore of the Faculty of Science, Kyoto University <br />
-        Role: Team Leader <br />
+        Role: <b>Team Leader</b> <br />
         Hobby: 旅行、映画 <br />
         
       </Frame>
       <br />
+      <Frame subtitle="阿部 惇之介 (Junnosuke ABE)" src={abe}>
+        Sophomore of the Department of Civil, Environmental and Resources Engineering, the Faculty of Engineering, Kyoto University <br />
+        Role: 実験派の平社員 <br />
+        Hobby: 読書風妄想 <br />
+        見てても動かないが気づいたら進んでいる、そんな亀みたいな人間です。
+      </Frame>
+      <br />
+      <Frame subtitle="内山 新平 (Sinpei UCHIYAMA)" src={uchiyama}>
+        Senior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University <br />
+        Role: Paper search <br />
+        Hobby: Soccer <br />
+        一番多忙な人間が一番多くの時間を持つ
+      </Frame>
+      <br />
       <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
         Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto University <br />
-        Role: Human Practice <br />
+        Role: Wet Experiment and Human Practice <br />
         Hobby: 鉄道旅行 <br />
         一般的な変人京大生です
       </Frame>
@@ -82,6 +99,13 @@ export default function About() {
         Representative of paper driver
       </Frame>
       <br />
+      <Frame subtitle="	福岡 大空 (Taku FUKUOKA)" src={fukuoka}>
+        Sophomore of the Department of Forest and Biomaterials Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Collaboration and Education <br />
+        Hobby: 生け花 <br />
+        目指せ脱力
+      </Frame>
+      <br />
       <Frame subtitle="三笘 隼人 (Hayato MITOMA)" src={mitoma}>
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role: Wet Experiment <br />
@@ -91,7 +115,7 @@ export default function About() {
       <br />
       <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={mitoma}>
         Junior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University  <br />
-        Role: Wet Experiment <br />
+        Role: Paper Search and Wet Experiment <br />
         Hobby: 執筆 <br />
         パラジウム触媒万能
       </Frame>
