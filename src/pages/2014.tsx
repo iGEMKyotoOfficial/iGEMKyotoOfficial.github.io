@@ -11,7 +11,7 @@ export default function About() {
       />
 
       <div className="member">
-        <Link href="/2023" legacyBehavior>
+        <Link href="/member" legacyBehavior>
           <a className="2023">2023&ensp;</a>
         </Link>
         <Link href="/2022" legacyBehavior>
