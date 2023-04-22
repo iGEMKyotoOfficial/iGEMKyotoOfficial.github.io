@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from 'images/図1.jpg'
+import logo from 'images/logo.jpg'
 
 export default function Logo(){
     return(

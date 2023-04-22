@@ -5,7 +5,7 @@ import PostBody from 'components/post-body'
 import Contact from 'components/contact'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-column'
 import Image from 'next/image'
-import eyecatch from 'images/dna-3539309.jpg'
+import eyecatch from 'images/dna.jpg'
 
 export default function About() {
   return (

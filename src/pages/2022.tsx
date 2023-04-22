@@ -3,6 +3,8 @@ import Hero from 'components/hero'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import abe from 'images/member.2022/2022_abe.jpg'
+
 export default function About() {
     return (
       <Contain>
