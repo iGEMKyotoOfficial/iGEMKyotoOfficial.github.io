@@ -12,6 +12,7 @@ import sekikawa from 'images/member.2023/2023_sekikawa.jpg'
 import tsuchida from 'images/member.2023/2023_tsuchida.jpg'
 import fukuoka from 'images/member.2023/2023_fukuoka.jpg'
 import mitoma from 'images/member.2023/2023_mitoma.jpg'
+import jana from 'images/member.2023/2023_jana.jpg'
 
 export default function About() {
   return (
@@ -113,7 +114,7 @@ export default function About() {
         Everything happens for a reason.
       </Frame>
       <br />
-      <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={mitoma}>
+      <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={jana}>
         Junior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University  <br />
         Role: Paper Search and Wet Experiment <br />
         Hobby: 執筆 <br />
