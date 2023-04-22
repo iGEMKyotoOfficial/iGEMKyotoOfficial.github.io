@@ -70,11 +70,74 @@ export default function About() {
       </div>
 
       <br />
+      <Frame subtitle="早松 龍正 (Ryusei HAYAMATSU)" src={hayamatsu}>
+        Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        <b>Team Leader</b> <br/>
+        俺
+      </Frame>
+      <br />
+      <Frame subtitle="阿部 惇之介 (Junnosuke ABE)" src={abe}>
+        Freshman of the Department of Civil, Environmental and Resources Engineering, the Faculty of Engineering, Kyoto University <br />
+        驚くべき自己紹介の原稿を提案したが却下されました
+      </Frame>
+      <br />
       <Frame subtitle="石橋 凌平 (Ryohei ISHIBASHI)" src={ishibashi}>
-        Sophomore of the Faculty of Science, Kyoto University <br />
-        Role: <b>Team Leader</b> <br />
-        Hobby: 旅行、映画 <br />
-
+        Freshman of the Faculty of Science, Kyoto University <br />
+        Standing on the Shoulder of Giants
+      </Frame>
+      <br />
+      <Frame subtitle="川上 咲季 (Saki KAWAKAMI)" src={kawakami}>
+        Junior of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        ふうむ
+      </Frame>
+      <br />
+      <Frame subtitle="後藤 優理子 (Yuriko GOTO)" src={goto}>
+        Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+      </Frame>
+      <br />
+      <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
+        Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto University <br />
+        一般的な変人京大生です
+      </Frame>
+      <br />
+      <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={tsuchida}>
+        Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        If I were born again, I'd want to be a sweet potato.
+      </Frame>
+      <br />
+      <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>
+        Junior of the Faculty of Science, Kyoto University <br />
+        好きこそ物の上手なれ
+      </Frame>
+      <br />
+      <Frame subtitle="	福岡 大空 (Taku FUKUOKA)" src={fukuoka}>
+        Freshman of the Department of Forest and Biomaterials Science, the Faculty of Agriculture, Kyoto University <br />
+        牡丹
+      </Frame>
+      <br />
+      <Frame subtitle="福嶋 陸斗 (Rikuto FUKUSHIMA)" src={fukushima}>
+        Junior of the Faculty of Science, Kyoto University <br />
+        ぐるぐる
+      </Frame>
+      <br />
+      <Frame subtitle="前田 佳穂 (Kaho MAETA)" src={maeta}>
+        Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        知好楽
+      </Frame>
+      <br />
+      <Frame subtitle="三笘 隼人 (Hayato MITOMA)" src={mitoma}>
+        Freshman of the Faculty of Science, Kyoto University <br />
+        Udon and soba taste the same
+      </Frame>
+      <br />
+      <Frame subtitle="三原 一星 (Issei MIHARA" src={mihara}>
+        Freshman of the Faculty of Science, Kyoto University <br />
+        夜更かしと寝坊のtwo-way player
+      </Frame>
+      <br />
+      <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={jana}>
+        Sophomore of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University  <br />
+        日本語上手やな
       </Frame>
     </Contain>
   )

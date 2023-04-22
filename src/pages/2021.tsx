@@ -52,9 +52,7 @@ export default function About() {
             </Link>
           </div>
 
-        <p className="/2021">
         
-        </p>
       </Contain>
   )
 }
