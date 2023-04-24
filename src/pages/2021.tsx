@@ -9,13 +9,14 @@ import goya from 'images/member.2021/2021_goya.jpg'
 import hayashi from 'images/member.2021/2021_hayashi.jpg'
 import hayashida from 'images/member.2021/2021_hayashida.jpg'
 import morita from 'images/member.2021/2021_morita.jpg'
+import hirota from 'images/member.2021/2021_hirota.jpg'
 import kawakami from 'images/member.2021/2021_kawakami.jpg'
 import kobayashi from 'images/member.2021/2021_kobayashi.jpg'
 import koga from 'images/member.2021/2021_koga.jpg'
 import liu from 'images/member.2021/2021_liu.jpeg'
 import maeta from 'images/member.2021/2021_maeta.jpg'
 import nakaji from 'images/member.2021/2021_nakaji.jpg'
-import nishizawa from 'images/member.2021/nishizawa.jpg'
+import nishizawa from 'images/member.2021/2021_nishizawa.jpg'
 import tajima from 'images/member.2021/2021_tajima.jpg'
 import tamukai from 'images/member.2021/2021_tamukai.jpg'
 import tamura from 'images/member.2021/2021_tamura.jpg'
@@ -143,6 +144,11 @@ export default function About() {
       <Frame subtitle="	林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>
         Sophomore of the Faculty of Science, Kyoto University  <br />
         Go big or stay home.
+      </Frame>
+      <br />
+      <Frame subtitle="	廣田 亮太郎 (Ryotaro HIROTA)" src={hirota}>
+        Sophomore of the Faculty of Science, Kyoto University  <br />
+        おはようじょ
       </Frame>
       <br />
       <Frame subtitle="	中路 和良 (Kazuyoshi NAKAJI)" src={nakaji}>
