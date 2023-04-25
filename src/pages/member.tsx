@@ -12,6 +12,7 @@ import sekikawa from 'images/member.2023/2023_sekikawa.jpg'
 import tsuchida from 'images/member.2023/2023_tsuchida.jpg'
 import fukuoka from 'images/member.2023/2023_fukuoka.jpg'
 import mitoma from 'images/member.2023/2023_mitoma.jpg'
+import mihara from 'images/member.2023/2023_mihara.jpg'
 import jana from 'images/member.2023/2023_jana.jpg'
 
 export default function About() {
@@ -97,7 +98,14 @@ export default function About() {
         Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
         Role: Wiki, Accounting and Design <br />
         Hobby: Basketball <br />
-        Representative of paper driver
+        Japanese representative of paper driver
+      </Frame>
+      <br />
+      <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={mitoma}>
+        Senior of the Faculty of Science, Kyoto University <br />
+        Role: Wiki, Dry <br />
+        Hobby: 競プロ, ゲーム <br />
+        いつも心に太陽を
       </Frame>
       <br />
       <Frame subtitle="	福岡 大空 (Taku FUKUOKA)" src={fukuoka}>
@@ -114,12 +122,19 @@ export default function About() {
         Everything happens for a reason.
       </Frame>
       <br />
+      <Frame subtitle="三原 一星 (Issei MIHARA)" src={mihara}>
+        Sophomore of the Faculty of Science, Kyoto University <br />
+        Role: Project Leader <br />
+        Hobby: Piano <br />
+        Where there's a will, there's a way.
+      </Frame>
+      <br />
       <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={jana}>
         Junior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University  <br />
         Role: Paper Search and Wet Experiment <br />
         Hobby: 執筆 <br />
         パラジウム触媒万能
-      </Frame>
+      </Frame>  
     </Contain>
   )
 }
