@@ -2,6 +2,10 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 
+import shiba from 'images/member.2020/team-2020-shiba.jpg'
+import ryu from 'images/member.2020/team-2020-ryu.jpg'
+
+
 export default function About() {
     return (
       <Contain>
