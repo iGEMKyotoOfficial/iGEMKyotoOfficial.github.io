@@ -4,7 +4,16 @@ import Link from 'next/link'
 
 import shiba from 'images/member.2020/team-2020-shiba.jpg'
 import ryu from 'images/member.2020/team-2020-ryu.jpg'
-
+import kobayashi from 'images/member.2020/team-2020-kobayashi2.jpg'
+import yamauchi from 'images/member.2020/team-2020-yamauchi.jpg'
+import ikeda from 'images/member.2020/team-2020-ikeda.jpg'
+import kishida from 'images/member.2020/team-2020-kishida.jpg'
+import sakono from 'images/member.2020/team-2020-sakono.jpg'
+import tajima from 'images/member.2020/team-2020-tajima.jpg'
+import nishizawa from 'images/member.2020/team-2020-nishizawa.jpg'
+import nishimura from 'images/member.2020/team-2020-nishimura.jpg'
+import hayashida from 'images/member.2020/team-2020-hayashida.jpg'
+import 
 
 export default function About() {
     return (
