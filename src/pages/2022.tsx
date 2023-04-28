@@ -15,7 +15,7 @@ import jana from 'images/member.2022/2022_jana.jpg'
 import kawakami from 'images/member.2022/2022_kawakami.jpg'
 import maeta from 'images/member.2022/2022_maeta.jpg'
 import mihara from 'images/member.2022/2022_mihara.jpg'
-import mitoma from 'images/member.2022/2022_sekikawa.jpg'
+import mitoma from 'images/member.2022/2022_mitoma.jpg'
 import sekikawa from 'images/member.2022/2022_sekikawa.jpg'
 import tsuchida from 'images/member.2022/2022_tsuchida.jpg'
 
