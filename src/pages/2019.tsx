@@ -15,7 +15,6 @@ import sakono from 'images/member.2019/team-2019-sakono2.jpg'
 import shiba from 'images/member.2019/team-2019-shiba2.jpg'
 import nishimura from 'images/member.2019/team-2019-nishimura.jpg'
 
-
 export default function About() {
     return (
       <Contain>
