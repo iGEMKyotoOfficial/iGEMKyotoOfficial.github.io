@@ -2,6 +2,20 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 
+import tamukai from 'images/member.2019/team-2019-tamukai.jpg'
+import shimazoe from 'images/member.2019/team-2019-shimazoe.jpg'
+import nakazato from 'images/member.2019/team-2019-nakazato.jpg'
+import kobayashi from 'images/member.2019/team-2019-kobayashi.jpg'
+import yamauchi from 'images/member.2019/team-2019-yamauchi.jpg'
+import ryu from 'images/member.2019/team-2019-yamauchi.jpg'
+import ikeda from 'images/member.2019/team-2019-ikeda.jpg'
+import kishida from 'images/member.2019/team-2019-kishida.jpg'
+import sakaguchi from 'images/member.2019/team-2019-sakaguchi2.jpg'
+import sakono from 'images/member.2019/team-2019-sakono2.jpg'
+import shiba from 'images/member.2019/team-2019-shiba2.jpg'
+import nishimura from 'images/member.2019/team-2019-nishimura.jpg'
+
+
 export default function About() {
     return (
       <Contain>
