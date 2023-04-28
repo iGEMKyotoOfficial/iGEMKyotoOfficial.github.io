@@ -14,6 +14,7 @@ import fukuoka from 'images/member.2023/2023_fukuoka.jpg'
 import mitoma from 'images/member.2023/2023_mitoma.jpg'
 import mihara from 'images/member.2023/2023_mihara.jpg'
 import jana from 'images/member.2023/2023_jana.jpg'
+import hayashi from 'images/member.2023/2023_hayashi.jpg'
 
 export default function About() {
   return (
@@ -98,10 +99,10 @@ export default function About() {
         Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
         Role: Wiki, Accounting and Design <br />
         Hobby: Basketball <br />
-        Japanese representative of paper driver
+        Last teen
       </Frame>
       <br />
-      <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={mitoma}>
+      <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>
         Senior of the Faculty of Science, Kyoto University <br />
         Role: Wiki, Dry <br />
         Hobby: 競プロ, ゲーム <br />

@@ -2,6 +2,18 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 
+import you from 'images/member.2018/2018_Douosumou.jpg'
+import fukuda from 'images/member.2018/2018_AkikoFukudasan.jpg'
+import nakazato from 'images/member.2018/2018_Yoshiko.jpg'
+import yoshimoto from 'images/member.2018/2018_Yoshiko.jpg'
+import tsuzuki from 'images/member.2018/2018_Ikumin.jpg'
+import nambu from 'images/member.2018/2018_Nambu.jpg'
+import sato from 'images/member.2018/2018_Satokun.jpg'
+import shimazoe from 'images/member.2018/2018_Zoekun.jpg'
+import taguchi from 'images/member.2018/2018_Marichan.jpg'
+import tamukai from 'images/member.2018/2018_Tamuken.jpg'
+import morikawa from 'images/member.2018/2018_Moririn.jpg'
+
 export default function About() {
     return (
       <Contain>
