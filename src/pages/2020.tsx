@@ -13,7 +13,13 @@ import tajima from 'images/member.2020/team-2020-tajima.jpg'
 import nishizawa from 'images/member.2020/team-2020-nishizawa.jpg'
 import nishimura from 'images/member.2020/team-2020-nishimura.jpg'
 import hayashida from 'images/member.2020/team-2020-hayashida.jpg'
-import 
+import ueda from 'images/member.2020/team-2020-ueda.jpg'
+import kawakami from 'images/member.2020/team-2020-kawakami.jpg'
+import goya from 'images/member.2020/team-2020-goya.jpg'
+import koga from 'images/member.2020/team-2020-koga.jpg'
+import hayashi from 'images/member.2020/team-2020-hayashi.jpg'
+import hitota from 'images/member.2020/team-2020-hirota.jpg'
+import fukushima from 'images/member.2020/team-2020-fukushima.jpg'
 
 export default function About() {
     return (
