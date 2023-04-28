@@ -2,6 +2,14 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 
+import Fukudaakiko1 from '/images/member.2017/2017_Fukudaakiko1.jpg'
+import Isodayosuke3 from '/images/member.2017/2017_Isodayosuke3.jpg'
+import Kokiyoshimoto4 from '/images/member.2017/2017_Kokiyoshimoto4.jpg'
+import yamada from '/images/member.2017/2017_Kyoto-team-yamada.jpg'
+import bio020 from '/images/member.2017/2017_T--Kyoto--bio020.jpg'
+import Takimotoren3 from '/images/member.2017/2017_Takimotoren3.jpg'
+import Tanigakiyusuke1 from '/images/member.2017/2017_Tanigakiyusuke1.jpg'
+
 export default function About() {
     return (
       <Contain>

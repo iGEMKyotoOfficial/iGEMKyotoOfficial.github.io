@@ -2,6 +2,28 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 
+import Isodayosuke3 from '/images/member.2016/Kyoto-team-Isodayosuke3.jpg'
+import Koide3 from '/images/member.2016/Kyoto-team-Koide3.jpg'
+import Kokiyoshimoto3 from '/images/member.2016/Kyoto-team-Kokiyoshimoto3.jpg'
+import Li from '/images/member.2016/Kyoto-team-Li.jpg'
+import Miyazakiurara3 from '/images/member.2016/Kyoto-team-Miyazakiurara3.jpg'
+import Oharadaiya2 from '/images/member.2016/Kyoto-team-Oharadaiya2.jpg'
+import Sassahironari from '/images/member.2016/Kyoto-team-Sassahironari.jpg'
+import Takimotoren3 from '/images/member.2016/Kyoto-team-Takimotoren3.jpg'
+import Yuishinkosaka3 from '/images/member.2016/Kyoto-team-Yuishinkosaka3.jpg'
+import egashira from '/images/member.2016/Kyoto-team-egashira.jpg'
+import iguchi from '/images/member.2016/Kyoto-team-iguchi.jpg'
+import kaneko from '/images/member.2016/Kyoto-team-kaneko.jpg'
+import kim from '/images/member.2016/Kyoto-team-kim.jpg'
+import matsumoto from '/images/member.2016/Kyoto-team-matsumoto.jpg'
+import michimori from '/images/member.2016/Kyoto-team-michimori.jpg'
+import nakamura from '/images/member.2016/Kyoto-team-nakamura.jpg'
+import notsu from '/images/member.2016/Kyoto-team-notsu.jpg'
+import uchino from '/images/member.2016/Kyoto-team-uchino.jpg'
+import wan from '/images/member.2016/Kyoto-team-wan.jpg'
+import yamada from '/images/member.2016/Kyoto-team-yamada.jpg'
+import yamamoto from '/images/member.2016/Kyoto-team-yamamoto.jpg'
+
 export default function About() {
     return (
       <Contain>
