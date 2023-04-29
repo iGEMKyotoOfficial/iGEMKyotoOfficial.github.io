@@ -75,13 +75,48 @@ export default function About() {
       
       <br />
       <Frame subtitle="	芝 雄介 (Yusuke SHIBA)" src={shiba}>
-        Sophomore of the Faculty of Science, Kyoto University  <br />
+        Sophomore of the Department of Bioresource Science, Faculty of Agriculture, Kyoto University  <br />
         寝不足は寝るしかない
       </Frame>
       <br />
       <Frame subtitle="	劉 裕介 (Yusuke RYU)" src={ryu}>
         Sophomore of the Faculty of Science, Kyoto University  <br />
         Cause I love how it feels when I break the chains
+      </Frame>
+      <br />
+      <Frame subtitle="	小林 勇毅 (Yuki KOBAYASHI)" src={kobayashi}>
+        Junior of the Faculty of Science, Kyoto University  <br />
+        Let's go on a long, long journey.
+      </Frame>
+      <br />
+      <Frame subtitle="	山内 萌々乃 (Momono YAMAUCHI)" src={yamauchi}>
+        Junior of the Department of Human Health Science, the Faculty of Medicine, Kyoto University  <br />
+        赤血球とぺんぎんとごはんの時間
+      </Frame>
+      <br />
+      <Frame subtitle="	池田 雄太郎 (Yutaro IKEDA)" src={ikeda}>
+        Sophomore of the Faculty of Science, Kyoto University  <br />
+        A piece of cake!
+      </Frame>
+      <br />
+      <Frame subtitle="	岸田 尚大 (Naoto KISHIDA)" src={kishida}>
+        Sophomore of the Faculty of Pharmacy, Kyoto University  <br />
+        できる後輩です。by Yuki KOBAYASHI
+      </Frame>
+      <br />
+      <Frame subtitle="	迫野 眞大 (Masahiro SAKONO)" src={sakono}>
+        Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
+        Work like a dog. Sleep like a log.
+      </Frame>
+      <br />
+      <Frame subtitle="	田島 奈桜 (Nao TAJIMA)" src={tajima}>
+        Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
+        ネコとみかん
+      </Frame>
+      <br />
+      <Frame subtitle="	西澤 知里 (Chisato NISHIZAWA)" src={nishizawa}>
+        Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
+        Be powerful like a flower.
       </Frame>
 
     </Contain>
