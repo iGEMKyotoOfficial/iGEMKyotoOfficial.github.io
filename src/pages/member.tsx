@@ -99,7 +99,7 @@ export default function About() {
         Sophomore of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
         Role: Wiki, Accounting and Design <br />
         Hobby: Basketball <br />
-        Last teen
+        Daily coffee and tea
       </Frame>
       <br />
       <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>
