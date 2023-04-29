@@ -71,7 +71,7 @@ export default function About() {
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role: <b>Team Leader</b> <br />
         Hobby: 旅行、映画 <br />
-        
+        An error occurred. If this issue persists please contact at nemunemunyanko[dot]com
       </Frame>
       <br />
       <Frame subtitle="阿部 惇之介 (Junnosuke ABE)" src={abe}>
