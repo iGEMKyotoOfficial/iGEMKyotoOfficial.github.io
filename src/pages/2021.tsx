@@ -117,7 +117,7 @@ export default function About() {
       </Frame>
       <br />
       <Frame subtitle="	川上 咲季 (Saki KAWAKAMI)" src={kawakami}>
-        Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
+        Sophomore of the Department of Bioresource Sciences, Faculty of Agriculture, Kyoto University   <br />
         
       </Frame>
       <br />

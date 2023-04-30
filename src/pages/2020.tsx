@@ -7,12 +7,12 @@ import Frame from 'components/member.people'
 import shiba from 'images/member.2020/team-2020-shiba.jpg'
 import ryu from 'images/member.2020/team-2020-ryu.jpg'
 import kobayashi from 'images/member.2020/team-2020-kobayashi2.jpg'
-import yamauchi from 'images/member.2020/team-2020-yamauchi.jpg'
+import yamauchi from 'images/member.2020/team-2020-yamauchi2.jpg'
 import ikeda from 'images/member.2020/team-2020-ikeda.jpg'
 import kishida from 'images/member.2020/team-2020-kishida.jpg'
 import sakono from 'images/member.2020/team-2020-sakono.jpg'
 import tajima from 'images/member.2020/team-2020-tajima.jpg'
-import nishizawa from 'images/member.2020/team-2020-nishizawa.jpg'
+import nishizawa from 'images/member.2020/team-2020-nishizawa2.jpg'
 import nishimura from 'images/member.2020/team-2020-nishimura.jpg'
 import hayashida from 'images/member.2020/team-2020-hayashida.jpg'
 import ueda from 'images/member.2020/team-2020-ueda.jpg'
@@ -20,7 +20,7 @@ import kawakami from 'images/member.2020/team-2020-kawakami.jpg'
 import goya from 'images/member.2020/team-2020-goya.jpg'
 import koga from 'images/member.2020/team-2020-koga.jpg'
 import hayashi from 'images/member.2020/team-2020-hayashi.jpg'
-import hitota from 'images/member.2020/team-2020-hirota.jpg'
+import hirota from 'images/member.2020/team-2020-hirota.jpg'
 import fukushima from 'images/member.2020/team-2020-fukushima.jpg'
 
 export default function About() {
@@ -76,6 +76,7 @@ export default function About() {
       <br />
       <Frame subtitle="	芝 雄介 (Yusuke SHIBA)" src={shiba}>
         Sophomore of the Department of Bioresource Science, Faculty of Agriculture, Kyoto University  <br />
+        <b>Team Leader</b> <br />
         寝不足は寝るしかない
       </Frame>
       <br />
@@ -116,9 +117,53 @@ export default function About() {
       <br />
       <Frame subtitle="	西澤 知里 (Chisato NISHIZAWA)" src={nishizawa}>
         Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
-        Be powerful like a flower.
+        I appreciate being blessed with wonderful colleagues. May this difficult year become worthwhile!
       </Frame>
-
+      <br />
+      <Frame subtitle="	西村 怜緒 (Reo NISHIMURA)" src={nishimura}>
+        Sophomore of the Faculty of Pharmacy, Kyoto University  <br />
+        Proceed like a locomotive!
+      </Frame>
+      <br />
+      <Frame subtitle="	林田 ももこ (Momoko HAYASHIDA)" src={hayashida}>
+        Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
+        お寺と亀が好きです
+      </Frame>
+      <br />
+      <Frame subtitle="	植田 悠斗 (Yuto UEDA)" src={ueda}>
+        Freshman of the Faculty of Science, Kyoto University  <br />
+        未知の遊星からの物体E.T.との遭遇
+      </Frame>
+      <br />
+      <Frame subtitle="	川上 咲季 (Saki KAWAKAMI)" src={kawakami}>
+        Freshman of the Department of Bioresource Sciences, Faculty of Agriculture, Kyoto University   <br />
+        趣味は悪ふざけ
+      </Frame>
+      <br />
+      <Frame subtitle="	合屋 智尋 (Chihiro GOYA)" src={goya}>
+        Freshman of the Department of Medicine, Faculty of Medicine, Kyoto University   <br />
+        おなかすいた
+      </Frame>
+      <br />
+      <Frame subtitle="	古賀 大翔 (Hiroto KOGA) " src={koga}>
+        Freshman of the Faculty of Science, Kyoto University  <br />
+        両生類になりたい
+      </Frame>
+      <br />
+      <Frame subtitle="	林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>
+        Freshman of the Faculty of Science, Kyoto University  <br />
+        今日から本気出す
+      </Frame>
+      <br />
+      <Frame subtitle="	廣田 亮太郎 (Ryotaro HIROTA)" src={hirota}>
+        Freshman of the Faculty of Science, Kyoto University  <br />
+        Sis Puella Magica!
+      </Frame>
+      <br />
+      <Frame subtitle="福嶋 陸斗 (Rikuto FUKUSHIMA)" src={fukushima}>
+        Freshman of the Faculty of Science, Kyoto University  <br />
+        睡眠こそ至高
+      </Frame>
     </Contain>
   )
 }
