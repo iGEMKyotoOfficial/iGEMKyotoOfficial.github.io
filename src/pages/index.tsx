@@ -9,7 +9,7 @@ export default function Home() {
       <Meta />
         <Hero
           title="iGEM Kyoto"
-          subtitle=""
+          subtitle="私たちiGEM Kyotoは合成生物学の世界大会iGEMに向けて活動している京大チームです"
         />
     </Contain>
   )
