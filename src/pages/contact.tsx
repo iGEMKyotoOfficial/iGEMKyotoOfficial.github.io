@@ -3,12 +3,12 @@ import Hero from 'components/hero'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Finance() {
+export default function Contact() {
     return(
         <Contain>
             <Hero 
-                title="支援のお願い"
-                subtitle="私たちを応援してくださる企業・個人の方を募集しております"
+                title="お問い合わせ"
+                subtitle="依頼や質問をご希望の方はこちらからお問い合わせください"
             />
         </Contain>
     )
