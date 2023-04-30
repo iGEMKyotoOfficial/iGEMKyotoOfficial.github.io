@@ -20,6 +20,11 @@ export default function Nav(){
                         <a className="member">Member</a>
                     </Link>
                 </li>
+                <li>
+                    <Link href="/member" legacyBehavior>
+                        <a className="member">協賛・寄付</a>
+                    </Link>
+                </li>
             </ul>
         </nav>
     )

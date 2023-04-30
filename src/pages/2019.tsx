@@ -99,12 +99,12 @@ export default function About() {
         “Look” more carefully. There's more to everything than meets the eye.
       </Frame>
       <br />
-      <Frame subtitle="	池田 雄太郎 (Yutaro IKEDA)" src={ikeda}>
+      <Frame subtitle="池田 雄太郎 (Yutaro IKEDA)" src={ikeda}>
         Freshman of the Faculty of Science, Kyoto University  <br />
         Tout est Bien(Sein zum Tode)
       </Frame>
       <br />
-      <Frame subtitle="	岸田 尚大 (Naoto KISHIDA)" src={kishida}>
+      <Frame subtitle="岸田 尚大 (Naoto KISHIDA)" src={kishida}>
         Freshman of the Faculty of Pharmacy, Kyoto University  <br />
         わ
       </Frame>
