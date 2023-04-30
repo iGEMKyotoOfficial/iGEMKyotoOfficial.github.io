@@ -67,11 +67,12 @@ export default function About() {
       </div>
 
       <br />
-      <Frame subtitle="田向 健人 (Kento TAMUKAI)" src={tamukai}>
-        Sophomore of the Faculty of Pharmacy, Kyoto University  <br />
+      <Frame subtitle="You Tong" src={you}>
+        Sophomore of the Department of Agricultural and Environmental Engineering, Faculty of Agriculture, Kyoto University  <br />
         <b>Team Leader</b> <br />
-        チャリに鍵かけたっけな
-      </Frame>Ï
+        目を閉じたらセンチュウがいる
+      </Frame>
+      
     </Contain>
   )
 }
