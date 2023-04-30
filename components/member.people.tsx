@@ -13,7 +13,7 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                 <Row>
                     <Col>
                         {imageOn && (
-                            <figure style={{position:'relative', width:"250px", height:"250px"}}>
+                            <figure style={{position:'relative', overflow: "hidden", width:"250px", height:"250px", borderRadius:"0.6rem"}}>
                                 <Image
                                     src={src}
                                     alt=""

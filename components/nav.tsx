@@ -17,12 +17,17 @@ export default function Nav(){
                 </li>
                 <li>
                     <Link href="/member" legacyBehavior>
-                        <a className="member">Member</a>
+                        <a className="member">メンバー</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/member" legacyBehavior>
-                        <a className="member">協賛・寄付</a>
+                    <Link href="/finance" legacyBehavior>
+                        <a className="finance">協賛・寄付</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/contact" legacyBehavior>
+                        <a className="contact">お問い合わせ</a>
                     </Link>
                 </li>
             </ul>
