@@ -25,6 +25,7 @@ import uchino from '/images/member.2016/Kyoto-team-uchino.jpg'
 import wan from '/images/member.2016/Kyoto-team-wan.jpg'
 import yamada from '/images/member.2016/Kyoto-team-yamada.jpg'
 import yamamoto from '/images/member.2016/Kyoto-team-yamamoto.jpg'
+import sukegawa from 'images/white.png'
 
 export default function About() {
   return (
@@ -87,7 +88,105 @@ export default function About() {
         Sophomore of the Department of Bioresource Sciences, Faculty of Agriculture, Kyoto University  <br />
         春眠不覚暁
       </Frame>
-      
+      <br />
+      <Frame subtitle="金子 英樹 (Hideki KANEKO)" src={kaneko}>
+        Sophomore of the Department of Agricultural and Environmental Engineering, Faculty of Agriculture, Kyoto University  <br />
+        好奇心を失わないように努めます
+      </Frame>
+      <br />
+      <Frame subtitle="野津 俊太(Shunta NOTSU)" src={notsu}>
+        Sophomore of the Department of Industrial Chemistry, Faculty of Engineering, Kyoto University  <br />
+        剛毅果断
+      </Frame>
+      <br />
+      <Frame subtitle="井口 聖大 (Takahiro IGUCHI)" src={iguchi}>
+        Sophomore of the Department of Food Science and Biotechnology, Faculty of Agriculture, Kyoto University  <br />
+        Stay hungry. Stay foolish.
+      </Frame>
+      <br />
+      <Frame subtitle="江頭 海 (Kai EGASHIRA)" src={egashira}>
+        Sophomore of the Department of Bioresource Sciences, Faculty of Agriculture, Kyoto University  <br />
+        
+      </Frame>
+      <Frame subtitle="山本 衣里奈 (Erina YAMAMOTO)" src={yamamoto}>
+        Sophomore of he Department of Medical Science, Faculty of Medicine, Kyoto University  <br />
+        ひとつひとつ 一歩一歩
+      </Frame>
+      <br />
+      <Frame subtitle="キム ジンソル (Jinsol KIM)" src={kim}>
+        Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
+        Que sera sera
+      </Frame>
+      <br />
+      <Frame subtitle="万 沢夫 (Zeff WAN)" src={wan}>
+        Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
+        真実をずっと追求している
+      </Frame>
+      <br />
+      <Frame subtitle="山田 修平 (Shuhei YAMADA)" src={yamada}>
+        Sophomore of the Department of Physics and Engineering, Faculty of Engineering, Kyoto University  <br />
+        fake it till I make it.
+      </Frame>
+      <br />
+      <Frame subtitle="助川 桃枝 (Momoe SUKEGAWA)" src={sukegawa}>
+        Junior of the Faculty of Education, Kyoto University  <br />
+        
+      </Frame>
+      <br />
+      <Frame subtitle="松本 宙 (Sora MATSUMOTO)" src={matsumoto}>
+        Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
+        I have a dream.
+      </Frame>
+      <br />
+      <Frame subtitle="李 豪 (Li HAO)" src={Li}>
+        Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
+        Biological fixation will contribute to the revival of my hometown, Mars.
+      </Frame>
+      <br />
+      <Frame subtitle="中村 元春 (Motoharu NAKAMURA)" src={nakamura}>
+        Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
+        I want money.
+      </Frame>
+      <br />
+      <Frame subtitle="佐々 裕成 (Hironari SASSA)" src={Sassahironari}>
+        Freshman of the Department of Industrial Chemistry, Faculty of Engineering, Kyoto University  <br />
+        ←This is a pair of glasses which consists of chemistry and synthetic biology, please handle it with care.
+      </Frame>
+      <br />
+      <Frame subtitle="滝本 廉 (Ren TAKIMOTO)" src={Takimotoren3}>
+        Freshman of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
+        第89代カルカタ伝承者
+      </Frame>
+      <br />
+      <Frame subtitle="小坂 唯心 (Yuishin KOSAKA)" src={kosaka}>
+        Freshman of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
+        Samurai
+      </Frame>
+      <br />
+      <Frame subtitle="小出 英里 (Eri KOIDE)" src={Koide3}>
+        Freshman of the Department of Agricultural and Environmental Engineering, Faculty of Agriculture, Kyoto University  <br />
+        I wonder if I can make antibody with this rabbit...
+      </Frame>
+      <br />
+      <Frame subtitle="小原 乃也 (Daiya OHARA)" src={Oharadaiya2}>
+        Freshman of the Department of Bioresource Sciences, Faculty of Agriculture, Kyoto University  <br />
+        YMW(やってみないとわからない)
+      </Frame>
+      <br />
+      <Frame subtitle="宮崎 うらら (Urara MIYAZAKI)" src={Miyazakiurara3}>
+        Freshman of the Faculty of Science, Kyoto University  <br />
+        分子生物学はお好きですか？
+      </Frame>
+      <br />
+      <Frame subtitle="磯田 洋介(Yousuke ISODA)" src={Isodayosuke3}>
+        Freshman of the Faculty of Science, Kyoto University  <br />
+        化学グランプリ金賞受賞者
+      </Frame>
+      <br />
+      <Frame subtitle="吉本 昂希 (Koki YOSHIMOTO)" src={Kokiyoshimoto3}>
+        Freshman of the Faculty of Pharmacy, Kyoto University  <br />
+        溢れる京大愛。 almost same but slightly different
+      </Frame>
     </Contain>
   )
 }

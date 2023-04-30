@@ -70,7 +70,7 @@ export default function About() {
         溢れる京大愛。 almost same but slightly different
       </Frame>
       <br />
-      <Frame subtitle="Ren TAKIZAWA" src={Takimotoren3}>
+      <Frame subtitle="Ren TAKIMOTO" src={Takimotoren3}>
         Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
         第89代カルカタ伝承者
       </Frame>
@@ -96,7 +96,7 @@ export default function About() {
       </Frame>
       <br />
       <Frame subtitle="Shuhei YAMADA" src={yamada}>
-        Junior of the Faculty of Science, Kyoto University  <br />
+        Junior of the Department of Physics and Engineering, Faculty of Engineering, Kyoto University  <br />
         fake it till I make it.
       </Frame>
       <br />
