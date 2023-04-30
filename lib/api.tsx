@@ -1,11 +1,11 @@
 import { createClient } from 'microcms-js-sdk'
 
 export const client = createClient({
-    serviceDomain: process.env.SERVICE_DOMAIN,
-    apiKey: process.env.API_KEY,
+    serviceDomain: process.env.SERVICE_DOMAIN || "",
+    apiKey: process.env.API_KEY || "",
 })
 
-export async function from getPostBySlug (slug) ;{
+export async function getPostBySlug({ slug }: { slug: any }) {
     try {
         const post = await client.get({
             endpoint: 'igemkyoto',
@@ -18,6 +18,6 @@ export async function from getPostBySlug (slug) ;{
     }
 }
 
-function getPostBySlug(slug: any) {
-    throw new Error('Function not implemented.');
-}
+// function getPostBySlug(slug: any) {
+//     throw new Error('Function not implemented.');
+// }
