@@ -21,8 +21,8 @@ export default function Nav(){
                     </Link>
                 </li>
                 <li>
-                    <Link href="/member" legacyBehavior>
-                        <a className="member">協賛・寄付</a>
+                    <Link href="/finance" legacyBehavior>
+                        <a className="finance">協賛・寄付</a>
                     </Link>
                 </li>
             </ul>
