@@ -13,7 +13,7 @@ export default function About() {
     <Contain >
       <Meta 
         pageTitle="About"
-        pageDesc="iGEM Kyotoについて"
+        pageDesc="iGEM Kyoto, iGEM, 合成生物学についてご説明します"
         pageImg={eyecatch.src}
         pageImgW={eyecatch.width.toString()}
         pageImgH={eyecatch.height.toString()}
@@ -21,7 +21,7 @@ export default function About() {
       
       <Hero
         title="About"
-        subtitle="iGEM Kyoto とは？"
+        subtitle="iGEM Kyoto, iGEM, 合成生物学についてご説明します"
       />
 
       <figure>

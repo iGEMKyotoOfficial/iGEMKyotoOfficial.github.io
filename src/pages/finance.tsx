@@ -7,7 +7,8 @@ export default function Finance() {
     return(
         <Contain>
             <Hero 
-            
+                title="支援のお願い"
+                subtitle="私たちを支援してくださる企業および個人を募集しております"
             />
         </Contain>
     )
