@@ -19,6 +19,7 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                                     alt=""
                                     layout='fill'
                                     objectFit='cover'
+                                    
                                 />
                             </figure>
                         )}

@@ -9,7 +9,7 @@ export default function Home() {
       <Meta />
         <Hero
           title="iGEM Kyoto"
-          subtitle="iGEM × Kyoto = ∞"
+          subtitle=""
         />
     </Contain>
   )
