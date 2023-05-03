@@ -1,9 +1,8 @@
 import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
-import Image from 'next/image'
-import { Container, Row, Col } from 'reactstrap'
 import Frame from 'components/member.people'
+import styles from 'src/styles/member.module.css'
 
 import ishibashi from 'images/member.2023/2023_ishibashi.jpg'
 import abe from 'images/member.2023/2023_abe.jpg'
@@ -24,7 +23,7 @@ export default function About() {
         subtitle="2023"
       />
 
-      <div className="member">
+      <div className={styles.member}>
         <Link href="/member" legacyBehavior>
           <a className="2023">2023&ensp;</a>
         </Link>
