@@ -16,7 +16,8 @@
         text-decoration: none;
     }
     .list a:hover {
-        color: var(--lightskyblue)
+        color: var(--lightskyblue);
+        text-decoration: none;
     }
 }
 

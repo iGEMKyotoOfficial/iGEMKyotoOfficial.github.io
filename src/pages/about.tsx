@@ -24,7 +24,7 @@ export default function About() {
         subtitle="iGEM Kyoto, iGEM, 合成生物学についてご説明します"
       />
 
-      /*<figure>
+      <figure>
         <Image
           src={eyecatch}
           alt=""
@@ -32,7 +32,7 @@ export default function About() {
           sizes="100vw"
           priority
         />
-      </figure>*/
+      </figure>
 
       <TwoColumn>
         <TwoColumnMain>
