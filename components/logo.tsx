@@ -4,7 +4,7 @@ import logo from 'images/logo.jpg'
 
 export default function Logo() {
     return (
-        <Link href="/blog" legacyBehavior>
+        <Link href="/" legacyBehavior>
             <figure style={{ width: '8vw', margin: 'left' }}>
                 <Image
                     src={logo}
