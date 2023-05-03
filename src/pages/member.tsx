@@ -68,16 +68,19 @@ export default function About() {
       <div className="pagination-wrapper">
         <div className="pagination">
           <a className="prev page-numbers" href="javascript:;">prev</a>
-          <span aria-current="page" className="page-numbers current">1</span>
-          <a className="page-numbers" href="javascript:;">2</a>
-          <a className="page-numbers" href="javascript:;">3</a>
-          <a className="page-numbers" href="javascript:;">4</a>
-          <a className="page-numbers" href="javascript:;">5</a>
-          <a className="page-numbers" href="javascript:;">6</a>
-          <a className="page-numbers" href="javascript:;">7</a>
-          <a className="page-numbers" href="javascript:;">8</a>
-          <a className="page-numbers" href="javascript:;">9</a>
-          <a className="page-numbers" href="javascript:;">10</a>
+          <span aria-current="page" className="page-numbers current">2023</span>
+          <a className="page-numbers" href="javascript:;">2022</a>
+          <a className="page-numbers" href="javascript:;">2021</a>
+          <a className="page-numbers" href="javascript:;">2020</a>
+          <a className="page-numbers" href="javascript:;">2019</a>
+          <a className="page-numbers" href="javascript:;">2018</a>
+          <a className="page-numbers" href="javascript:;">2017</a>
+          <a className="page-numbers" href="javascript:;">2016</a>
+          <a className="page-numbers" href="javascript:;">2015</a>
+          <a className="page-numbers" href="javascript:;">2014</a>
+          <a className="page-numbers" href="javascript:;">2013</a>
+          <a className="page-numbers" href="javascript:;">2012</a>
+          <a className="page-numbers" href="javascript:;">2011</a>
           <a className="next page-numbers" href="javascript:;">next</a>
         </div>
       </div>

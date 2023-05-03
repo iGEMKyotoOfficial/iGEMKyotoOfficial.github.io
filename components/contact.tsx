@@ -4,9 +4,8 @@ import Social from 'components/social'
 export default function Contact() {
     return (
         <div className={styles.stack}>
-            <h3 className={styles.heading}>Contact</h3>
+            <h3 className={styles.heading}>私たちの日常はこちらから</h3>
             <Social iconSize = "30px" />
-            <address>メールアドレス</address>
         </div>
     )
 }

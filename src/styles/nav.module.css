@@ -16,7 +16,7 @@
         text-decoration: none;
     }
     .list a:hover {
-        color: var(--lightskyblue);
+        color: #f08080;
         text-decoration: none;
     }
 }
@@ -27,6 +27,6 @@
     }
 
     .list a:active {
-        color: var(--lightskyblue);
+        color: #f08080;
     }
 }
