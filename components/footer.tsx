@@ -29,7 +29,7 @@ export default function Footer() {
                         </li>
                     </ul>
                     <Social />
-                    @ 2023 iGEM Kyoto
+                    © 2023 iGEM Kyoto
                 </div>
             </Contain>
         </footer>
