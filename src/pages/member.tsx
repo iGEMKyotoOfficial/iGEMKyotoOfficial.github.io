@@ -20,7 +20,7 @@ export default function About() {
     <Contain>
       <Hero
         title="Member"
-        subtitle="2023"
+        subtitle="歴代メンバーをご紹介します"
       />
 
       <div className={styles.member}>

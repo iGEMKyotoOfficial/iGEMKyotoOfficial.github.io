@@ -28,7 +28,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="2020"
+                subtitle="歴代メンバーをご紹介します"
             />
 
             <div className={styles.member}>
