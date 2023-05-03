@@ -2,8 +2,11 @@
     padding: var(--space-xl) 0;
     background-color: var(--gray-10);
 }
-
 .flexContain {
     composes: sideBySideCenter from 'src/styles/utils.module.css';
     gap: 2em;
+}
+.wrapper a, .flexContain a{
+    text-decoration: none;
+    color: black;
 }
