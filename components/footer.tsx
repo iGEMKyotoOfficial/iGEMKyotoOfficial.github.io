@@ -8,7 +8,7 @@ export default function Footer(){
         <footer className={styles.wrapper}>
             <Contain>
                 <div className={styles.flexContain}>
-                    <Link href="/blog" legacyBehavior>
+                    <Link href="/" legacyBehavior>
                         <a className="home">iGEM Kyoto</a>
                     </Link>
                     <Social />
