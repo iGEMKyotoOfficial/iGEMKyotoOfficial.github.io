@@ -116,28 +116,97 @@ a.btn-flat:hover:before {
   transform: translateX(0%);
 }
 
-a.btn-sns {
-  font-size: 2.4rem;
-  line-height: 50px;
-
-  width: 50px;
-  height: 50px;
-  padding: 0;
-
-  letter-spacing: 0;
-
-  color: #fff;
+/* 共通のアイコンエフェクト */
+.socialEffect__link {
+  margin: .3em;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #bfbfbf;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.1);
+  transition: transform ease-out 0.2s;
 }
 
-a.btn-sns:hover {
+.socialEffect__box li {
+  display: inline-block;
+}
+
+
+/* インスタ用アイコン設定 */
+.icon-instagram::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-instagram {
+  display: inline-block;
   color: #fff;
 }
+.icon-instagram:hover {
+  background: radial-gradient(
+      circle farthest-corner at 32% 106%,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  transform: scale(0.9);
+}
 
-a.btn-sns--instagram {
-  background: #d6249f;
-  background: -webkit-linear-gradient(45deg, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-  background: linear-gradient(45deg, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+/* フェイスブック用アイコン設定 */
+.icon-facebook::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-facebook-f {
+  display: inline-block;
+  color: #fff;
+}
+.icon-facebook:hover {
+  background: #3b5998;
+  transform: scale(0.9);
+}
+
+/* ツイッター用アイコン設定 */
+.icon-twitter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-twitter {
+  display: inline-block;
+  color: #fff;
+}
+.icon-twitter:hover {
+  background: #00b0ed;
+  transform: scale(0.9);
 }
 
 /* 基本設定　 */
