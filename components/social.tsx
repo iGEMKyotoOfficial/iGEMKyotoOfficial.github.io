@@ -1,12 +1,5 @@
 import styles from 'src/styles/social.module.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-    faTwitter,
-    faInstagram,
-    faFacebookF,
-} from '@fortawesome/free-brands-svg-icons'
-
 export default function Social({ iconSize = "24px" }) {
     return (
         <ul className={styles.list} /* style={{ '--icon-size': iconSize }} */>
