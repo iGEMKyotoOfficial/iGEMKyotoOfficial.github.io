@@ -17,8 +17,8 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                                 <Image
                                     src={src}
                                     alt=""
-                                    layout='fill'
-                                    objectFit='cover'
+                                    fill
+                                    style={{ objectFit: 'cover' }}
                                 />
                             </figure>
                         )}
