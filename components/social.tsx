@@ -9,6 +9,7 @@ import {
 
 export default function Social({ iconSize = "24px" }) {
     return (
+        
         <ul className={styles.list} /* style={{ '--icon-size': iconSize }} */>
             <li>
                <a href="https://twitter.com/iGEMkyoto">

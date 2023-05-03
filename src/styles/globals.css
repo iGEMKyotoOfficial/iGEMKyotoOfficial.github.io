@@ -116,6 +116,30 @@ a.btn-flat:hover:before {
   transform: translateX(0%);
 }
 
+a.btn-sns {
+  font-size: 2.4rem;
+  line-height: 50px;
+
+  width: 50px;
+  height: 50px;
+  padding: 0;
+
+  letter-spacing: 0;
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+a.btn-sns:hover {
+  color: #fff;
+}
+
+a.btn-sns--instagram {
+  background: #d6249f;
+  background: -webkit-linear-gradient(45deg, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: linear-gradient(45deg, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
 /* 基本設定　 */
 span > img {
   transition: 0.2s;

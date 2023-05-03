@@ -4,7 +4,7 @@ import cube from 'images/fushimi.jpg'
 import Contain from 'components/container'
 
 export default function Hero({ title, subtitle, imageOn = false }:
-  { title: String; subtitle: String; imageOn?: boolean; }) {
+  { title: any; subtitle: any; imageOn?: boolean; }) {
   return (
     <div className={styles.flexContain}>
       <Contain large>
