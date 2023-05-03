@@ -67,9 +67,9 @@ export default function About() {
 
       <div className="pagination-wrapper">
         <div className="pagination">
-          <a className="prev page-numbers" href="javascript:;">prev</a>
+          <Link href="member" legacyBehavior className="prev page-numbers">prev</Link>
           <span aria-current="page" className="page-numbers current">2023</span>
-          <a className="page-numbers" href="javascript:;">2022</a>
+          <a className="page-numbers" href="/2022">2022</a>
           <a className="page-numbers" href="javascript:;">2021</a>
           <a className="page-numbers" href="javascript:;">2020</a>
           <a className="page-numbers" href="javascript:;">2019</a>

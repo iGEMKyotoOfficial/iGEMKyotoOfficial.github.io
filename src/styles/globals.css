@@ -85,6 +85,7 @@ button.btn {
   border-radius: 0.5rem;
 }
 
+
 a.btn-flat {
   overflow: hidden;
   padding: 1.5rem 6rem;
@@ -141,10 +142,10 @@ a.btn-flat:hover:before {
 
 .page-numbers {
   display: block;
-  padding: 0 15px;
+  padding: 0 11px;
   float: left;
   transition: 400ms ease;
-  color: #595959;
+  color: #444444;
   font-size: 20px;
   letter-spacing: 0.1em;
   line-height: 70px;
@@ -159,7 +160,7 @@ a.btn-flat:hover:before {
 }
 @media only screen and (max-width: 1199px) {
   .page-numbers {
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 16px;
     line-height: 50px;
   }
@@ -174,12 +175,12 @@ a.btn-flat:hover:before {
     padding-right: 50px;
   }
   .page-numbers:nth-of-type(2)::after {
-    content: "...";
+    content: "・・・";
     position: absolute;
     text-decoration: none;
     font-size: 25px;
     top: 0;
-    left: 45px;
+   
   }
   .page-numbers:nth-child(-n+3), .page-numbers:nth-last-child(-n+3) {
     display: block;
@@ -211,4 +212,17 @@ body, h1, h2, h3, p, figure, ul {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.twitter-timeline{
+  margin: auto;
+  width: 50%;
+}
+
+.fushimi {
+  background-image: url(/images/fushimi.jpg);
+  height: 1280px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
