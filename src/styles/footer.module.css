@@ -11,3 +11,8 @@
     text-decoration: none;
     color: black;
 }
+
+.wrapper a:hover, .flexContain a:hover{
+    text-decoration: none;
+    color: #f08080;
+}
