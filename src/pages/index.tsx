@@ -12,7 +12,7 @@ export default function Home() {
           title="iGEM Kyoto"
           subtitle="私たちiGEM Kyotoは合成生物学の世界大会iGEMに向けて活動している京大チームです"
         />
-        <Link className="twitter-timeline" data-width="700" data-height="700" data-theme="dark" href="https://twitter.com/iGEMkyoto?ref_src=twsrc%5Etfw">
+        <Link className="twitter-timeline" data-width="700" data-height="700" data-theme="light" href="https://twitter.com/iGEMkyoto?ref_src=twsrc%5Etfw">
           Tweets by iGEMkyoto
         </Link> 
         <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8">
