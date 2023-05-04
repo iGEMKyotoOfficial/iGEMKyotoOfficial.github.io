@@ -8,6 +8,7 @@
     color: var(--white);
     display: flex;
     gap: 3em;
+    border-radius: 10px;
 }
 
 @media (hover: hover) {

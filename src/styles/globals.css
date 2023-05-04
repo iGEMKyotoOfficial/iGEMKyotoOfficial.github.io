@@ -242,10 +242,6 @@ a {
   width: 50%;
 }
 
-.fushimi {
-  background-image: url(/images/fushimi.jpg);
-  height: 1280px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
+.eyecatch{
+  border-radius: 10px;
 }

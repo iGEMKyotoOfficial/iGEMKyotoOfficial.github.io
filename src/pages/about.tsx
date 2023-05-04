@@ -25,7 +25,7 @@ export default function About() {
       />
 
       <figure>
-        <Image
+        <Image className='eyecatch'
           src={eyecatch}
           alt=""
           layout="responsive"
