@@ -125,17 +125,17 @@ a.btn-flat:hover:before {
 
 .pagination {
   display: inline-block;
-  height: 70px;
-  margin-top: 70px;
-  padding: 0 25px;
+  height: 75px;
+  margin-top: 0px;
+  padding: 0 0px;
   border-radius: 35px;
   background-color: #e6c6c6;
 }
 @media only screen and (max-width: 1199px) {
   .pagination {
     height: 50px;
-    margin-top: 50px;
-    padding: 0 10px;
+    margin-top: 0px;
+    padding: 0 0px;
     border-radius: 25px;
   }
 }
@@ -178,7 +178,7 @@ a.btn-flat:hover:before {
     padding-right: 50px;
   }
   .page-numbers:nth-of-type(2)::after {
-    content: "・・・";
+    content: "・・";
     position: absolute;
     text-decoration: none;
     font-size: 25px;

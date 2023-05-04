@@ -11,49 +11,25 @@ export default function About() {
                 subtitle="歴代メンバーをご紹介します"
             />
 
-            <div className={styles.member}>
-
-                <Link href="/member" legacyBehavior>
-                    <a className="2023">2023&ensp;</a>
-                </Link>
-                <Link href="/2022" legacyBehavior>
-                    <a className="2022">2022&ensp;</a>
-                </Link>
-                <Link href="/2021" legacyBehavior>
-                    <a className="2021">2021&ensp;</a>
-                </Link>
-                <Link href="/2020" legacyBehavior>
-                    <a className="2020">2020&ensp;</a>
-                </Link>
-                <Link href="/2019" legacyBehavior>
-                    <a className="2019">2019&ensp;</a>
-                </Link>
-                <Link href="/2018" legacyBehavior>
-                    <a className="2018">2018&ensp;</a>
-                </Link>
-                <Link href="/2017" legacyBehavior>
-                    <a className="2017">2017&ensp;</a>
-                </Link>
-                <Link href="/2016" legacyBehavior>
-                    <a className="2016">2016&ensp;</a>
-                </Link>
-                <Link href="/2015" legacyBehavior>
-                    <a className="2015">2015&ensp;</a>
-                </Link>
-                <Link href="/2014" legacyBehavior>
-                    <a className="2014">2014&ensp;</a>
-                </Link>
-                <Link href="/2013" legacyBehavior>
-                    <a className="2013">2013&ensp;</a>
-                </Link>
-                <Link href="/2012" legacyBehavior>
-                    <a className="2012">2012&ensp;</a>
-                </Link>
-                <Link href="/2011" legacyBehavior>
-                    <a className="2011">2011&ensp;</a>
-                </Link>
+            <div className="pagination-wrapper">
+                <div className="pagination">
+                    <a className="prev page-numbers" href="/2015">prev</a>
+                    <a className="page-numbers" href="/member">2023</a>
+                    <a className="page-numbers" href="/2022">2022</a>
+                    <a className="page-numbers" href="/2021">2021</a>
+                    <a className="page-numbers" href="/2020">2020</a>
+                    <a className="page-numbers" href="/2019">2019</a>
+                    <a className="page-numbers" href="/2018">2018</a>
+                    <a className="page-numbers" href="/2017">2017</a>
+                    <a className="page-numbers" href="/2016">2016</a>
+                    <a className="page-numbers" href="/2015">2015</a>
+                    <span aria-current="page" className="page-numbers current">2014</span>
+                    <a className="page-numbers" href="/2013">2013</a>
+                    <a className="page-numbers" href="/2012">2012</a>
+                    <a className="page-numbers" href="/2011">2011</a>
+                    <a className="next page-numbers" href="/2013">next</a>
+                </div>
             </div>
-            <br />
             <br />
             <p className="/2014">
                 <b>清水寿朗</b> : 農学部2回生

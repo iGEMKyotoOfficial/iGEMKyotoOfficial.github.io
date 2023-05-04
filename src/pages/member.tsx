@@ -23,65 +23,23 @@ export default function About() {
         subtitle="歴代メンバーをご紹介します"
       />
 
-      <div className={styles.member}>
-        <Link href="/member" legacyBehavior>
-          <a className="2023">2023&ensp;</a>
-        </Link>
-        <Link href="/2022" legacyBehavior>
-          <a className="2022">2022&ensp;</a>
-        </Link>
-        <Link href="/2021" legacyBehavior>
-          <a className="2021">2021&ensp;</a>
-        </Link>
-        <Link href="/2020" legacyBehavior>
-          <a className="2020">2020&ensp;</a>
-        </Link>
-        <Link href="/2019" legacyBehavior>
-          <a className="2019">2019&ensp;</a>
-        </Link>
-        <Link href="/2018" legacyBehavior>
-          <a className="2018">2018&ensp;</a>
-        </Link>
-        <Link href="/2017" legacyBehavior>
-          <a className="2017">2017&ensp;</a>
-        </Link>
-        <Link href="/2016" legacyBehavior>
-          <a className="2016">2016&ensp;</a>
-        </Link>
-        <Link href="/2015" legacyBehavior>
-          <a className="2015">2015&ensp;</a>
-        </Link>
-        <Link href="/2014" legacyBehavior>
-          <a className="2014">2014&ensp;</a>
-        </Link>
-        <Link href="/2013" legacyBehavior>
-          <a className="2013">2013&ensp;</a>
-        </Link>
-        <Link href="/2012" legacyBehavior>
-          <a className="2012">2012&ensp;</a>
-        </Link>
-        <Link href="/2011" legacyBehavior>
-          <a className="2011">2011&ensp;</a>
-        </Link>
-      </div>
-
       <div className="pagination-wrapper">
         <div className="pagination">
-          <Link href="member" legacyBehavior><a className="prev page-numbers">prev</a></Link>
+          <a className="prev page-numbers" href="/2011">prev</a>
           <span aria-current="page" className="page-numbers current">2023</span>
           <a className="page-numbers" href="/2022">2022</a>
-          <a className="page-numbers" href="javascript:;">2021</a>
-          <a className="page-numbers" href="javascript:;">2020</a>
-          <a className="page-numbers" href="javascript:;">2019</a>
-          <a className="page-numbers" href="javascript:;">2018</a>
-          <a className="page-numbers" href="javascript:;">2017</a>
-          <a className="page-numbers" href="javascript:;">2016</a>
-          <a className="page-numbers" href="javascript:;">2015</a>
-          <a className="page-numbers" href="javascript:;">2014</a>
-          <a className="page-numbers" href="javascript:;">2013</a>
-          <a className="page-numbers" href="javascript:;">2012</a>
-          <a className="page-numbers" href="javascript:;">2011</a>
-          <a className="next page-numbers" href="javascript:;">next</a>
+          <a className="page-numbers" href="/2021">2021</a>
+          <a className="page-numbers" href="/2020">2020</a>
+          <a className="page-numbers" href="/2019">2019</a>
+          <a className="page-numbers" href="/2018">2018</a>
+          <a className="page-numbers" href="/2017">2017</a>
+          <a className="page-numbers" href="/2016">2016</a>
+          <a className="page-numbers" href="/2015">2015</a>
+          <a className="page-numbers" href="/2014">2014</a>
+          <a className="page-numbers" href="/2013">2013</a>
+          <a className="page-numbers" href="/2012">2012</a>
+          <a className="page-numbers" href="/2011">2011</a>
+          <a className="next page-numbers" href="/2022">next</a>
         </div>
       </div>
 
