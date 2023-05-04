@@ -52,6 +52,8 @@ export default function About() {
                 </div>
             </div>
 
+            <a href="" className="btn btn-border">Wiki</a>
+            <br />
             <br />
             <Frame subtitle="福嶋 陸斗 (Rikuto FUKUSHIMA)" src={fukushima}>
                 Sophomore of the Faculty of Science, Kyoto University  <br />
