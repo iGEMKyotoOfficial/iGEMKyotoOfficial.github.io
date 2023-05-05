@@ -254,3 +254,8 @@ a {
 .eyecatch{
   border-radius: 10px;
 }
+
+.people{
+  border: 1px solid #444444;
+  border-radius: 10px;
+}
