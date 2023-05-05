@@ -21,7 +21,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
@@ -44,6 +44,10 @@ export default function About() {
                 </div>
             </div>
 
+            <h1>Theme: Swallowyces ceerevisiae</h1>
+            <br />
+            <a href="https://2018.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <br />
             <br />
             <Frame subtitle="You Tong" src={you}>
                 Sophomore of the Department of Agricultural and Environmental Engineering, Faculty of Agriculture, Kyoto University  <br />

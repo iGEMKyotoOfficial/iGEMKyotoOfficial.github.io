@@ -47,6 +47,10 @@ h3{
   font-size: var(--heading3);
 }
 
+h4{
+  font-size: var(--small-heading2);
+}
+
 a{
   color: black;
   text-decoration: none;
@@ -124,8 +128,12 @@ a.btn-border {
   background: #e6c6c6;
   -webkit-box-shadow: 4px 4px 0 #444444;
   box-shadow: 4px 4px 0 #444444;
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0%;
+  margin-bottom: 3%;
   width: 25%;
+  text-align: center;
 }
 
 a.btn-border:hover {

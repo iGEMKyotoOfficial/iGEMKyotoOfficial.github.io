@@ -8,7 +8,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
@@ -30,6 +30,7 @@ export default function About() {
                     <a className="next page-numbers" href="/2014">next</a>
                 </div>
             </div>
+            
             <br />
             <p className="/2015">
 

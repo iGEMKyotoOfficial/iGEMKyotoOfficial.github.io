@@ -8,7 +8,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
@@ -30,6 +30,9 @@ export default function About() {
                     <a className="next page-numbers" href="/2012">next</a>
                 </div>
             </div>
+            <h4>Theme: RNA Oscillator, Pattern Generation</h4>
+            <a href="https://2013.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <br />
             <br />
             <p className="/2013">
                 <b>中川寛司</b> :  理学部2回生

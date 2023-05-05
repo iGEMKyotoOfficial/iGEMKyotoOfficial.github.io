@@ -8,7 +8,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
@@ -30,6 +30,9 @@ export default function About() {
                     <a className="next page-numbers" href="/2013">next</a>
                 </div>
             </div>
+            <h4>Theme: Magnetosome Formation</h4>
+            <a href="https://2014.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <br />
             <br />
             <p className="/2014">
                 <b>清水寿朗</b> : 農学部2回生

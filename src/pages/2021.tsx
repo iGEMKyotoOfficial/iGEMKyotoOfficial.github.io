@@ -29,7 +29,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
@@ -51,10 +51,12 @@ export default function About() {
                     <a className="next page-numbers" href="/2020">next</a>
                 </div>
             </div>
+            <h1>Theme: FLOWEREVER</h1>
+            <br />
+            <a href="https://2021.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <br />
+            <br />
 
-            <a href="" className="btn btn-border">Wiki</a>
-            <br />
-            <br />
             <Frame subtitle="福嶋 陸斗 (Rikuto FUKUSHIMA)" src={fukushima}>
                 Sophomore of the Faculty of Science, Kyoto University  <br />
                 <b>Team Leader</b> <br />

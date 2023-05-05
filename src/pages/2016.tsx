@@ -32,7 +32,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
@@ -54,7 +54,10 @@ export default function About() {
                     <a className="next page-numbers" href="/2015">next</a>
                 </div>
             </div>
-
+            <h1>Theme: NORO CATCHER</h1>
+            <br />
+            <a href="https://2016.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <br />
             <br />
             <Frame subtitle="道盛 裕太 (Yuta MICHIMORI)" src={michimori}>
                 Sophomore of the Department of Industrial Chemistry, Faculty of Engineering, Kyoto University  <br />

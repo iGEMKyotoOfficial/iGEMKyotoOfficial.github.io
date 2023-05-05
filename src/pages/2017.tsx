@@ -18,7 +18,7 @@ export default function About() {
         <Contain>
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
@@ -40,7 +40,10 @@ export default function About() {
                     <a className="next page-numbers" href="/2016">next</a>
                 </div>
             </div>
-
+            <h1>Theme: B. xylophilus Busters</h1>
+            <br />
+            <a href="https://2017.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <br />
             <br />
             <Frame subtitle="Koki YOSHIMOTO" src={Kokiyoshimoto4}>
                 Sophomore of the Faculty of Pharmacy, Kyoto University  <br />
