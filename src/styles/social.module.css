@@ -6,3 +6,7 @@
 .list a {
     color: black;
 }
+
+.list a:hover{
+    color: #f08080;
+}
