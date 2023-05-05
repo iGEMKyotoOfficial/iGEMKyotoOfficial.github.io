@@ -134,6 +134,7 @@ a.btn-border {
   margin-bottom: 3%;
   width: 25%;
   text-align: center;
+  padding: 20px 10px;
 }
 
 a.btn-border:hover {
