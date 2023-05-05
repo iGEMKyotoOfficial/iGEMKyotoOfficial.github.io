@@ -8,16 +8,45 @@ export default function Home() {
   return (
     <Contain large>
       <Meta />
-        <Hero imageOn
-          title="iGEM Kyoto"
-          subtitle="私たちiGEM Kyotoは合成生物学の世界大会iGEMに向けて活動している京大チームです"
-        />
-        <Link className="twitter-timeline" data-width="700" data-height="700" data-theme="light" href="https://twitter.com/iGEMkyoto?ref_src=twsrc%5Etfw">
-          Tweets by iGEMkyoto
-        </Link> 
-        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8">
-        </script>
-        <div><br /></div>
+
+      <svg viewBox="0 0 800 600" >
+        <symbol id="s-text">
+          <text text-anchor="middle"
+            x="50%"
+            y="25%"
+            className="text--line"
+          >
+            iGEM
+          </text>
+          <text text-anchor="middle"
+            x="50%"
+            y="55%"
+            className="text--line"
+          >
+            Kyoto
+          </text>
+        </symbol>
+     
+        <g className="g-ants">
+          <use xlinkHref="#s-text"
+            className="text-copy"></use>
+          <use xlinkHref="#s-text"
+            className="text-copy"></use>
+          <use xlinkHref="#s-text"
+            className="text-copy"></use>
+          <use xlinkHref="#s-text"
+            className="text-copy"></use>
+          <use xlinkHref="#s-text"
+            className="text-copy"></use>
+        </g>
+      </svg>
+
+      <Link className="twitter-timeline" data-width="700" data-height="700" data-theme="light" href="https://twitter.com/iGEMkyoto?ref_src=twsrc%5Etfw">
+        Tweets by iGEMkyoto
+      </Link>
+      <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8">
+      </script>
+      <div><br /></div>
     </Contain>
   )
 }
