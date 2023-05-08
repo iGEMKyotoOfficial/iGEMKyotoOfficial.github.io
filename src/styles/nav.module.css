@@ -1,4 +1,10 @@
-.list {
+/* デスクトップ */
+@media (min-width: 768px){
+   .btn{
+    display: none;
+   }
+
+  .list {
     font-size: var(--heading3);
     font-weight: 500;
     display: inline-block;
@@ -9,8 +15,10 @@
     display: flex;
     gap: 3em;
     border-radius: 10px;
+    }
 }
 
+/* ホバー　　*/
 @media (hover: hover) {
     .list a:not(:hover) {
         color: white;

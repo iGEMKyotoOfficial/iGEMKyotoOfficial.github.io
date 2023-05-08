@@ -1,9 +1,13 @@
+import {useState} from 'react'
 import Link from 'next/link'
 import styles from 'src/styles/nav.module.css'
 
 export default function Nav(){
+    const [navIsOpen, setnavUsOpen] = useState(false)
+
     return(
-        <nav>
+        <nav className={navIsOpen ? styles.open : styles.close}>
+            <button className={styles.button}>MENU</button>
             <ul className={styles.list}>
                 <li>
                     <Link href="/" legacyBehavior>
