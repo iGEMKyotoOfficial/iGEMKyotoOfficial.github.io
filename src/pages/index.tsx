@@ -20,7 +20,7 @@ export default function Home() {
           </text>
           <text text-anchor="middle"
             x="50%"
-            y="80%"
+            y="85%"
             className="text--line"
           >
             Kyoto
