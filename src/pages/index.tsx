@@ -12,16 +12,13 @@ export default function Home() {
     <Contain large>
       <Meta />
       <div className="anime_wrap kenburns-top-right">
-        <figure style={{position:'relative', width:'100%', height:'1000px'}}>
           <Image className="sakura"
             src={sakura}
             alt=""
-            layout="fill"
+            layout="responsive"
             sizes='100vw'
-            objectFit="cover"
             priority
           />
-        </figure>
         <p className='tracking-in-contract'>iGEM Kyoto</p>
       </div>
 

@@ -146,6 +146,29 @@ a.btn-border:hover {
 }
 
 
+.simple_square_btn2 {
+	display: block;
+	position: relative;
+	width: 160px;
+	padding: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	color: #222222;
+	background: #fff;
+	border:2px solid var(--gray-25);
+  margin-top:1%;
+  margin-bottom: 0%;
+  border-radius: 0.5em;
+  font-size: 100%;
+}
+.simple_square_btn2:hover {
+	 background: #f08080;
+         color: #fff;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+
 .pagination-wrapper {
   text-align: center;
   margin: 0 0 30px 0;
@@ -264,7 +287,7 @@ a {
 .anime_wrap{
   position: relative;
   overflow: hidden;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .anime_wrap p{
@@ -272,7 +295,7 @@ a {
   top: 10%;
   left: 8%;
   font-size: 10vw;
-  font-weight:bolder;
+  font-weight:light;
   color: #444444;
 }
 
