@@ -3,49 +3,33 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import 'bootstrap/dist/css/bootstrap.css'
 import Link from 'next/link'
+import sakura from 'images/sakura.jpg'
+import Image from 'next/image'
 
 export default function Home() {
+
   return (
     <Contain large>
       <Meta />
+      <div className="anime_wrap kenburns-top-right">
+        <figure style={{position:'relative', width:'100%', height:'1000px'}}>
+          <Image className="sakura"
+            src={sakura}
+            alt=""
+            layout="fill"
+            sizes='100vw'
+            objectFit="cover"
+            priority
+          />
+        </figure>
+        <p className='tracking-in-contract'>iGEM Kyoto</p>
+      </div>
 
-      <svg viewBox="0 0 800 400" >
-        <symbol id="s-text">
-          <text text-anchor="middle"
-            x="50%"
-            y="40%"
-            className="text--line"
-          >
-            iGEM
-          </text>
-          <text text-anchor="middle"
-            x="50%"
-            y="85%"
-            className="text--line"
-          >
-            Kyoto
-          </text>
-        </symbol>
-     
-        <g className="g-ants">
-          <use xlinkHref="#s-text"
-            className="text-copy"></use>
-          <use xlinkHref="#s-text"
-            className="text-copy"></use>
-          <use xlinkHref="#s-text"
-            className="text-copy"></use>
-          <use xlinkHref="#s-text"
-            className="text-copy"></use>
-          <use xlinkHref="#s-text"
-            className="text-copy"></use>
-        </g>
-      </svg>
-
-      <Link className="twitter-timeline" 
-      data-width="700" 
-      data-height="700" 
-      data-theme="light" 
-      href="https://twitter.com/iGEMkyoto?ref_src=twsrc%5Etfw"
+      <Link className="twitter-timeline"
+        data-width="700"
+        data-height="700"
+        data-theme="light"
+        href="https://twitter.com/iGEMkyoto?ref_src=twsrc%5Etfw"
       >
         Tweets by iGEMkyoto
       </Link>
