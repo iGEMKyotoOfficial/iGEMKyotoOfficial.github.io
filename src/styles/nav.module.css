@@ -115,6 +115,7 @@
     .list a {
         -webkit-tap-highlight-color: transparent;
         color: #ffffff;
+        text-decoration: none;
     }
 
     .list a:active {
