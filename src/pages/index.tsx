@@ -36,9 +36,9 @@ export default function Home() {
         />
         <div className="description">
           <div className="content">
-            <h1><a href="/about">About</a></h1>
+            <h1><Link href="/about">About</Link></h1>
             <p className="text">iGEM Kyoto、iGEM、合成生物学についてご説明します</p>
-            <a href="/about" className="button">PUSH</a>
+            <Link href="/about" className="button">PUSH</Link>
           </div>
         </div>
       </div>
@@ -53,9 +53,9 @@ export default function Home() {
         />
         <div className="description">
           <div className="content">
-            <h1><a href="/member">Member</a></h1>
+            <h1><Link href="/member">Member</Link></h1>
             <p className="text">歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）</p>
-            <a href="/member" className="button">PUSH</a>
+            <Link href="/member" className="button">PUSH</Link>
           </div>
         </div>
       </div>
@@ -70,9 +70,9 @@ export default function Home() {
         />
         <div className="description">
           <div className="content">
-            <h1><a href="/finance">支援のお願い</a></h1>
+            <h1><Link href="/finance">支援のお願い</Link></h1>
             <p className="text">私たちを応援してくださる企業・個人の方を募集しております</p>
-            <a href="/finance" className="button">PUSH</a>
+            <Link href="/finance" className="button">PUSH</Link>
           </div>
         </div>
       </div>
@@ -87,9 +87,9 @@ export default function Home() {
         />
         <div className="description">
           <div className="content">
-            <h1><a href="/contact">お問い合わせ</a></h1>
+            <h1><Link href="/contact">お問い合わせ</Link></h1>
             <p className="text">依頼や質問をご希望の方はこちらからお問い合わせください</p>
-            <a href="/contact" className="button">PUSH</a>
+            <Link href="/contact" className="button">PUSH</Link>
           </div>
         </div>
       </div>

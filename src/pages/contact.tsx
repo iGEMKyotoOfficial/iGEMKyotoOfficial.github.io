@@ -10,11 +10,11 @@ export default function Contact() {
                 title="お問い合わせ"
                 subtitle="依頼や質問をご希望の方はこちらからお問い合わせください"
             />
-            <a href="https://forms.gle/Lv8jb4hf8ruA8Gfi6" className="btn btn-flat">
+            <Link href="https://forms.gle/Lv8jb4hf8ruA8Gfi6" className="btn btn-flat">
                 <span>
                     お問い合わせフォーム
                 </span>
-            </a>
+            </Link>
             <div><br /></div>
         </Contain>
     )

@@ -37,26 +37,26 @@ export default function About() {
 
             <div className="pagination-wrapper">
                 <div className="pagination">
-                    <a className="prev page-numbers" href="/2017">prev</a>
-                    <a className="page-numbers" href="/member">2023</a>
-                    <a className="page-numbers" href="/2022">2022</a>
-                    <a className="page-numbers" href="/2021">2021</a>
-                    <a className="page-numbers" href="/2020">2020</a>
-                    <a className="page-numbers" href="/2019">2019</a>
-                    <a className="page-numbers" href="/2018">2018</a>
-                    <a className="page-numbers" href="/2017">2017</a>
+                    <Link className="prev page-numbers" href="/2017">prev</Link>
+                    <Link className="page-numbers" href="/member">2023</Link>
+                    <Link className="page-numbers" href="/2022">2022</Link>
+                    <Link className="page-numbers" href="/2021">2021</Link>
+                    <Link className="page-numbers" href="/2020">2020</Link>
+                    <Link className="page-numbers" href="/2019">2019</Link>
+                    <Link className="page-numbers" href="/2018">2018</Link>
+                    <Link className="page-numbers" href="/2017">2017</Link>
                     <span aria-current="page" className="page-numbers current">2016</span>
-                    <a className="page-numbers" href="/2015">2015</a>
-                    <a className="page-numbers" href="/2014">2014</a>
-                    <a className="page-numbers" href="/2013">2013</a>
-                    <a className="page-numbers" href="/2012">2012</a>
-                    <a className="page-numbers" href="/2011">2011</a>
-                    <a className="next page-numbers" href="/2015">next</a>
+                    <Link className="page-numbers" href="/2015">2015</Link>
+                    <Link className="page-numbers" href="/2014">2014</Link>
+                    <Link className="page-numbers" href="/2013">2013</Link>
+                    <Link className="page-numbers" href="/2012">2012</Link>
+                    <Link className="page-numbers" href="/2011">2011</Link>
+                    <Link className="next page-numbers" href="/2015">next</Link>
                 </div>
             </div>
             <h1>Theme: NORO CATCHER</h1>
             <br />
-            <a href="https://2016.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <Link href="https://2016.igem.org/Team:Kyoto" className="btn btn-border">Wiki</Link>
             <br />
             <br />
             <Frame subtitle="道盛 裕太 (Yuta MICHIMORI)" src={michimori}>
@@ -116,7 +116,7 @@ export default function About() {
             <br />
             <Frame subtitle="松本 宙 (Sora MATSUMOTO)" src={matsumoto}>
                 Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
-                I have a dream.
+                I have Link dream.
             </Frame>
             <br />
             <Frame subtitle="李 豪 (Li HAO)" src={Li}>
@@ -131,7 +131,7 @@ export default function About() {
             <br />
             <Frame subtitle="佐々 裕成 (Hironari SASSA)" src={Sassahironari}>
                 Freshman of the Department of Industrial Chemistry, Faculty of Engineering, Kyoto University  <br />
-                ←This is a pair of glasses which consists of chemistry and synthetic biology, please handle it with care.
+                ←This is Link pair of glasses which consists of chemistry and synthetic biology, please handle it with care.
             </Frame>
             <br />
             <Frame subtitle="滝本 廉 (Ren TAKIMOTO)" src={Takimotoren3}>

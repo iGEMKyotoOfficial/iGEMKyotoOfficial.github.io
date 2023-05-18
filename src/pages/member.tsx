@@ -25,21 +25,21 @@ export default function About() {
 
       <div className="pagination-wrapper">
         <div className="pagination">
-          <a className="prev page-numbers" href="/2011">prev</a>
+          <Link className="prev page-numbers" href="/2011">prev</Link>
           <span aria-current="page" className="page-numbers current">2023</span>
-          <a className="page-numbers" href="/2022">2022</a>
-          <a className="page-numbers" href="/2021">2021</a>
-          <a className="page-numbers" href="/2020">2020</a>
-          <a className="page-numbers" href="/2019">2019</a>
-          <a className="page-numbers" href="/2018">2018</a>
-          <a className="page-numbers" href="/2017">2017</a>
-          <a className="page-numbers" href="/2016">2016</a>
-          <a className="page-numbers" href="/2015">2015</a>
-          <a className="page-numbers" href="/2014">2014</a>
-          <a className="page-numbers" href="/2013">2013</a>
-          <a className="page-numbers" href="/2012">2012</a>
-          <a className="page-numbers" href="/2011">2011</a>
-          <a className="next page-numbers" href="/2022">next</a>
+          <Link className="page-numbers" href="/2022">2022</Link>
+          <Link className="page-numbers" href="/2021">2021</Link>
+          <Link className="page-numbers" href="/2020">2020</Link>
+          <Link className="page-numbers" href="/2019">2019</Link>
+          <Link className="page-numbers" href="/2018">2018</Link>
+          <Link className="page-numbers" href="/2017">2017</Link>
+          <Link className="page-numbers" href="/2016">2016</Link>
+          <Link className="page-numbers" href="/2015">2015</Link>
+          <Link className="page-numbers" href="/2014">2014</Link>
+          <Link className="page-numbers" href="/2013">2013</Link>
+          <Link className="page-numbers" href="/2012">2012</Link>
+          <Link className="page-numbers" href="/2011">2011</Link>
+          <Link className="next page-numbers" href="/2022">next</Link>
         </div>
       </div>
 
@@ -97,14 +97,14 @@ export default function About() {
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role: Wet Experiment <br />
         Hobby: 生物採集 <br />
-        Everything happens for a reason.
+        Everything happens for Link reason.
       </Frame>
       <br />
       <Frame subtitle="三原 一星 (Issei MIHARA)" src={mihara}>
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role: Project Leader <br />
         Hobby: Piano <br />
-        Where there's a will, there's a way.
+        Where there's Link will, there's Link way.
       </Frame>
       <br />
       <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={jana}>

@@ -29,21 +29,21 @@ export default function About() {
 
       <div className="pagination-wrapper">
         <div className="pagination">
-          <a className="prev page-numbers" href="/member">prev</a>
-          <a className="page-numbers" href="/member">2023</a>
+          <Link className="prev page-numbers" href="/member">prev</Link>
+          <Link className="page-numbers" href="/member">2023</Link>
           <span aria-current="page" className="page-numbers current">2022</span>
-          <a className="page-numbers" href="/2021">2021</a>
-          <a className="page-numbers" href="/2020">2020</a>
-          <a className="page-numbers" href="/2019">2019</a>
-          <a className="page-numbers" href="/2018">2018</a>
-          <a className="page-numbers" href="/2017">2017</a>
-          <a className="page-numbers" href="/2016">2016</a>
-          <a className="page-numbers" href="/2015">2015</a>
-          <a className="page-numbers" href="/2014">2014</a>
-          <a className="page-numbers" href="/2013">2013</a>
-          <a className="page-numbers" href="/2012">2012</a>
-          <a className="page-numbers" href="/2011">2011</a>
-          <a className="next page-numbers" href="/2021">next</a>
+          <Link className="page-numbers" href="/2021">2021</Link>
+          <Link className="page-numbers" href="/2020">2020</Link>
+          <Link className="page-numbers" href="/2019">2019</Link>
+          <Link className="page-numbers" href="/2018">2018</Link>
+          <Link className="page-numbers" href="/2017">2017</Link>
+          <Link className="page-numbers" href="/2016">2016</Link>
+          <Link className="page-numbers" href="/2015">2015</Link>
+          <Link className="page-numbers" href="/2014">2014</Link>
+          <Link className="page-numbers" href="/2013">2013</Link>
+          <Link className="page-numbers" href="/2012">2012</Link>
+          <Link className="page-numbers" href="/2011">2011</Link>
+          <Link className="next page-numbers" href="/2021">next</Link>
         </div>
       </div>
 
@@ -80,7 +80,7 @@ export default function About() {
       <br />
       <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={tsuchida}>
         Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
-        If I were born again, I'd want to be a sweet potato.
+        If I were born again, I'd want to be Link sweet potato.
       </Frame>
       <br />
       <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>

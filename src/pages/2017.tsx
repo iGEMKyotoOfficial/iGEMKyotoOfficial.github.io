@@ -23,26 +23,26 @@ export default function About() {
 
             <div className="pagination-wrapper">
                 <div className="pagination">
-                    <a className="prev page-numbers" href="/2018">prev</a>
-                    <a className="page-numbers" href="/member">2023</a>
-                    <a className="page-numbers" href="/2022">2022</a>
-                    <a className="page-numbers" href="/2021">2021</a>
-                    <a className="page-numbers" href="/2020">2020</a>
-                    <a className="page-numbers" href="/2019">2019</a>
-                    <a className="page-numbers" href="/2018">2018</a>
+                    <Link className="prev page-numbers" href="/2018">prev</Link>
+                    <Link className="page-numbers" href="/member">2023</Link>
+                    <Link className="page-numbers" href="/2022">2022</Link>
+                    <Link className="page-numbers" href="/2021">2021</Link>
+                    <Link className="page-numbers" href="/2020">2020</Link>
+                    <Link className="page-numbers" href="/2019">2019</Link>
+                    <Link className="page-numbers" href="/2018">2018</Link>
                     <span aria-current="page" className="page-numbers current">2017</span>
-                    <a className="page-numbers" href="/2016">2016</a>
-                    <a className="page-numbers" href="/2015">2015</a>
-                    <a className="page-numbers" href="/2014">2014</a>
-                    <a className="page-numbers" href="/2013">2013</a>
-                    <a className="page-numbers" href="/2012">2012</a>
-                    <a className="page-numbers" href="/2011">2011</a>
-                    <a className="next page-numbers" href="/2016">next</a>
+                    <Link className="page-numbers" href="/2016">2016</Link>
+                    <Link className="page-numbers" href="/2015">2015</Link>
+                    <Link className="page-numbers" href="/2014">2014</Link>
+                    <Link className="page-numbers" href="/2013">2013</Link>
+                    <Link className="page-numbers" href="/2012">2012</Link>
+                    <Link className="page-numbers" href="/2011">2011</Link>
+                    <Link className="next page-numbers" href="/2016">next</Link>
                 </div>
             </div>
             <h1>Theme: B. xylophilus Busters</h1>
             <br />
-            <a href="https://2017.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <Link href="https://2017.igem.org/Team:Kyoto" className="btn btn-border">Wiki</Link>
             <br />
             <br />
             <Frame subtitle="Koki YOSHIMOTO" src={Kokiyoshimoto4}>

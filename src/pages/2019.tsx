@@ -27,27 +27,27 @@ export default function About() {
 
             <div className="pagination-wrapper">
                 <div className="pagination">
-                    <a className="prev page-numbers" href="/2020">prev</a>
-                    <a className="page-numbers" href="/member">2023</a>
-                    <a className="page-numbers" href="/2022">2022</a>
-                    <a className="page-numbers" href="/2021">2021</a>
-                    <a className="page-numbers" href="/2020">2020</a>
+                    <Link className="prev page-numbers" href="/2020">prev</Link>
+                    <Link className="page-numbers" href="/member">2023</Link>
+                    <Link className="page-numbers" href="/2022">2022</Link>
+                    <Link className="page-numbers" href="/2021">2021</Link>
+                    <Link className="page-numbers" href="/2020">2020</Link>
                     <span aria-current="page" className="page-numbers current">2019</span>
-                    <a className="page-numbers" href="/2018">2018</a>
-                    <a className="page-numbers" href="/2017">2017</a>
-                    <a className="page-numbers" href="/2016">2016</a>
-                    <a className="page-numbers" href="/2015">2015</a>
-                    <a className="page-numbers" href="/2014">2014</a>
-                    <a className="page-numbers" href="/2013">2013</a>
-                    <a className="page-numbers" href="/2012">2012</a>
-                    <a className="page-numbers" href="/2011">2011</a>
-                    <a className="next page-numbers" href="/2018">next</a>
+                    <Link className="page-numbers" href="/2018">2018</Link>
+                    <Link className="page-numbers" href="/2017">2017</Link>
+                    <Link className="page-numbers" href="/2016">2016</Link>
+                    <Link className="page-numbers" href="/2015">2015</Link>
+                    <Link className="page-numbers" href="/2014">2014</Link>
+                    <Link className="page-numbers" href="/2013">2013</Link>
+                    <Link className="page-numbers" href="/2012">2012</Link>
+                    <Link className="page-numbers" href="/2011">2011</Link>
+                    <Link className="next page-numbers" href="/2018">next</Link>
                 </div>
             </div>
 
             <h1>Theme: My Clothes' Plastic</h1>
             <br />
-            <a href="https://2019.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <Link href="https://2019.igem.org/Team:Kyoto" className="btn btn-border">Wiki</Link>
 
             <br />
             <br />
@@ -99,7 +99,7 @@ export default function About() {
             <br />
             <Frame subtitle="	迫野 眞大 (Masahiro SAKONO)" src={sakono}>
                 Freshman of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
-                Work like a dog. Sleep like a log.
+                Work like Link dog. Sleep like Link log.
             </Frame>
             <br />
             <Frame subtitle="	芝 雄介 (Yusuke SHIBA)" src={shiba}>

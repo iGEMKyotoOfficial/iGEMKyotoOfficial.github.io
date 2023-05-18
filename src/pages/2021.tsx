@@ -34,26 +34,26 @@ export default function About() {
 
             <div className="pagination-wrapper">
                 <div className="pagination">
-                    <a className="prev page-numbers" href="/2022">prev</a>
-                    <a className="page-numbers" href="/member">2023</a>
-                    <a className="page-numbers" href="/2022">2022</a>
+                    <Link className="prev page-numbers" href="/2022">prev</Link>
+                    <Link className="page-numbers" href="/member">2023</Link>
+                    <Link className="page-numbers" href="/2022">2022</Link>
                     <span aria-current="page" className="page-numbers current">2021</span>
-                    <a className="page-numbers" href="/2020">2020</a>
-                    <a className="page-numbers" href="/2019">2019</a>
-                    <a className="page-numbers" href="/2018">2018</a>
-                    <a className="page-numbers" href="/2017">2017</a>
-                    <a className="page-numbers" href="/2016">2016</a>
-                    <a className="page-numbers" href="/2015">2015</a>
-                    <a className="page-numbers" href="/2014">2014</a>
-                    <a className="page-numbers" href="/2013">2013</a>
-                    <a className="page-numbers" href="/2012">2012</a>
-                    <a className="page-numbers" href="/2011">2011</a>
-                    <a className="next page-numbers" href="/2020">next</a>
+                    <Link className="page-numbers" href="/2020">2020</Link>
+                    <Link className="page-numbers" href="/2019">2019</Link>
+                    <Link className="page-numbers" href="/2018">2018</Link>
+                    <Link className="page-numbers" href="/2017">2017</Link>
+                    <Link className="page-numbers" href="/2016">2016</Link>
+                    <Link className="page-numbers" href="/2015">2015</Link>
+                    <Link className="page-numbers" href="/2014">2014</Link>
+                    <Link className="page-numbers" href="/2013">2013</Link>
+                    <Link className="page-numbers" href="/2012">2012</Link>
+                    <Link className="page-numbers" href="/2011">2011</Link>
+                    <Link className="next page-numbers" href="/2020">next</Link>
                 </div>
             </div>
             <h1>Theme: FLOWEREVER</h1>
             <br />
-            <a href="https://2021.igem.org/Team:Kyoto" className="btn btn-border">Wiki</a>
+            <Link href="https://2021.igem.org/Team:Kyoto" className="btn btn-border">Wiki</Link>
             <br />
             <br />
 
@@ -85,7 +85,7 @@ export default function About() {
             <br />
             <Frame subtitle="	西澤 知里 (Chisato NISHIZAWA)" src={nishizawa}>
                 Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
-                Be powerful like a flower.
+                Be powerful like Link flower.
             </Frame>
             <br />
             <Frame subtitle="	林田 ももこ (Momoko HAYASHIDA)" src={hayashida}>
@@ -95,7 +95,7 @@ export default function About() {
             <br />
             <Frame subtitle="	劉 裕介 (Yusuke RYU)" src={liu}>
                 Junior of the Faculty of Science, Kyoto University  <br />
-                Throwing out the key and just living in a dream
+                Throwing out the key and just living in Link dream
             </Frame>
             <br />
             <Frame subtitle="	川上 咲季 (Saki KAWAKAMI)" src={kawakami}>
