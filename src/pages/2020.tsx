@@ -65,7 +65,7 @@ export default function About() {
             <br />
             <Frame subtitle="	小林 勇毅 (Yuki KOBAYASHI)" src={kobayashi}>
                 Junior of the Faculty of Science, Kyoto University  <br />
-                Let's go on Link long, long journey.
+                Let's go on long, long journey.
             </Frame>
             <br />
             <Frame subtitle="	山内 萌々乃 (Momono YAMAUCHI)" src={yamauchi}>
@@ -75,7 +75,7 @@ export default function About() {
             <br />
             <Frame subtitle="	池田 雄太郎 (Yutaro IKEDA)" src={ikeda}>
                 Sophomore of the Faculty of Science, Kyoto University  <br />
-                Link piece of cake!
+                A piece of cake!
             </Frame>
             <br />
             <Frame subtitle="	岸田 尚大 (Naoto KISHIDA)" src={kishida}>
@@ -85,7 +85,7 @@ export default function About() {
             <br />
             <Frame subtitle="	迫野 眞大 (Masahiro SAKONO)" src={sakono}>
                 Sophomore of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
-                Work like Link dog. Sleep like Link log.
+                Work like a dog. Sleep like a log.
             </Frame>
             <br />
             <Frame subtitle="	田島 奈桜 (Nao TAJIMA)" src={tajima}>
@@ -100,7 +100,7 @@ export default function About() {
             <br />
             <Frame subtitle="	西村 怜緒 (Reo NISHIMURA)" src={nishimura}>
                 Sophomore of the Faculty of Pharmacy, Kyoto University  <br />
-                Proceed like Link locomotive!
+                Proceed like a locomotive!
             </Frame>
             <br />
             <Frame subtitle="	林田 ももこ (Momoko HAYASHIDA)" src={hayashida}>

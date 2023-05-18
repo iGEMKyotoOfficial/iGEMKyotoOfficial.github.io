@@ -116,7 +116,7 @@ export default function About() {
             <br />
             <Frame subtitle="松本 宙 (Sora MATSUMOTO)" src={matsumoto}>
                 Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University  <br />
-                I have Link dream.
+                I have a dream.
             </Frame>
             <br />
             <Frame subtitle="李 豪 (Li HAO)" src={Li}>
@@ -131,7 +131,7 @@ export default function About() {
             <br />
             <Frame subtitle="佐々 裕成 (Hironari SASSA)" src={Sassahironari}>
                 Freshman of the Department of Industrial Chemistry, Faculty of Engineering, Kyoto University  <br />
-                ←This is Link pair of glasses which consists of chemistry and synthetic biology, please handle it with care.
+                ←This is a pair of glasses which consists of chemistry and synthetic biology, please handle it with care.
             </Frame>
             <br />
             <Frame subtitle="滝本 廉 (Ren TAKIMOTO)" src={Takimotoren3}>

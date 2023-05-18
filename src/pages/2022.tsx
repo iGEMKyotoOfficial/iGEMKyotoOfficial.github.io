@@ -80,7 +80,7 @@ export default function About() {
       <br />
       <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={tsuchida}>
         Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
-        If I were born again, I'd want to be Link sweet potato.
+        If I were born again, I'd want to be a sweet potato.
       </Frame>
       <br />
       <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>

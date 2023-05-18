@@ -99,7 +99,7 @@ export default function About() {
             <br />
             <Frame subtitle="	迫野 眞大 (Masahiro SAKONO)" src={sakono}>
                 Freshman of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
-                Work like Link dog. Sleep like Link log.
+                Work like a dog. Sleep like a log.
             </Frame>
             <br />
             <Frame subtitle="	芝 雄介 (Yusuke SHIBA)" src={shiba}>

@@ -57,7 +57,7 @@ export default function About() {
             <br />
             <Frame subtitle="Akiko FUKUDA" src={fukuda}>
                 Junior of the Faculty of Science, Kyoto University  <br />
-                Could you give me Link minute?
+                Could you give me a minute?
             </Frame>
             <br />
             <Frame subtitle="Kako NAKAZATO" src={nakazato}>

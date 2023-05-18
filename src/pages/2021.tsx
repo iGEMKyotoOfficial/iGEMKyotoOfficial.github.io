@@ -95,7 +95,7 @@ export default function About() {
             <br />
             <Frame subtitle="	劉 裕介 (Yusuke RYU)" src={liu}>
                 Junior of the Faculty of Science, Kyoto University  <br />
-                Throwing out the key and just living in Link dream
+                Throwing out the key and just living in a dream
             </Frame>
             <br />
             <Frame subtitle="	川上 咲季 (Saki KAWAKAMI)" src={kawakami}>
