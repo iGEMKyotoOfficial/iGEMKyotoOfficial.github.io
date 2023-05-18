@@ -114,6 +114,7 @@
 @media (hover: none) {
     .list a {
         -webkit-tap-highlight-color: transparent;
+        color: #ffffff;
     }
 
     .list a:active {
