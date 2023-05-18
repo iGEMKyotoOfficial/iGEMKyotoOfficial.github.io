@@ -85,7 +85,7 @@ export default function About() {
             <br />
             <Frame subtitle="	西澤 知里 (Chisato NISHIZAWA)" src={nishizawa}>
                 Junior of the Department of Applied Life Sciences, Faculty of Agriculture, Kyoto University   <br />
-                Be powerful like Link flower.
+                Be powerful like a flower.
             </Frame>
             <br />
             <Frame subtitle="	林田 ももこ (Momoko HAYASHIDA)" src={hayashida}>

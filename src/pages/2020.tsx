@@ -65,7 +65,7 @@ export default function About() {
             <br />
             <Frame subtitle="	小林 勇毅 (Yuki KOBAYASHI)" src={kobayashi}>
                 Junior of the Faculty of Science, Kyoto University  <br />
-                Let's go on long, long journey.
+                Let's go on a long, long journey.
             </Frame>
             <br />
             <Frame subtitle="	山内 萌々乃 (Momono YAMAUCHI)" src={yamauchi}>
