@@ -22,17 +22,6 @@
     gap: 1em;
 }
 
-/* 見出しのアイコン */
-.icon {
-    color:#f08080;
-    font-size: 1.25em;
-    transition: transform 0.5s;
-}
-
-.open .icon {
-    transform: rotate(180deg);
-}
-
 /* テキスト */
 .text {
     overflow: hidden;

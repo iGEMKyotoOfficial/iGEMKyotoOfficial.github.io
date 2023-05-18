@@ -1,7 +1,5 @@
 import { useState, useRef } from 'react';
 import styles from 'src/styles/accordion.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function Accordion({ heading, children }: { heading: any; children: any; }) {
     const [textIsOpen, setTextIsOpen] = useState(false)
@@ -17,7 +15,6 @@ export default function Accordion({ heading, children }: { heading: any; childre
             <h3 className={styles.heading}>
                 <button onClick={toggleText}>
                     {heading}
-                    <FontAwesomeIcon icon={faCircleChevronDown} className={styles.icon} />
                 </button>
             </h3>
             <div
