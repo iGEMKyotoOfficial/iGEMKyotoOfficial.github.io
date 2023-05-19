@@ -1,7 +1,7 @@
 export const siteMeta = {
     siteTitle: 'iGEM Kyoto',
     siteDesc: 'iGEM × Kyoto = ∞',
-    siteUrl: 'https://igemkyoto',
+    siteUrl: 'https://igemkyotoofficial.github.io',
     siteLang:  'tsx',
     siteLocale: 'tsx_JP',
     siteType: 'website',
