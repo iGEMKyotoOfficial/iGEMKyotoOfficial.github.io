@@ -58,7 +58,7 @@ export default function About() {
                 寝不足は寝るしかない
             </Frame>
             <br />
-            <Frame subtitle="	劉 裕介 (Yusuke RYU)" src={ryu}>
+            <Frame subtitle="	アレクサンダー Y. リュウ (Alexander Y. LIU)" src={ryu}>
                 Sophomore of the Faculty of Science, Kyoto University  <br />
                 Cause I love how it feels when I break the chains
             </Frame>

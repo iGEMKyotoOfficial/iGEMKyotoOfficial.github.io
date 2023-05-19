@@ -58,7 +58,7 @@ export default function About() {
         見てても動かないが気づいたら進んでいる、そんな亀みたいな人間です。
       </Frame>
       <br />
-      <Frame subtitle="内山 新平 (Sinpei UCHIYAMA)" src={uchiyama}>
+      <Frame subtitle="内山 新平 (Shimpei UCHIYAMA)" src={uchiyama}>
         Senior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University <br />
         Role: Paper search <br />
         Hobby: Soccer <br />

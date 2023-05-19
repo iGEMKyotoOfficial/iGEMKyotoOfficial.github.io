@@ -93,7 +93,7 @@ export default function About() {
                 1UPしたい
             </Frame>
             <br />
-            <Frame subtitle="	劉 裕介 (Yusuke RYU)" src={liu}>
+            <Frame subtitle="	アレクサンダー Y. リュウ (Alexander Y. LIU)" src={liu}>
                 Junior of the Faculty of Science, Kyoto University  <br />
                 Throwing out the key and just living in a dream
             </Frame>

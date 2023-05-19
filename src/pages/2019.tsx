@@ -77,7 +77,7 @@ export default function About() {
                 赤血球とぺんぎんとおちゃの時間
             </Frame>
             <br />
-            <Frame subtitle="劉 裕介 (Yusuke RYU)" src={ryu}>
+            <Frame subtitle="アレクサンダー Y. リュウ (Alexander Y. LIU)" src={ryu}>
                 Freshman of the Faculty of Science, Kyoto University  <br />
                 “Look” more carefully. There's more to everything than meets the eye.
             </Frame>
