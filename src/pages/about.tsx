@@ -49,7 +49,7 @@ export default function About() {
               研究の安全性に対する監督・指導には、学内の先生方にお世話になっています。
               また、専門家の方、実際にその分野の現場で働いていらっしゃる方、OB・OGの先輩方にアドバイスをいただきながら活動を進めています。
             </p>
-            <Accordion heading="iGEM Kyotoの歴史 &nbsp; 🔽">
+            <Accordion heading="iGEM Kyotoの歴史">
               <p>
                 <b>2008</b><br />
                 iGEM Kyotoは2008年度に結成しました。メンバーは様々な専攻の学部学生を主体とし、加えて修士院生とアドバイザーから構成されています。テーマ"Raise the Titanic!"の独創性は群を抜いていましたが、残念ながら入賞を逃しました。
