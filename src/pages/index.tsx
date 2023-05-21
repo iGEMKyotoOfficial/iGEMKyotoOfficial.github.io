@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <Contain large>
       <Meta />
-      <div className="anime_wrap kenburns-top-right">
-        <Image className="sakura"
+      <div className="anime_wrap">
+        <Image className="sakura kenburns-top-right"
           src={sakura}
           alt=""
           layout="responsive"
