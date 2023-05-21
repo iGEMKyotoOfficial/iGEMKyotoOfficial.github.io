@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }:
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gatg('config', '${gtag.GA_MEASUREMENT_ID}');
+              gtag('config', '${gtag.GA_MEASUREMENT_ID}');
               `,
         }}
       />
