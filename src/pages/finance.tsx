@@ -57,7 +57,7 @@ export default function Finance() {
                 活動については定期的に発行するニュースレターでもお伝えします。<br/>
 
                 他の形でのご支援についてのご提案や不明な点がありましたら是非
-                <Link href='./contact' style={{color: "blue", textDecoration: "dotted"}}>お問い合わせフォーム</Link>
+                <Link href='./contact' className="contactlink">お問い合わせフォーム</Link>
                 の方から問い合わせください。<br/>
                 また、現在基金などを通した寄付の形も検討中です。
                 </p>

@@ -450,3 +450,10 @@ a {
 		height: 6em;
 	}
 }
+
+
+.contactlink{
+  color: #f08080;
+  text-decoration: dotted;
+  text-decoration-color: #f08080;
+}
