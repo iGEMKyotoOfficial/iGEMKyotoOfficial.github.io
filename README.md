@@ -1,5 +1,5 @@
 - 👋 Hi, we are @iGEMKyotoOfficial, iGEM Kyoto's official github account!
-- 👀 Look what we do at [iGEM Kyoto's official homepage](https://igemkyoto.github.io "iGEM Kyoto Official Homepage")!
+- 👀 Look what we do at [iGEM Kyoto's official homepage](https://igemkyotoofficial.github.io "iGEM Kyoto Official Homepage")!
 
 <!---
 iGEMKyotoOfficial/iGEMKyotoOfficial is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
