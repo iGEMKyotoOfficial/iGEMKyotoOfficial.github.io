@@ -23,7 +23,7 @@ export default function Home() {
           sizes='100vw'
           priority
         />
-        <p className='tracking-in-contract kenburns-top-right'>iGEM Kyoto</p>
+        <p className='tracking-then-kenburns'>iGEM Kyoto</p>
       </div>
 
       <div className="cp_card05" >
