@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }:
     <>
       <Script
         strategy='afterInteractive'
-        src={`heets://www.googletagmanager.com/gtag/js?id=${gtag.GA_MEASUREMENT_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_MEASUREMENT_ID}`}
       />
       <Script
         id="gtag-init"
