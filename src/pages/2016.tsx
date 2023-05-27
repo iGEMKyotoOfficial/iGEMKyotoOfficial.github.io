@@ -25,7 +25,7 @@ import uchino from '/images/member.2016/Kyoto-team-uchino.jpg'
 import wan from '/images/member.2016/Kyoto-team-wan.jpg'
 import yamada from '/images/member.2016/Kyoto-team-yamada.jpg'
 import yamamoto from '/images/member.2016/Kyoto-team-yamamoto.jpg'
-import sukegawa from 'images/white.png'
+import sukegawa from 'images/others/white.png'
 
 export default function About() {
     return (
