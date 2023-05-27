@@ -8,19 +8,22 @@ import Image from 'next/image'
 import Link from 'next/link'
 import eyecatch from 'images/others/butterfly.jpg'
 import Accordion from 'components/accordion'
+import iGEM2 from 'images/others/iGEM2.jpg'
+import iGEM3 from 'images/others/iGEM3.jpg'
+import iGEM4 from 'images/others/iGEM4.jpg'
 
 export default function About() {
   return (
 
     <Contain >
-      <Meta 
+      <Meta
         pageTitle="About"
         pageDesc="iGEM Kyoto、iGEM、合成生物学についてご説明します"
         pageImg={eyecatch.src}
         pageImgW={eyecatch.width.toString()}
         pageImgH={eyecatch.height.toString()}
-       />
-      
+      />
+
       <Hero
         title="About"
         subtitle="iGEM Kyoto、iGEM、合成生物学についてご説明します"
@@ -95,6 +98,14 @@ export default function About() {
             </Accordion>
 
             <h2>iGEM について</h2>
+            <Image className='iGEM2'
+              src={iGEM2}
+              alt=""
+              layout="responsive"
+              sizes="100vw"
+              style={{borderRadius:'10px'}}
+              priority
+            />
             <p>
               iGEM (the international Genetically Engineered Machine competition) は、合成生物学の発展への寄与を目的に世界規模で開催される学生コンテストです。
               大会では、45カ国346の学生チームが一堂に会し、研究成果を競い合います。
@@ -105,11 +116,19 @@ export default function About() {
               各学生チームは、課題設定とプロジェクト立案、実験による検証、取材などによる実態調査を、iGEM の大会コンセプトのもと、自分たちで行います。
               コンテストにおいては、実際のデータを結果としてまとめ、それを発表する力量も求められます。
               そのため、Wikiというウェブサイト、ポスターあるいはビデオ、口頭プレゼンテーションなど複数のかたちで自分たちのプロジェクトの成果をまとめ上げ、コンテストにおける審査を受けます。
-              </p>
-              <p><Link href="https://igem.org" className="simple_square_btn2" >公式サイト</Link>
+            </p>
+            <p><Link href="https://igem.org" className="simple_square_btn2" >公式サイト</Link>
             </p>
 
             <h2>合成生物学とは</h2>
+            <Image className='iGEM4'
+              src={iGEM4}
+              alt=""
+              layout="responsive"
+              sizes="100vw"
+              style={{borderRadius:'10px'}}
+              priority
+            />
             <p>
               合成生物学（Synthetic Biology）は、生物学の分野の一つで、生命現象を理解し、新しい生命システムを設計、構築することを目的としています。
               <br /><br />
@@ -125,6 +144,14 @@ export default function About() {
             </p>
 
             <h2>iGEM の大会コンセプト</h2>
+            <Image className='iGEM3'
+              src={iGEM3}
+              alt=""
+              layout="responsive"
+              sizes="100vw"
+              style={{borderRadius:'10px'}}
+              priority
+            />
             <p>
               iGEMは、大会においてプロジェクトで用いられた新しい機能的DNA配列を「Bio Brick」として、データベースに集積することにより、合成生物学におけるパーツの充実に寄与しています。
               <br /><br />
@@ -134,6 +161,8 @@ export default function About() {
               <br /><br />
               さらには、現地開催での大会においては、ポスターセッションにおけるディスカッションなどを通して海外の学生チームと交流する機会が与えられます。
               サイエンスを学ぶ同世代の優秀な学生の発表に生身で触れることができ、私たちにとって刺激を受ける場になっているだけでなく、コラボレーションなどを通して将来の研究者のオープンコミュニティ形成に繋がる場にもなっています。
+            </p>
+            <p><Link href="http://parts.igem.org/Catalog" className="simple_square_btn2" >パーツカタログ</Link>
             </p>
             <br />
           </PostBody>
