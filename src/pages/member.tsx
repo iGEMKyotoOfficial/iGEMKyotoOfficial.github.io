@@ -16,6 +16,7 @@ import jana from 'images/member.2023/2023_jana.jpg'
 import hayashi from 'images/member.2023/2023_hayashi.jpg'
 import kiriyama from 'images/member.2023/2023_kiriyama.jpg'
 import yasui from 'images/member.2023/2023_yasui.jpg'
+import okamoto from 'images/member.2023/2023_okamoto.jpg'
 
 export default function About() {
   return (
@@ -65,6 +66,13 @@ export default function About() {
         Role: Paper search <br />
         Hobby: Soccer <br />
         一番多忙な人間が一番多くの時間を持つ
+      </Frame>
+      <br />
+      <Frame subtitle="岡本 陽（Haru OKAMOTO)" src={okamoto}>
+        Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Wet <br />
+        Hobby: 魚とり、買い物 <br />
+        英語が読めません。
       </Frame>
       <br />
       <Frame subtitle="桐山 賢斗 (Kento Kiriyama)" src={kiriyama}>
