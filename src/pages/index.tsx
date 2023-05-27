@@ -1,14 +1,13 @@
 import Meta from 'components/meta'
 import Contain from 'components/container'
-import Hero from 'components/hero'
 import 'bootstrap/dist/css/bootstrap.css'
 import Link from 'next/link'
-import sakura from 'images/sakura.jpg'
+import sakura from 'images/others/sakura.jpg'
 import Image from 'next/image'
-import dna from 'images/dna.jpg'
-import fushimi from 'images/fushimi.jpg'
-import ume from 'images/ume.jpg'
-import bamboo from 'images/bamboo.jpeg'
+import iGEM from 'images/others/iGEM.jpg'
+import fushimi from 'images/others/fushimi.jpg'
+import ume from 'images/others/ume.jpg'
+import bamboo from 'images/others/bamboo.jpeg'
 
 export default function Home() {
 
@@ -28,7 +27,7 @@ export default function Home() {
 
       <div className="cp_card05" >
         <Image className="dna"
-          src={dna}
+          src={iGEM}
           alt=""
           layout="responsive"
           sizes='100vw'

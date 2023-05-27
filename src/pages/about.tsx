@@ -6,7 +6,7 @@ import Contact from 'components/contact'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-column'
 import Image from 'next/image'
 import Link from 'next/link'
-import eyecatch from 'images/butterfly.jpg'
+import eyecatch from 'images/others/butterfly.jpg'
 import Accordion from 'components/accordion'
 
 export default function About() {

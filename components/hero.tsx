@@ -1,6 +1,6 @@
 import styles from 'src/styles/hero.module.css'
 import Image from 'next/image'
-import cube from 'images/fushimi.jpg'
+import cube from 'images/others/fushimi.jpg'
 import Contain from 'components/container'
 
 export default function Hero({ title, subtitle, imageOn = false }:
