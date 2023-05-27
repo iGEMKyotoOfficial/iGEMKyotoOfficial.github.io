@@ -14,6 +14,7 @@ import mitoma from 'images/member.2023/2023_mitoma.jpg'
 import mihara from 'images/member.2023/2023_mihara.jpg'
 import jana from 'images/member.2023/2023_jana.jpg'
 import hayashi from 'images/member.2023/2023_hayashi.jpg'
+import kiriyama from 'images/member.2023/2023_kiriyama.jpg'
 
 export default function About() {
   return (
@@ -63,6 +64,13 @@ export default function About() {
         Role: Paper search <br />
         Hobby: Soccer <br />
         一番多忙な人間が一番多くの時間を持つ
+      </Frame>
+      <br />
+      <Frame subtitle="桐山 賢斗 (Kento Kiriyama)" src={kiriyama}>
+        Freshman of the Department of Pharmaceutical Sciences, Faculty of Pharmaceutical Science, Kyoto University <br />
+        Role: dry,wet,all <br />
+        Hobby: tennis <br />
+        桐-Kiri-iGEM編episode of side K
       </Frame>
       <br />
       <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
