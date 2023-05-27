@@ -15,6 +15,7 @@ import mihara from 'images/member.2023/2023_mihara.jpg'
 import jana from 'images/member.2023/2023_jana.jpg'
 import hayashi from 'images/member.2023/2023_hayashi.jpg'
 import kiriyama from 'images/member.2023/2023_kiriyama.jpg'
+import yasui from 'images/member.2023/2023_yasui.jpg'
 
 export default function About() {
   return (
@@ -120,6 +121,13 @@ export default function About() {
         Role: Paper Search and Wet Experiment <br />
         Hobby: 執筆 <br />
         パラジウム触媒万能
+      </Frame>
+      <br />
+      <Frame subtitle="安井 雄大 (Yudai YASUI)" src={yasui}>
+        Freshman of the Faculty of Science, Kyoto University <br />
+        Role: Dry <br />
+        Hobby: Traveling <br />
+        腹が減っては戦はできぬ
       </Frame>
     </Contain>
   )
