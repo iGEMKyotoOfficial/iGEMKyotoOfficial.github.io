@@ -5,10 +5,16 @@ import Image from 'next/image'
 import PostBody from 'components/post-body'
 import iGEM5 from 'images/others/iGEM5.jpg'
 import iGEM6 from 'images/others/iGEM6.jpg'
+import Meta from 'components/meta'
 
 export default function Finance() {
     return (
         <Contain>
+            <Meta
+                pageTitle="支援のお願い"
+                pageDesc="私たちを応援してくださる企業・個人の方を募集しております"
+            />
+
             <Hero
                 title="支援のお願い"
                 subtitle="私たちを応援してくださる企業・個人の方を募集しております"
