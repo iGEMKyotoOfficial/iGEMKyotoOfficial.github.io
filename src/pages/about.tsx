@@ -52,6 +52,8 @@ export default function About() {
               研究の安全性に対する監督・指導には、学内の先生方にお世話になっています。
               また、専門家の方、実際にその分野の現場で働いていらっしゃる方、OB・OGの先輩方にアドバイスをいただきながら活動を進めています。
             </p>
+            <p><Link href="/member" className="simple_square_btn2" >メンバー紹介</Link>
+            </p>
             <Accordion heading="iGEM Kyotoの歴史">
               <p>
                 <b>2008</b><br />
