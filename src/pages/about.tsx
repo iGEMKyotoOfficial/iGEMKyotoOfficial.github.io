@@ -9,7 +9,7 @@ import Link from 'next/link'
 import eyecatch from 'images/others/butterfly.jpg'
 import Accordion from 'components/accordion'
 import iGEM2 from 'images/others/iGEM2.jpg'
-import iGEM3 from 'images/others/iGEM3.jpg'
+import iGEM3 from 'images/others/iGEM3.jpeg'
 import iGEM4 from 'images/others/iGEM4.jpg'
 
 export default function About() {
