@@ -12,7 +12,7 @@ export default function About() {
             />
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します　（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
