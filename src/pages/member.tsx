@@ -18,6 +18,7 @@ import kiriyama from 'images/member.2023/2023_kiriyama.jpg'
 import yasui from 'images/member.2023/2023_yasui.jpg'
 import okamoto from 'images/member.2023/2023_okamoto.jpg'
 import kanai from 'images/member.2023/2023_kanai.jpg'
+import inagaki from 'images/member.2023/2023_inagaki.jpg'
 
 export default function About() {
   return (
@@ -64,6 +65,13 @@ export default function About() {
         Role: 実験派の平社員 <br />
         Hobby: 読書風妄想 <br />
         見てても動かないが気づいたら進んでいる、そんな亀みたいな人間です。
+      </Frame>
+      <br />
+      <Frame subtitle="稲垣 雄太 (Yuta INAGAKI)" src={inagaki}>
+        Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Wet Experiment<br />
+        Hobby: 旅行、空手 <br />
+        時間は創るものですよね……
       </Frame>
       <br />
       <Frame subtitle="内山 新平 (Shimpei UCHIYAMA)" src={uchiyama}>
