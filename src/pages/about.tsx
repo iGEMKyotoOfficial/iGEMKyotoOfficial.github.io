@@ -11,6 +11,8 @@ import Accordion from 'components/accordion'
 import iGEM2 from 'images/others/iGEM2.jpg'
 import iGEM3 from 'images/others/iGEM3.jpeg'
 import iGEM4 from 'images/others/iGEM4.jpg'
+import flowerver from 'images/others/2021_history.jpg'
+import SLiCE from 'images/others/SLiCE.jpeg'
 
 export default function About() {
   return (
@@ -92,10 +94,29 @@ export default function About() {
                 <br /><b>2020</b><br />
                 2020年度は新型コロナウイルスの影響により大会がオンラインになったため、大会には出場せず次年度への準備を進めました。
                 <br /><br /><b>2021</b><br />
+                <Image className='flowerver'
+                  src={flowerver}
+                  alt=""
+                  layout="responsive"
+                  sizes="100vw"
+                  style={{ borderRadius: '10px' }}
+                  priority
+                />
                 2021年度のテーマは“FLOWEREVER”です。実は私たちの身近にある花には、栽培時のウイルス感染、虫害、販売時や家庭での花の老化・細菌繁殖など様々な課題があります。これら複数の課題に対し、合成生物学を用いた解決法を考えました。ウイルス感染に対しては葉から抽出したRNAからRT-LAMP法という手法でウイルス由来のDNAを増幅し、CRISPR-Cas12aという配列検出システムを用いて蛍光の有無からウイルス感染の有無を検出する手法を開発しました。さらに機械学習を用いることで葉の写真から健康状態を判断するソフトウェアを開発しました。その他にもRNA干渉を用いた殺虫、ペプチドを利用した殺菌、生体分子の効率的生産のためのシステム開発など、取り組んだプロジェクトは多岐にわたっています。オンラインで開催された大会ではWikiとプレゼンテーションビデオを作成し、審査員とオンラインで質疑応答を行いました。結果金賞を受賞し、Best Software Toolという特別賞の最終候補にノミネートされました。
                 <Link href="https://2021.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
                 <br /><b>2022</b><br />
                 2022年度は大会への出場を経済的理由で見送らざるを得ませんでした。
+                <br /><br /><b>2023</b><br />
+                <Image className='SLiCE'
+                  src={SLiCE}
+                  alt=""
+                  layout="responsive"
+                  sizes="100vw"
+                  style={{ borderRadius: '10px' }}
+                  priority
+                />
+                iGEM Kyotoのメンバーの研究が、論文として発表されました。詳細はこちらからご覧ください。
+                <Link href="https://www.kyoto-u.ac.jp/ja/research-news/2023-05-17-0" className="simple_square_btn2">研究</Link>
               </p>
             </Accordion>
 
@@ -105,7 +126,7 @@ export default function About() {
               alt=""
               layout="responsive"
               sizes="100vw"
-              style={{borderRadius:'10px'}}
+              style={{ borderRadius: '10px' }}
               priority
             />
             <p>
@@ -128,7 +149,7 @@ export default function About() {
               alt=""
               layout="responsive"
               sizes="100vw"
-              style={{borderRadius:'10px'}}
+              style={{ borderRadius: '10px' }}
               priority
             />
             <p>
@@ -151,7 +172,7 @@ export default function About() {
               alt=""
               layout="responsive"
               sizes="100vw"
-              style={{borderRadius:'10px'}}
+              style={{ borderRadius: '10px' }}
               priority
             />
             <p>

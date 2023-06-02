@@ -14,7 +14,6 @@ export default function Finance() {
                 pageTitle="支援のお願い"
                 pageDesc="私たちを応援してくださる企業・個人の方を募集しております"
             />
-
             <Hero
                 title="支援のお願い"
                 subtitle="私たちを応援してくださる企業・個人の方を募集しております"

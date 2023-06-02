@@ -49,6 +49,11 @@ export default function Nav(){
                     </Link>
                 </li>
                 <li>
+                    <Link href="/activities" legacyBehavior>
+                        <a onClick={closeNav} className="activities">活動紹介</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/finance" legacyBehavior>
                         <a onClick={closeNav} className="finance">協賛・寄付</a>
                     </Link>

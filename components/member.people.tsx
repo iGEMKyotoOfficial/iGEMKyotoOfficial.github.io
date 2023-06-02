@@ -5,12 +5,11 @@ import { Container, Row, Col } from 'reactstrap'
 export default function Frame({ children, subtitle, imageOn = true, src }:
     { children: any; subtitle: any; imageOn?: boolean; src: any }) {
     return (
-        <>
             <Container>
                 <Row>
                     <Col>
                         {imageOn && (
-                            <figure style={{ position: 'relative', overflow: "hidden", width: "250px", height: "250px", marginLeft:'30px'}}>
+                            <figure style={{ position: 'relative', overflow: "hidden", width: "250px", height: "250px", marginLeft:'30px', borderRadius:"10px"}}>
                                 <Image className='people'
                                     src={src}
                                     alt=""
@@ -26,6 +25,5 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                     </Col>
                 </Row>
             </Container>
-        </>
-    );
+    )
 }
