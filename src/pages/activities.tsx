@@ -43,7 +43,7 @@ export default function Frame({ imageOn = true, src }:
                 </Col>
                 <Col md='7'>
                     <h1  style={{ marginBottom: '30px', marginTop: '30px', textDecoration:"underline"}}>Discussion</h1>
-                    <p>毎週金曜日に、全体でのミーティングを実施しています。各自で論文を読んだり、アイディアをまとめてきたりして、それをもとに話し合います。各部門の進捗把握なども行います。夜遅くまで和気藹々と、白熱した議論を繰り広げています。</p>
+                    <p>毎週金曜日にある全体ミーティングで、プロジェクトに関して議論をしています。各自で論文を読んだり、アイディアをまとめてきたりして、それをもとに話し合います。各部門の進捗報告なども行います。夜遅くまで和気藹々と、白熱した議論を繰り広げています。</p>
                 </Col>
             </Row>
 
@@ -81,7 +81,7 @@ export default function Frame({ imageOn = true, src }:
                 </Col>
                 <Col md='7'>
                     <h1  style={{ marginBottom: '30px', marginTop: '30px', textDecoration:"underline"}}>Dry Experiment</h1>
-                    <p></p>
+                    <p>生物学実験を行うにあたって、条件検討を行ったり、得られたデータをもとに結果を考察して次の検証に進んだりするためには、数理的なモデリング・解析が必要です。数理生物学の知識を先輩や専門の先生に教えていただきながら、技術を身に付けています。</p>
                 </Col>
             </Row>
 
@@ -138,7 +138,7 @@ export default function Frame({ imageOn = true, src }:
                 </Col>
                 <Col md='7'>
                     <h1  style={{ marginBottom: '30px', marginTop: '30px', textDecoration:"underline"}}>Human Practice</h1>
-                    <p>合成生物学は新規の学問領域であり、様々な側面でその是非を問う議論が行われています。iGEMでは合成生物学の政治的、経済的、社会的、法的、そして哲学的な背景に関する議論にどれだけ貢献したかも評価対象に含まれます。そのため、ラボの外に出て、プロジェクトに関わる分野の専門家と話し合ったり、各ステークホルダーに対して取材を行ったりします。</p>
+                    <p>合成生物学は新規の学問領域であり、様々な側面でその是非を問う議論が行われています。自分たちのプロジェクトを実社会に適応可能なものにするために、様々な立場の方々に取材を行い、そこで得られた知見をプロジェクトに反映させています。</p>
                 </Col>
             </Row>
 
