@@ -13,6 +13,10 @@ import iGEM3 from 'images/others/iGEM3.jpeg'
 import iGEM4 from 'images/others/iGEM4.jpg'
 import flowerver from 'images/others/2021_history.jpg'
 import SLiCE from 'images/others/SLiCE.jpeg'
+import history2012 from 'images/others/2012_history.jpeg'
+import history2017 from 'images/others/2017_history.jpeg'
+import history2018 from 'images/others/2018_history.jpeg'
+import history2019 from 'images/others/2019_history.jpeg'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Container, Row, Col } from 'reactstrap'
 
@@ -75,6 +79,14 @@ export default function About() {
                 2011年度のテーマは「食虫大腸菌」。1、2回生を中心とする新チームで、栄養不足になると光を発して虫をおびき寄せ、捕えて、消化する、そんな「もっと生き物っぽい」新種の大腸菌の開発を目指しました。初めて行われたアジア予選は惜しくも敗退してしまい、メダルは銀にとどまりました。
                 <Link href="https://2011.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
                 <br /><b>2012</b><br />
+                <Image className='history2012'
+                  src={history2012}
+                  alt=""
+                  layout="responsive"
+                  sizes="100vw"
+                  style={{ borderRadius: '10px' }}
+                  priority
+                />
                 2012年度のテーマは"Flower Fairy E.coli"です。御伽噺「花咲か爺さん」のように、自由自在に花を咲かせることのできる大腸菌の開発を目指しました。アジア予選では金メダルを獲得し、見事MITで行われたWorld Championshipに出場しました。
                 <Link href="https://2012.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
                 <br /><b>2013</b><br />
@@ -87,12 +99,36 @@ export default function About() {
                 2016年度のテーマは"NORO CATCHER"です。NORO CATCHERでは、ノロウイルス治療薬開発として一石を投じるために、大腸菌の膜にノロウイルスと結合するタンパク質を発現させました。さらに食物繊維が消化されないことに着目し、セルロースと結合するタンパク質も同時発現させることで、効率的な除去を可能とし得る大腸菌を作成することに成功しました。Giant Jamboreeでは見事金メダルを獲得しました。
                 <Link href="https://2016.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
                 <br /><b>2017</b><br />
+                <Image className='history2017'
+                  src={history2017}
+                  alt=""
+                  layout="responsive"
+                  sizes="100vw"
+                  style={{ borderRadius: '10px' }}
+                  priority
+                />
                 2017年度のテーマは"B. xylophilus Busters"です。B. xylophilus Bustersでは、マツノザイセンチュウという小さな虫にとって毒となる配列をもつRNA分子を酵母に発現させました。その虫は松を食い荒らしてしまい、松枯れ病という病気のもとになります。この酵母を緑色蛍光タンパクGFPでマーク付けし、ザイセンチュウが酵母を摂食していることを確かめたり、目的RNA分子を確実に摂食させるために、Rev-RREシステムを用いて分子を酵母核外に輸送させたりしました。大会までに期待した効果を示すことができず、Giant Jamboreeでは惜しくも銀メダルの獲得となりました。
                 <Link href="https://2017.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
                 <br /><b>2018</b><br />
+                <Image className='history2018'
+                  src={history2018}
+                  alt=""
+                  layout="responsive"
+                  sizes="100vw"
+                  style={{ borderRadius: '10px' }}
+                  priority
+                />
                 2018年度のテーマは"Swallowyces ceerevisiae"です。酵母の液胞表面にナトリウムイオンチャネルを過剰発現することで、ナトリウムの取り込み効率の向上に取り組みました。ナトリウム濃度というのは浸透圧やタンパクの立体構造、その他チャネルの機能に大きな影響を及ぼします。この濃度を上げることは塩を加えることで解決されますが逆に下げることは難しいとされています。私たちは酵母がもともともつトランスポーターの性能を改善し新たにシロイヌナズナ、醤油酵母といったものから塩耐性にまつわる遺伝子を酵母に発現させました。大会ではGold Criteriaともなっていたparts improvementを審査員にきちんと伝えることができなかったのか、悔しくも銀メダルの受賞となりました。
                 <Link href="https://2018.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
                 <br /><b>2019</b><br />
+                <Image className='history2019'
+                  src={history2019}
+                  alt=""
+                  layout="responsive"
+                  sizes="100vw"
+                  style={{ borderRadius: '10px' }}
+                  priority
+                />
                 2019年度のテーマは“My Clothes' Plastic”です。近年問題視されている海洋マイクロプラスチック問題、その原因の一つが洗濯した時に服から落ちる合成繊維であることがわかりました。繊維はとても小さいがために下水処理のシステムをすり抜けていきます。そのため、私たちはこの繊維を凝集させより効率的に回収しやすくさせるデバイスの開発に取り組みました。私たちはプラスチック特異的結合タンパク質をエンキャプスリンと呼ばれるタンパク質の表面に提示させることで、繊維同士を凝集させるのりのようなものの開発に成功しました。大会ではプレゼン、ポスターセッション共に高い評価を受け金賞、その上EnvironmentとBest Parts Collectionという部門賞に最終候補にノミネートされました。
                 <Link href="https://2019.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
                 <br /><b>2020</b><br />
