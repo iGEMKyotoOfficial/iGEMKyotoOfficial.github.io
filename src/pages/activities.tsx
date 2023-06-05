@@ -119,7 +119,7 @@ export default function Frame({ imageOn = true, src }:
                 </Col>
                 <Col md='7'>
                     <h1  style={{ marginBottom: '30px', marginTop: '30px', textDecoration:"underline"}}>Collaboration</h1>
-                    <p>国内や海外のiGEMチームとプロジェクトの各面について意見交換を行うこともプロジェクトのブラッシュアップに必要不可欠です。そのほか、プラスミドなどの実験材料の交換や、モデリングやwikiにおけるノウハウの交換なども行っており、活動に必要不可欠です。</p>
+                    <p>国内や海外のiGEMチームとプロジェクトの各面について意見交換を行うこともプロジェクトのブラッシュアップに必要不可欠です。そのほか、プラスミドなどの実験材料の交換や、モデリングやWikiにおけるノウハウの交換なども行っており、活動に必要不可欠です。</p>
                 </Col>
             </Row>
 
