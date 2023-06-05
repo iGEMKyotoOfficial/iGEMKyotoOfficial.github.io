@@ -31,7 +31,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={discussion}
                                 alt=""
@@ -50,7 +50,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={wet}
                                 alt=""
@@ -69,7 +69,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={dry}
                                 alt=""
@@ -88,7 +88,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={wiki}
                                 alt=""
@@ -107,7 +107,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={collaboration}
                                 alt=""
@@ -126,7 +126,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={practice}
                                 alt=""
@@ -145,7 +145,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={education}
                                 alt=""
@@ -164,7 +164,7 @@ export default function Frame({ imageOn = true, src }:
             <Row style={{ marginBottom: '30px'}}>
                 <Col>
                     {imageOn && (
-                        <figure style={{ position: 'relative', overflow: "hidden", width: "450px", height: "338px", borderRadius:"10px"}}>
+                        <figure style={{ position: 'relative', overflow: "hidden", width: "400px", height: "338px", borderRadius:"10px"}}>
                             <Image 
                                 src={jamboree}
                                 alt=""
