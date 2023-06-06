@@ -52,7 +52,7 @@ export default function Frame({ imageOn = true, src }:
                     {imageOn && (
                         <figure style={{ position: 'relative', overflow: "hidden", borderRadius: "10px" }}>
                             <Image
-                                src={discussion}
+                                src={wet}
                                 alt=""
                                 layout='intrinsic'
                                 style={{ objectFit: 'cover' }}
@@ -71,7 +71,7 @@ export default function Frame({ imageOn = true, src }:
                     {imageOn && (
                         <figure style={{ position: 'relative', overflow: "hidden", borderRadius: "10px" }}>
                             <Image
-                                src={discussion}
+                                src={dry}
                                 alt=""
                                 layout='intrinsic'
                                 style={{ objectFit: 'cover' }}
@@ -90,7 +90,7 @@ export default function Frame({ imageOn = true, src }:
                     {imageOn && (
                         <figure style={{ position: 'relative', overflow: "hidden", borderRadius: "10px" }}>
                             <Image
-                                src={discussion}
+                                src={wiki}
                                 alt=""
                                 layout='intrinsic'
                                 style={{ objectFit: 'cover' }}
@@ -109,7 +109,7 @@ export default function Frame({ imageOn = true, src }:
                     {imageOn && (
                         <figure style={{ position: 'relative', overflow: "hidden", borderRadius: "10px" }}>
                             <Image
-                                src={discussion}
+                                src={collaboration}
                                 alt=""
                                 layout='intrinsic'
                                 style={{ objectFit: 'cover' }}
@@ -128,7 +128,7 @@ export default function Frame({ imageOn = true, src }:
                     {imageOn && (
                         <figure style={{ position: 'relative', overflow: "hidden", borderRadius: "10px" }}>
                             <Image
-                                src={discussion}
+                                src={practice}
                                 alt=""
                                 layout='intrinsic'
                                 style={{ objectFit: 'cover' }}
@@ -147,7 +147,7 @@ export default function Frame({ imageOn = true, src }:
                     {imageOn && (
                         <figure style={{ position: 'relative', overflow: "hidden", borderRadius: "10px" }}>
                             <Image
-                                src={discussion}
+                                src={education}
                                 alt=""
                                 layout='intrinsic'
                                 style={{ objectFit: 'cover' }}
@@ -166,7 +166,7 @@ export default function Frame({ imageOn = true, src }:
                     {imageOn && (
                         <figure style={{ position: 'relative', overflow: "hidden", borderRadius: "10px" }}>
                             <Image
-                                src={discussion}
+                                src={jamboree}
                                 alt=""
                                 layout='intrinsic'
                                 style={{ objectFit: 'cover' }}
