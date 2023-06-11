@@ -5,7 +5,8 @@ import {after} from "underscore";
 
 function PreLoader1(link){ //get link as href
   const [done, setDone] = useState(undefined);
-  urls = link.querySelectorAll(Frame||Image)
+  urls = Array.concat(link.querySelectorAll(Frame).src, link.querySelectorAll(Image).src);
+
   useEffect(() => {
     setTimeout(() => {
       onload=(after(urls.length, () => {
