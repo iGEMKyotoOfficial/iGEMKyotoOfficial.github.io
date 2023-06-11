@@ -2,6 +2,28 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 import Meta from 'components/meta'
+import React, { useState, useEffect } from 'react'
+import { useSpring, animated } from 'react-spring'
+
+export const FadeInSample = () => {
+  const [toggle, setToggle] = useState(false)
+  const styles = useSpring({ opacity: toggle ? 1 : 0 })
+
+  const handleToggle = () => {
+    setToggle(_toggle => !_toggle)
+  }
+
+  useEffect(() => {
+    handleToggle()
+  }, [])
+
+  return (
+    <animated.div style={styles}>
+      <p>Fade in text</p>
+    </animated.div>
+  )
+}
+
 
 export default function Contact() {
     return (

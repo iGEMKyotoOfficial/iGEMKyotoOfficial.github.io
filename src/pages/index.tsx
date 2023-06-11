@@ -99,9 +99,7 @@ export default function Home() {
         data-height="700"
         data-theme="light"
         href="https://twitter.com/iGEMkyoto?ref_src=twsrc%5Etfw"
-      >
-        Tweets by iGEMkyoto
-      </Link>
+      ></Link>
       <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8">
       </script>
       <div><br /></div>
