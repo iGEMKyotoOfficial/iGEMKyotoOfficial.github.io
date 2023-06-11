@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }:
       gtag.pageview(url)
     }
     router.events.on('routeChangeComplete', handleRouteChange)
+    router.events.on('routeChangeComplete',PreLoader1)
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
