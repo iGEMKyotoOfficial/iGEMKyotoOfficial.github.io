@@ -2,7 +2,7 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 import Frame from 'components/member.people'
-import styles from 'src/styles/member.module.css'
+import Meta from 'components/meta'
 
 import ishibashi from 'images/member.2023/2023_ishibashi.jpg'
 import abe from 'images/member.2023/2023_abe.jpg'
@@ -15,10 +15,18 @@ import mihara from 'images/member.2023/2023_mihara.jpg'
 import jana from 'images/member.2023/2023_jana.jpg'
 import hayashi from 'images/member.2023/2023_hayashi.jpg'
 import kiriyama from 'images/member.2023/2023_kiriyama.jpg'
+import yasui from 'images/member.2023/2023_yasui.jpg'
+import okamoto from 'images/member.2023/2023_okamoto.jpg'
+import kanai from 'images/member.2023/2023_kanai.jpg'
+import inagaki from 'images/member.2023/2023_inagaki.jpg'
 
 export default function About() {
   return (
     <Contain>
+      <Meta
+        pageTitle="Member"
+        pageDesc="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
+      />
       <Hero
         title="Member"
         subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
@@ -59,23 +67,44 @@ export default function About() {
         見てても動かないが気づいたら進んでいる、そんな亀みたいな人間です。
       </Frame>
       <br />
+      <Frame subtitle="稲垣 雄太 (Yuta INAGAKI)" src={inagaki}>
+        Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Wet Experiment<br />
+        Hobby: 旅行、空手 <br />
+        時間は創るものですよね……
+      </Frame>
+      <br />
       <Frame subtitle="内山 新平 (Shimpei UCHIYAMA)" src={uchiyama}>
         Senior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University <br />
-        Role: Paper search <br />
+        Role: Paper Search <br />
         Hobby: Soccer <br />
         一番多忙な人間が一番多くの時間を持つ
       </Frame>
       <br />
+      <Frame subtitle="岡本 陽（Haru OKAMOTO)" src={okamoto}>
+        Freshman of the Department of Applied Life Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Wet Experiment<br />
+        Hobby: 魚とり、買い物 <br />
+        英語が読めません。
+      </Frame>
+      <br />
+      <Frame subtitle="金井 志耕(Shiko KANAI)" src={kanai}>
+        Freshman of the Department of Bioresource Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Wet Experiment<br />
+        Hobby: 魚釣り、雑草 <br />
+        追い詰められると頑張るタイプです
+      </Frame>
+      <br />
       <Frame subtitle="桐山 賢斗 (Kento Kiriyama)" src={kiriyama}>
         Freshman of the Department of Pharmaceutical Sciences, Faculty of Pharmaceutical Science, Kyoto University <br />
-        Role: dry,wet,all <br />
+        Role: Dry Experiment, Wet Experiment<br />
         Hobby: tennis <br />
         桐-Kiri-iGEM編episode of side K
       </Frame>
       <br />
       <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
         Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto University <br />
-        Role: Wet Experiment and Human Practice <br />
+        Role: Wet Experiment, Human Practice <br />
         Hobby: 鉄道旅行 <br />
         一般的な変人京大生です
       </Frame>
@@ -89,14 +118,14 @@ export default function About() {
       <br />
       <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>
         Senior of the Faculty of Science, Kyoto University <br />
-        Role: Wiki, Dry <br />
+        Role: Wiki, Dry Experiment<br />
         Hobby: 競プロ, ゲーム <br />
         いつも心に太陽を
       </Frame>
       <br />
       <Frame subtitle="	福岡 大空 (Taku FUKUOKA)" src={fukuoka}>
         Sophomore of the Department of Forest and Biomaterials Science, the Faculty of Agriculture, Kyoto University <br />
-        Role: Collaboration and Education <br />
+        Role: Collaboration, Education <br />
         Hobby: 生け花 <br />
         目指せ脱力
       </Frame>
@@ -117,9 +146,16 @@ export default function About() {
       <br />
       <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={jana}>
         Junior of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University  <br />
-        Role: Paper Search and Wet Experiment <br />
+        Role: Paper Search, Wet Experiment <br />
         Hobby: 執筆 <br />
         パラジウム触媒万能
+      </Frame>
+      <br />
+      <Frame subtitle="安井 雄大 (Yudai YASUI)" src={yasui}>
+        Freshman of the Faculty of Science, Kyoto University <br />
+        Role: Dry Experiment<br />
+        Hobby: Traveling <br />
+        腹が減っては戦はできぬ
       </Frame>
     </Contain>
   )

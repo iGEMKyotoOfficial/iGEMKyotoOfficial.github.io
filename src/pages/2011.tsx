@@ -1,14 +1,18 @@
 import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
-import styles from 'src/styles/member.module.css'
+import Meta from 'components/meta'
 
 export default function About() {
     return (
         <Contain>
+            <Meta
+                pageTitle="Member"
+                pageDesc="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
+            />
             <Hero
                 title="Member"
-                subtitle="歴代メンバーをご紹介します　（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
+                subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
             />
 
             <div className="pagination-wrapper">
