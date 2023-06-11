@@ -15,7 +15,7 @@ export default function Nav(){
     const closeNav = (a) => {
         setNavIsOpen(false)
         PreLoader1(a)
-        console.log(hi)
+        console.log("hi")
     }
 
     return(
