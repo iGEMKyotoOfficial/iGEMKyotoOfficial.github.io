@@ -20,7 +20,7 @@ function PreLoader1(link){ //get link as href
     <>
       {!done ? ( //if NOT done
         return(
-          <div>
+          <div class="overlay">
             <PulseLoader //built-in react loading thing, change with custom soon
           color={"#44af6c"}
             />
