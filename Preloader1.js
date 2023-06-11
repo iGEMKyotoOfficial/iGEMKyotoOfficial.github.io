@@ -1,10 +1,11 @@
+import Frame from "components/member.people";
 import React, { useEffect, useState } from "react";
 import PulseLoader from "react-loading";
 import {after} from "underscore";
 
-function PreLoader1({urls}){ //array of images
+function PreLoader1(link){ //get link as href
   const [done, setDone] = useState(undefined);
-
+  urls = link.querySelectorAll(Frame)
   useEffect(() => {
     setTimeout(() => {
       onload=(after(urls.length, () => {
