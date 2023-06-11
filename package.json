@@ -34,5 +34,6 @@
     "@types/gtag.js": "^0.0.12",
     "next-sitemap": "^4.1.3",
     "serve": "^14.2.0"
-  }
+  },
+  "proxy": "https://igemkyotoofficial.github.io/"
 }
