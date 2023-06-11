@@ -19,6 +19,7 @@ import yasui from 'images/member.2023/2023_yasui.jpg'
 import okamoto from 'images/member.2023/2023_okamoto.jpg'
 import kanai from 'images/member.2023/2023_kanai.jpg'
 import inagaki from 'images/member.2023/2023_inagaki.jpg'
+import suzawa from 'images/member.2023/2023_suzawa.jpg'
 
 export default function About() {
   return (
@@ -100,6 +101,13 @@ export default function About() {
         Role: Dry Experiment, Wet Experiment<br />
         Hobby: tennis <br />
         桐-Kiri-iGEM編episode of side K
+      </Frame>
+      <br />
+      <Frame subtitle="須澤 令 (Rei SUZAWA)" src={suzawa}>
+        Freshman of the Department of Forest and Biomaterials Science, the Faculty of Agriculture, Kyoto University <br />
+        Role: Wet Experiment <br />
+        Hobby: サッカー、ゲーム、サイクリング、旅行 <br />
+        
       </Frame>
       <br />
       <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
