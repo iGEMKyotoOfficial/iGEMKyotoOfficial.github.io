@@ -19,14 +19,13 @@ function PreLoader1(link){ //get link as href
   return (
     <>
       {!done ? ( //if NOT done
-        return(
-          <div class="overlay">
-            <PulseLoader //built-in react loading thing, change with custom soon
+        <div class="overlay">
+          <PulseLoader //built-in react loading thing, change with custom soon
           color={"#44af6c"}
-            />
-          </div>
+          />
+        </div>
         )
-      ) : (//normal post
+      : (//normal post
         console.log(やっちゃう)
       )}
     </>
