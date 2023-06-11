@@ -1,7 +1,7 @@
 import Frame from "components/member.people";
 import React, { useEffect, useState } from "react";
 import PulseLoader from "react-loading";
-import {after} from "underscore";
+import after from "underscore";
 
 function PreLoader1(link){ //get link as href
   const [done, setDone] = useState(undefined);
