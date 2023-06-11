@@ -12,7 +12,7 @@ export default function Nav(){
         setNavIsOpen((prev) => !(prev))
     }
 
-    const closeNav = (a) => {
+    const closeNav = (a: String) => {
         setNavIsOpen(false)
         PreLoader1(a)
         console.log("hi")
