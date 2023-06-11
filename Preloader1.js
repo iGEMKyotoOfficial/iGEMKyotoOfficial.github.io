@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import PulseLoader from "react-loading";
 
-function PreLoader1() {
+function PreLoader1(link) {
   const [data, setData] = useState([]);
   const [done, setDone] = useState(undefined);
 
   useEffect(() => {
     setTimeout(() => {
-      fetch('/about')
+      fetch(link)
         .then((response) => response.json())
         .then((json) => {
           console.log(json);

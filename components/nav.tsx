@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Link from 'next/link'
 import styles from 'src/styles/nav.module.css'
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+import PreLoader1 from 'PreLoader1.js'
 
 export default function Nav(){
     const [navIsOpen, setNavIsOpen] = useState(false)
@@ -10,8 +11,9 @@ export default function Nav(){
         setNavIsOpen((prev) => !(prev))
     }
 
-    const closeNav = () => {
+    const closeNav = (link) => {
         setNavIsOpen(false)
+        PreLoader1(link)
     }
 
     return(
@@ -35,32 +37,32 @@ export default function Nav(){
             <ul className={styles.list}>
                 <li>
                     <Link href="/" legacyBehavior>
-                            <a onClick={closeNav} className="home">Home</a>
+                            <a onClick={closeNav("/")} className="home">Home</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/about" legacyBehavior>
-                        <a onClick={closeNav} className="about">About</a>
+                        <a onClick={closeNav("/about")} className="about">About</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/member" legacyBehavior>
-                        <a onClick={closeNav} className="member">メンバー</a>
+                        <a onClick={closeNav("/member")} className="member">メンバー</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/activities" legacyBehavior>
-                        <a onClick={closeNav} className="activities">活動紹介</a>
+                        <a onClick={closeNav("/activities")} className="activities">活動紹介</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/finance" legacyBehavior>
-                        <a onClick={closeNav} className="finance">協賛・寄付</a>
+                        <a onClick={closeNav("/finance")} className="finance">協賛・寄付</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/contact" legacyBehavior>
-                        <a onClick={closeNav} className="contact">お問い合わせ</a>
+                        <a onClick={closeNav("/contact")} className="contact">お問い合わせ</a>
                     </Link>
                 </li>
             </ul>
