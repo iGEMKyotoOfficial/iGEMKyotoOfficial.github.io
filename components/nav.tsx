@@ -37,32 +37,32 @@ export default function Nav(){
             <ul className={styles.list}>
                 <li>
                     <Link href="/" legacyBehavior>
-                            <a onClick={closeNav("/")} className="home">Home</a>
+                            <a onClick={PreLoader1("/")} className="home">Home</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/about" legacyBehavior>
-                        <a onClick={closeNav("/about")} className="about">About</a>
+                        <a onClick={PreLoader1("/about")} className="about">About</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/member" legacyBehavior>
-                        <a onClick={closeNav("/member")} className="member">メンバー</a>
+                        <a onClick={PreLoader1("/member")} className="member">メンバー</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/activities" legacyBehavior>
-                        <a onClick={closeNav("/activities")} className="activities">活動紹介</a>
+                        <a onClick={PreLoader1("/activities")} className="activities">活動紹介</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/finance" legacyBehavior>
-                        <a onClick={closeNav("/finance")} className="finance">協賛・寄付</a>
+                        <a onClick={PreLoader1("/finance")} className="finance">協賛・寄付</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/contact" legacyBehavior>
-                        <a onClick={closeNav("/contact")} className="contact">お問い合わせ</a>
+                        <a onClick={PreLoader1("/contact")} className="contact">お問い合わせ</a>
                     </Link>
                 </li>
             </ul>

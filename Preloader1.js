@@ -32,6 +32,7 @@ function PreLoader1(link) {
       )}
     </>
   );
+  console.log("雲ちゃん")
 }
 
 export default PreLoader1;
