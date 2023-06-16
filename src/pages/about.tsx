@@ -332,7 +332,71 @@ export default function About() {
         <TwoColumnSidebar>
           <div className="hidden md:block col-span-4">
             <div className="sticky top-4">
-              <TableOfContents headings={scrollbarData} />
+              <TableOfContents headings={scrollbarData} length={0} toString={undefined} toLocaleString={undefined} pop={function (): string | undefined {
+                throw new Error('Function not implemented.')
+              } } push={function (...items: string[]): number {
+                throw new Error('Function not implemented.')
+              } } concat={function (...items: ConcatArray<string>[]): string[] {
+                throw new Error('Function not implemented.')
+              } } join={function (separator?: string | undefined): string {
+                throw new Error('Function not implemented.')
+              } } reverse={function (): string[] {
+                throw new Error('Function not implemented.')
+              } } shift={function (): string | undefined {
+                throw new Error('Function not implemented.')
+              } } slice={function (start?: number | undefined, end?: number | undefined): string[] {
+                throw new Error('Function not implemented.')
+              } } sort={function (compareFn?: ((a: string, b: string) => number) | undefined): JSX.IntrinsicAttributes & string[] & { headings: Heading[] } {
+                throw new Error('Function not implemented.')
+              } } splice={function (start: number, deleteCount?: number | undefined): string[] {
+                throw new Error('Function not implemented.')
+              } } unshift={function (...items: string[]): number {
+                throw new Error('Function not implemented.')
+              } } indexOf={function (searchElement: string, fromIndex?: number | undefined): number {
+                throw new Error('Function not implemented.')
+              } } lastIndexOf={function (searchElement: string, fromIndex?: number | undefined): number {
+                throw new Error('Function not implemented.')
+              } } every={function <S extends string>(predicate: (value: string, index: number, array: string[]) => value is S, thisArg?: any): this is S[] {
+                throw new Error('Function not implemented.')
+              } } some={function (predicate: (value: string, index: number, array: string[]) => unknown, thisArg?: any): boolean {
+                throw new Error('Function not implemented.')
+              } } forEach={function (callbackfn: (value: string, index: number, array: string[]) => void, thisArg?: any): void {
+                throw new Error('Function not implemented.')
+              } } map={function <U>(callbackfn: (value: string, index: number, array: string[]) => U, thisArg?: any): U[] {
+                throw new Error('Function not implemented.')
+              } } filter={function <S extends string>(predicate: (value: string, index: number, array: string[]) => value is S, thisArg?: any): S[] {
+                throw new Error('Function not implemented.')
+              } } reduce={function (callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string): string {
+                throw new Error('Function not implemented.')
+              } } reduceRight={function (callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string): string {
+                throw new Error('Function not implemented.')
+              } } find={function <S extends string>(predicate: (value: string, index: number, obj: string[]) => value is S, thisArg?: any): S | undefined {
+                throw new Error('Function not implemented.')
+              } } findIndex={function (predicate: (value: string, index: number, obj: string[]) => unknown, thisArg?: any): number {
+                throw new Error('Function not implemented.')
+              } } fill={function (value: string, start?: number | undefined, end?: number | undefined): JSX.IntrinsicAttributes & string[] & { headings: Heading[] } {
+                throw new Error('Function not implemented.')
+              } } copyWithin={function (target: number, start: number, end?: number | undefined): JSX.IntrinsicAttributes & string[] & { headings: Heading[] } {
+                throw new Error('Function not implemented.')
+              } } entries={function (): IterableIterator<[number, string]> {
+                throw new Error('Function not implemented.')
+              } } keys={function (): IterableIterator<number> {
+                throw new Error('Function not implemented.')
+              } } values={function (): IterableIterator<string> {
+                throw new Error('Function not implemented.')
+              } } includes={function (searchElement: string, fromIndex?: number | undefined): boolean {
+                throw new Error('Function not implemented.')
+              } } flatMap={function <U, This = undefined>(callback: (this: This, value: string, index: number, array: string[]) => U | readonly U[], thisArg?: This | undefined): U[] {
+                throw new Error('Function not implemented.')
+              } } flat={function <A, D extends number = 1>(this: A, depth?: D | undefined): FlatArray<A, D>[] {
+                throw new Error('Function not implemented.')
+              } } at={function (index: number): string | undefined {
+                throw new Error('Function not implemented.')
+              } } findLast={function <S extends string>(predicate: (value: string, index: number, array: string[]) => value is S, thisArg?: any): S | undefined {
+                throw new Error('Function not implemented.')
+              } } findLastIndex={function (predicate: (value: string, index: number, array: string[]) => unknown, thisArg?: any): number {
+                throw new Error('Function not implemented.')
+              } } />
             </div>
           </div>
         </TwoColumnSidebar>

@@ -8,11 +8,11 @@ export type Heading = {
     id: string
 };
 
-export type Props = Array<any> & {
+export type Props = Array<string> & {
     headings: Heading[];
 }
 
-const TableOfContents = (props:Props) => {
+const TableOfContents = (sprops:Props) => {
     const headings = props;
     const [activeId, setActiveId] = useState("");
 
