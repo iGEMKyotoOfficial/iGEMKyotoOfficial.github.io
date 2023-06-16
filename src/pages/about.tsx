@@ -24,97 +24,97 @@ import 'bootstrap/dist/css/bootstrap.css'
 const scrollbarData : Heading[] = [
   {
     level: 2,
-    text: "iGEM Kyotoについて"
+    text: "iGEM Kyotoについて",
     id: "1"
   },
   {
     level: 3,
-    text: "2008"
+    text: "2008",
     id: "2"
   },
   {
     level: 3,
-    text: "2009"
+    text: "2009",
     id: "3"
   },
   {
     level: 3,
-    text: "2010"
+    text: "2010",
     id: "4"
   },
   {
     level: 3,
-    text: "2011"
+    text: "2011",
     id: "5"
   },
   {
     level: 3,
-    text: "2012"
+    text: "2012",
     id: "6"
   },
   {
     level: 3,
-    text: "2013"
+    text: "2013",
     id: "7"
   },
   {
     level: 3,
-    text: "2014"
+    text: "2014",
     id: "8"
   },
   {
     level: 3,
-    text: "2016"
+    text: "2016",
     id: "9"
   },
   {
     level: 3,
-    text: "2017"
+    text: "2017",
     id: "10"
   },
   {
     level: 3,
-    text: "2018"
+    text: "2018",
     id: "11"
   },
   {
     level: 3,
-    text: "2019"
+    text: "2019",
     id: "12"
   },
   {
     level: 3,
-    text: "2020"
+    text: "2020",
     id: "13"
   },
   {
     level: 3,
-    text: "2021"
+    text: "2021",
     id: "14"
   },
   {
     level: 3,
-    text: "2022"
+    text: "2022",
     id: "15"
   },
   {
     level: 3,
-    text: "2023"
+    text: "2023",
     id: "16"
   },
   {
     level: 2,
-    text: "iGEMについて"
+    text: "iGEMについて",
     id: "17"
   },
   {
     level: 2,
-    text: "合成生物学とは"
+    text: "合成生物学とは",
     id: "18"
   },
   {
     level: 2,
-    text: "iGEM の大会コンセプト"
+    text: "iGEM の大会コンセプト",
     id: "19"
   },
 ]
