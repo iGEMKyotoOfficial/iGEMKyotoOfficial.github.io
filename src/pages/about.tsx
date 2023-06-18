@@ -20,6 +20,7 @@ import history2019 from 'images/others/2019_history.jpeg'
 import TableOfContents from 'components/tableOfContents'
 import { Heading } from 'components/tableOfContents'
 import 'bootstrap/dist/css/bootstrap.css'
+import { Container, Row, Col } from "reactstrap";
 
 const scrollbarData : Heading[] = [
   {
@@ -165,19 +166,19 @@ export default function About() {
             </Row>
             <Accordion heading="iGEM Kyotoの歴史">
               <p>
-                <b id ="2" class="2008">2008</b><br />
+                <b id ="2" className="2008">2008</b><br />
                 iGEM Kyotoは2008年度に結成しました。メンバーは様々な専攻の学部学生を主体とし、加えて修士院生とアドバイザーから構成されています。テーマ"Raise the Titanic!"の独創性は群を抜いていましたが、残念ながら入賞を逃しました。
                 <Link href="https://2008.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id ="3" class="2009">2009</b><br />
+                <br /><b id ="3" className="2009">2009</b><br />
                 「今年こそは」と意気込んだ2009年は、さらにユニークなプロジェクトを二つ（"Time Bomb"と"Cells in cells"）立ち上げ、主に夏休みの期間を利用して遂行し、銀賞を受賞しました。
                 <Link href="https://2009.igem.org/Team:Kyoto/GSDD/Abstract" className="simple_square_btn2">Wiki</Link>
-                <br /><b id ="4" class="2010">2010</b><br />
+                <br /><b id ="4" className="2010">2010</b><br />
                 2010年度のプロジェクトは"The Fantastic Lysisbox"です。バイオハザードの対策を考える中から細胞を溶かすことに注目しました。これはバイオハザードの防止だけでなく、製薬やさらに身近な例としてはバイオアロマなどにも応用できる優れたデバイスです。今年度の大会は11/5～11/8にかけて行われ、金賞を受賞しました。
                 <Link href="https://2010.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="5" class="2011">2011</b><br />
+                <br /><b id="5" className="2011">2011</b><br />
                 2011年度のテーマは「食虫大腸菌」。1、2回生を中心とする新チームで、栄養不足になると光を発して虫をおびき寄せ、捕えて、消化する、そんな「もっと生き物っぽい」新種の大腸菌の開発を目指しました。初めて行われたアジア予選は惜しくも敗退してしまい、メダルは銀にとどまりました。
                 <Link href="https://2011.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="6" class="2012">2012</b><br />
+                <br /><b id="6" className="2012">2012</b><br />
                 <Image className='history2012'
                   src={history2012}
                   alt=""
@@ -188,16 +189,16 @@ export default function About() {
                 />
                 2012年度のテーマは"Flower Fairy E.coli"です。御伽噺「花咲か爺さん」のように、自由自在に花を咲かせることのできる大腸菌の開発を目指しました。アジア予選では金メダルを獲得し、見事MITで行われたWorld Championshipに出場しました。
                 <Link href="https://2012.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="7" class="2013">2013</b><br />
+                <br /><b id="7" className="2013">2013</b><br />
                 2013年度のテーマは"RNA Oscillator"と"Pattern Generation"です。RNA Oscillatorは、RNAを用いて点滅のような振動を表現しようとしました。Pattern Generationでは、動物の体表などに現れる模様のパターンの再現を目指しました。アジア予選では、銀メダルを獲得しました。
                 <Link href="https://2013.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="8" class="2014">2014</b><br />
+                <br /><b id="8" className="2014">2014</b><br />
                 2014年度のテーマは"Magnetosome Formation"と"DMS Synthesis"です。Magnetosome Formationでは磁性を持つ大腸菌を実現しようとしました。DMS Synthesisでは雨の凝結核の元となる物質であるDMSを大腸菌に生合成させることを目指しました。Giant Jamboreeでは見事金メダルを獲得しました。
                 <Link href="https://2014.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="9" class="2016">2016</b><br />
+                <br /><b id="9" className="2016">2016</b><br />
                 2016年度のテーマは"NORO CATCHER"です。NORO CATCHERでは、ノロウイルス治療薬開発として一石を投じるために、大腸菌の膜にノロウイルスと結合するタンパク質を発現させました。さらに食物繊維が消化されないことに着目し、セルロースと結合するタンパク質も同時発現させることで、効率的な除去を可能とし得る大腸菌を作成することに成功しました。Giant Jamboreeでは見事金メダルを獲得しました。
                 <Link href="https://2016.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="10" class="2017">2017</b><br />
+                <br /><b id="10" className="2017">2017</b><br />
                 <Image className='history2017'
                   src={history2017}
                   alt=""
@@ -208,7 +209,7 @@ export default function About() {
                 />
                 2017年度のテーマは"B. xylophilus Busters"です。B. xylophilus Bustersでは、マツノザイセンチュウという小さな虫にとって毒となる配列をもつRNA分子を酵母に発現させました。その虫は松を食い荒らしてしまい、松枯れ病という病気のもとになります。この酵母を緑色蛍光タンパクGFPでマーク付けし、ザイセンチュウが酵母を摂食していることを確かめたり、目的RNA分子を確実に摂食させるために、Rev-RREシステムを用いて分子を酵母核外に輸送させたりしました。大会までに期待した効果を示すことができず、Giant Jamboreeでは惜しくも銀メダルの獲得となりました。
                 <Link href="https://2017.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="11" class="2018">2018</b><br />
+                <br /><b id="11" className="2018">2018</b><br />
                 <Image className='history2018'
                   src={history2018}
                   alt=""
@@ -219,7 +220,7 @@ export default function About() {
                 />
                 2018年度のテーマは"Swallowyces ceerevisiae"です。酵母の液胞表面にナトリウムイオンチャネルを過剰発現することで、ナトリウムの取り込み効率の向上に取り組みました。ナトリウム濃度というのは浸透圧やタンパクの立体構造、その他チャネルの機能に大きな影響を及ぼします。この濃度を上げることは塩を加えることで解決されますが逆に下げることは難しいとされています。私たちは酵母がもともともつトランスポーターの性能を改善し新たにシロイヌナズナ、醤油酵母といったものから塩耐性にまつわる遺伝子を酵母に発現させました。大会ではGold Criteriaともなっていたparts improvementを審査員にきちんと伝えることができなかったのか、悔しくも銀メダルの受賞となりました。
                 <Link href="https://2018.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="12" class="2019">2019</b><br />
+                <br /><b id="12" className="2019">2019</b><br />
                 <Image className='history2019'
                   src={history2019}
                   alt=""
@@ -230,9 +231,9 @@ export default function About() {
                 />
                 2019年度のテーマは“My Clothes' Plastic”です。近年問題視されている海洋マイクロプラスチック問題、その原因の一つが洗濯した時に服から落ちる合成繊維であることがわかりました。繊維はとても小さいがために下水処理のシステムをすり抜けていきます。そのため、私たちはこの繊維を凝集させより効率的に回収しやすくさせるデバイスの開発に取り組みました。私たちはプラスチック特異的結合タンパク質をエンキャプスリンと呼ばれるタンパク質の表面に提示させることで、繊維同士を凝集させるのりのようなものの開発に成功しました。大会ではプレゼン、ポスターセッション共に高い評価を受け金賞、その上EnvironmentとBest Parts Collectionという部門賞に最終候補にノミネートされました。
                 <Link href="https://2019.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="13" class="2020">2020</b><br />
+                <br /><b id="13" className="2020">2020</b><br />
                 2020年度は新型コロナウイルスの影響により大会がオンラインになったため、大会には出場せず次年度への準備を進めました。
-                <br /><br /><b id="14" class="2021">2021</b><br />
+                <br /><br /><b id="14" className="2021">2021</b><br />
                 <Image className='flowerver'
                   src={flowerver}
                   alt=""
@@ -243,9 +244,9 @@ export default function About() {
                 />
                 2021年度のテーマは“FLOWEREVER”です。実は私たちの身近にある花には、栽培時のウイルス感染、虫害、販売時や家庭での花の老化・細菌繁殖など様々な課題があります。これら複数の課題に対し、合成生物学を用いた解決法を考えました。ウイルス感染に対しては葉から抽出したRNAからRT-LAMP法という手法でウイルス由来のDNAを増幅し、CRISPR-Cas12aという配列検出システムを用いて蛍光の有無からウイルス感染の有無を検出する手法を開発しました。さらに機械学習を用いることで葉の写真から健康状態を判断するソフトウェアを開発しました。その他にもRNA干渉を用いた殺虫、ペプチドを利用した殺菌、生体分子の効率的生産のためのシステム開発など、取り組んだプロジェクトは多岐にわたっています。オンラインで開催された大会ではWikiとプレゼンテーションビデオを作成し、審査員とオンラインで質疑応答を行いました。結果金賞を受賞し、Best Software Toolという特別賞の最終候補にノミネートされました。
                 <Link href="https://2021.igem.org/Team:Kyoto" className="simple_square_btn2">Wiki</Link>
-                <br /><b id="15" class="2022">2022</b><br />
+                <br /><b id="15" className="2022">2022</b><br />
                 2022年度は大会への出場を経済的理由で見送らざるを得ませんでした。
-                <br /><br /><b id="16" class="2023">2023</b><br />
+                <br /><br /><b id="16" className="2023">2023</b><br />
                 <Image className='SLiCE'
                   src={SLiCE}
                   alt=""
