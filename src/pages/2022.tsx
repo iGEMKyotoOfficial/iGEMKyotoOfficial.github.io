@@ -18,10 +18,8 @@ import mihara from 'images/member.2022/2022_mihara.jpg'
 import mitoma from 'images/member.2022/2022_mitoma.jpg'
 import sekikawa from 'images/member.2022/2022_sekikawa.jpg'
 import tsuchida from 'images/member.2022/2022_tsuchida.jpg'
-import PreLoader from 'components/loading'
 
 export default function About() {
-  PreLoader();
   return (
     <Contain>
       <Meta

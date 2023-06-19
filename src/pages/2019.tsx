@@ -16,10 +16,8 @@ import sakaguchi from 'images/member.2019/team-2019-sakaguchi2.jpg'
 import sakono from 'images/member.2019/team-2019-sakono2.jpg'
 import shiba from 'images/member.2019/team-2019-shiba2.jpg'
 import nishimura from 'images/member.2019/team-2019-nishimura.jpg'
-import PreLoader from 'components/loading'
 
 export default function About() {
-    PreLoader();
     return (
         <Contain>
             <Meta

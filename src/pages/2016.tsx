@@ -26,10 +26,8 @@ import wan from '/images/member.2016/Kyoto-team-wan.jpg'
 import yamada from '/images/member.2016/Kyoto-team-yamada.jpg'
 import yamamoto from '/images/member.2016/Kyoto-team-yamamoto.jpg'
 import sukegawa from 'images/others/white.png'
-import PreLoader from 'components/loading'
 
 export default function About() {
-    PreLoader();
     return (
         <Contain>
             <Meta

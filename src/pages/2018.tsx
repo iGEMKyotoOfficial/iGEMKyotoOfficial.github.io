@@ -15,10 +15,8 @@ import shimazoe from 'images/member.2018/2018_Zoekun.jpg'
 import taguchi from 'images/member.2018/2018_Marichan.jpg'
 import tamukai from 'images/member.2018/2018_Tamuken.jpg'
 import morikawa from 'images/member.2018/2018_Moririn.jpg'
-import PreLoader from 'components/loading'
 
 export default function About() {
-    PreLoader();
     return (
         <Contain>
             <Meta

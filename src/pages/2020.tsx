@@ -22,10 +22,8 @@ import koga from 'images/member.2020/team-2020-koga.jpg'
 import hayashi from 'images/member.2020/team-2020-hayashi.jpg'
 import hirota from 'images/member.2020/team-2020-hirota.jpg'
 import fukushima from 'images/member.2020/team-2020-fukushima.jpg'
-import PreLoader from 'components/loading'
 
 export default function About() {
-    PreLoader();
     return (
         <Contain>
             <Meta
