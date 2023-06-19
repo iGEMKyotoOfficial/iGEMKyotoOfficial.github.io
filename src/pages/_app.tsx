@@ -4,7 +4,6 @@ import 'src/styles/globals.css'
 import Layout from 'components/layout'
 import Script from 'next/script'
 import * as gtag from 'lib/gtag'
-import PreLoader1 from "Preloader1.js"
 
 // Font Awesomeの設定
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -19,7 +18,6 @@ function MyApp({ Component, pageProps }:
       gtag.pageview(url)
     }
     router.events.on('routeChangeComplete', handleRouteChange)
-    router.events.on('routeChangeComplete',PreLoader1)
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange)
     }

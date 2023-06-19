@@ -2,8 +2,6 @@ import {useState} from 'react'
 import Link from 'next/link'
 import styles from 'src/styles/nav.module.css'
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons'
-import PreLoader1 from 'Preloader1'
-
 
 export default function Nav(){
     const [navIsOpen, setNavIsOpen] = useState(false)
@@ -14,7 +12,6 @@ export default function Nav(){
 
     const closeNav = (a: String) => {
         setNavIsOpen(false)
-        PreLoader1(a)
         console.log("hi")
     }
 
