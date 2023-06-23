@@ -31,7 +31,6 @@ export default function Nav(){
             <ul className={styles.list}>
                 <li>
                     <Link href="/" legacyBehavior passHref>
-                            <a onClick={() => closeNav("/")} className="home">Home</a>
                             <a className="home">Home</a>
                     </Link>
                 </li>
@@ -41,19 +40,16 @@ export default function Nav(){
                 </li>
                 <li>
                     <Link href="/activities" legacyBehavior>
-                        <a onClick={() => closeNav("/activities")} className="activities">活動紹介</a>
                         <a className="activities">活動紹介</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/finance" legacyBehavior>
-                        <a onClick={() => closeNav("/finance")} className="finance">協賛・寄付</a>
                         <a className="finance">協賛・寄付</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/contact" legacyBehavior>
-                        <a onClick={() => closeNav("/contact")} className="contact">お問い合わせ</a>
                         <a className="contact">お問い合わせ</a>
 
                     </Link>
