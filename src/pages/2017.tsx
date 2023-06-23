@@ -12,8 +12,10 @@ import bio020 from '/images/member.2017/2017_T--Kyoto--bio020.jpg'
 import Takimotoren3 from '/images/member.2017/2017_Takimotoren3.jpg'
 import Tanigakiyusuke1 from '/images/member.2017/2017_Tanigakiyusuke1.jpg'
 import you from 'images/member.2017/2017_Image_0c0cd5b.iGEMtong.jpg'
+import PreLoader from 'components/loading'
 
 export default function About() {
+    PreLoader();
     return (
         <Contain>
             <Meta

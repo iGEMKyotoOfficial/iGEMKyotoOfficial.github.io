@@ -2,8 +2,10 @@ import Contain from 'components/container'
 import Hero from 'components/hero'
 import Link from 'next/link'
 import Meta from 'components/meta'
+import PreLoader from 'components/loading'
 
 export default function About() {
+    PreLoader();
     return (
         <Contain>
             <Meta

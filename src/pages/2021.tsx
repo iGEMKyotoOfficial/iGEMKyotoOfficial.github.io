@@ -23,8 +23,10 @@ import tamura from 'images/member.2021/2021_tamura.jpg'
 import tanaka from 'images/member.2021/2021_tanaka.jpg'
 import ueda from 'images/member.2021/2021_ueda.jpg'
 import { MODERN_BROWSERSLIST_TARGET } from 'next/dist/shared/lib/constants'
+import PreLoader from 'components/loading'
 
 export default function About() {
+    PreLoader();
     return (
         <Contain>
             <Meta
