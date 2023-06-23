@@ -1,6 +1,7 @@
-import Image from 'next/image'
-import 'bootstrap/dist/css/bootstrap.css'
-import { Container, Row, Col } from 'reactstrap'
+import Image from 'next/image';
+import React, {Component} from "react";
+import 'bootstrap/dist/css/bootstrap.css';
+import { Container, Row, Col } from 'reactstrap';
 
 export default function Frame({ children, subtitle, imageOn = true, src }:
     { children: any; subtitle: any; imageOn?: boolean; src: any }) {
@@ -13,10 +14,9 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                                 <Image className='people'
                                     src={src}
                                     alt=""
-                                    fill
-                                    style={{ objectFit: 'cover' }}
+                                    //fillstyle={{ objectFit: 'cover' }}
                                 />
-                            </figure>
+                            </figure> //added line 17, custom classes not being usable in functions is a known bug
                         )}
                     </Col>
                     <Col md='8'>

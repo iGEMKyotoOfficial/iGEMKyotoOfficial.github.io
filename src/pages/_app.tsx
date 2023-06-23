@@ -4,6 +4,10 @@ import 'src/styles/globals.css'
 import Layout from 'components/layout'
 import Script from 'next/script'
 import * as gtag from 'lib/gtag'
+<<<<<<< HEAD
+=======
+import PreLoader from 'components/loading'
+>>>>>>> b1187a8 (toc - weird error prevents local compile)
 
 // Font Awesomeの設定
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -18,6 +22,10 @@ function MyApp({ Component, pageProps }:
       gtag.pageview(url)
     }
     router.events.on('routeChangeComplete', handleRouteChange)
+<<<<<<< HEAD
+=======
+    router.events.on('routeChangeComplete',PreLoader)
+>>>>>>> b1187a8 (toc - weird error prevents local compile)
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
