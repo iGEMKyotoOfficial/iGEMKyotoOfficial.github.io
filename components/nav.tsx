@@ -36,11 +36,17 @@ export default function Nav(){
                 </li>
                 <li>
                     <Link href="/about" legacyBehavior>
+                        <a className="about">About</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/activities" legacyBehavior>
                         <a className="activities">活動紹介</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/member" legacyBehavior>
+                        <a className="member">メンバー</a>
                     </Link>
                 </li>
                 <li>
