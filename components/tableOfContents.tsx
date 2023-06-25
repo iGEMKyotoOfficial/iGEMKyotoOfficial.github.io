@@ -10,7 +10,7 @@ export type Heading = {
 
 export type Props = Array<Heading>
 
-const TableOfContents = (sprops:Props): JSX.Element => {
+export default function TableOfContents({sprops}:{sprops:Props}) {
     const headings = sprops;
     const [activeId, setActiveId] = useState("");
     const [scroll, setScroll] = useState(Number);
@@ -62,7 +62,7 @@ const TableOfContents = (sprops:Props): JSX.Element => {
                     const paddingClass = "pl-2";
                     return (
                         <li key={index} onClick={() => setActiveId(id)}>
-                            <a href={'#${id}'} className={"link" + activeClass + paddingClass}>{headings[index].text}</a>
+                            <a href={`#${id}`} className={"link" + activeClass + paddingClass}>{headings[index].text}</a>
                         </li>
                     );
                 })
@@ -71,5 +71,3 @@ const TableOfContents = (sprops:Props): JSX.Element => {
         </div>
     )
 }
-
-export default TableOfContents;
