@@ -19,8 +19,6 @@ import history2018 from 'images/others/2018_history.jpeg'
 import history2019 from 'images/others/2019_history.jpeg'
 import TableOfContents from 'components/tableOfContents'
 import { Heading } from 'components/tableOfContents'
-import {Row, Col} from 'reactstrap';
-import PreLoader from 'components/loading'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Container, Row, Col } from "reactstrap";
 
@@ -123,7 +121,6 @@ const scrollbarData : Heading[] = [
 ]
 
 export default function About() {
-  PreLoader();
   return (
 
     <Contain >
