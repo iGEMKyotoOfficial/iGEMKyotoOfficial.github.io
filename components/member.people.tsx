@@ -14,7 +14,8 @@ export default function Frame({ children, subtitle, imageOn = true, src }:
                                 <Image className='people'
                                     src={src}
                                     alt=""
-                                    //fillstyle={{ objectFit: 'cover' }}
+                                    fill 
+                                    style={{ objectFit: 'cover' }}
                                 />
                             </figure> //added line 17, custom classes not being usable in functions is a known bug
                         )}
