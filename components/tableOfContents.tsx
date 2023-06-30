@@ -1,6 +1,6 @@
 import React from "react"
 import {useEffect} from "react"
-import {useRef} from "react"
+import {useRef, useState} from "react"
 
 export type Heading = {
     text: String
@@ -8,13 +8,12 @@ export type Heading = {
     id: string
 };
 
-export type Props = Array<string> & {
-    headings: Heading[];
-}
+export type Props = Array<Heading>
 
-const TableOfContents = (sprops:Props) => {
-    const headings = props;
+export default function TableOfContents({sprops}:{sprops:Props}) {
+    const headings = sprops;
     const [activeId, setActiveId] = useState("");
+    const [scroll, setScroll] = useState(Number);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -23,10 +22,10 @@ const TableOfContents = (sprops:Props) => {
                     const id = entry.target.getAttribute("id")!;
                     if (entry.isIntersecting){
                         setActiveId(id);
-                        scrollRef.current = window.scrollY;
+                        setScroll(window.scrollY);
                     }
                     else{
-                        const diff = scrollRef.current = window.scrollY;
+                        const diff = scroll - window.scrollY;
                         const isScrollingUp = diff > 0;
                         const currentIndex = headings.findIndex((h) => h.id === id);
                         const prevEntry = headings[currentIndex-1];
@@ -56,14 +55,14 @@ const TableOfContents = (sprops:Props) => {
                 {headings.map((heading, index) => {
                     const id = heading.id||heading.text.toLowerCase();
                     const activeClass = (activeId === id? "link-accent" : "")
-                    const indent = {
-                        3: "pl-2",
-                    };
-                    const level = heading.level
-                    const paddingClass = indent[level]
+                    //const indent = {
+                    //    3: "pl-2",
+                    //};
+                    //const level = heading.level
+                    const paddingClass = "pl-2";
                     return (
                         <li key={index} onClick={() => setActiveId(id)}>
-                            <a href={'#${id}'} className={"link" + activeClass + paddingClass}>{headings?.text}</a>
+                            <a href={`#${id}`} className={"link" + activeClass + paddingClass}>{headings[index].text}</a>
                         </li>
                     );
                 })
@@ -72,5 +71,3 @@ const TableOfContents = (sprops:Props) => {
         </div>
     )
 }
-
-export default TableOfContents;

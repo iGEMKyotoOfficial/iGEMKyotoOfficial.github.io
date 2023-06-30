@@ -4,6 +4,7 @@ import 'src/styles/globals.css'
 import Layout from 'components/layout'
 import Script from 'next/script'
 import * as gtag from 'lib/gtag'
+import PreLoader from 'components/preloader'
 
 // Font Awesomeの設定
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -12,6 +13,8 @@ config.autoAddCss = false
 
 function MyApp({ Component, pageProps }:
   { Component: any, pageProps: any }) {
+    PreLoader();
+
   const router = useRouter()
   useEffect(() => {
     const handleRouteChange = (url: string) => {
