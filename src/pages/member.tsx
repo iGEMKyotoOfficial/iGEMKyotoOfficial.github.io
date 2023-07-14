@@ -62,9 +62,9 @@ export default function About() {
       <br />
       <Frame subtitle="阿部 惇之介 (Junnosuke ABE)" src={abe}>
         Sophomore of the Department of Civil, Environmental and Resources Engineering, the Faculty of Engineering, Kyoto University <br />
-        Role: 実験派の平社員 <br />
+        Role: Wet experiment <br />
         Hobby: 読書風妄想 <br />
-        見てても動かないが気づいたら進んでいる、そんな亀みたいな人間です。
+        見ていても動かないが気づけば進んでいる、そんな亀みたいな人間です。どうぞよろしく。
       </Frame>
       <br />
       <Frame subtitle="稲垣 雄太 (Yuta INAGAKI)" src={inagaki}>
