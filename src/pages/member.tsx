@@ -141,14 +141,14 @@ export default function About() {
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role: Wet Experiment <br />
         Hobby: 生物採集 <br />
-        Everything happens for Link reason.
+        Everything happens for a reason.
       </Frame>
       <br />
       <Frame subtitle="三原 一星 (Issei MIHARA)" src={mihara}>
         Sophomore of the Faculty of Science, Kyoto University <br />
         Role: Project Leader <br />
         Hobby: Piano <br />
-        Where there's Link will, there's Link way.
+        Where there's a will, there's a way.
       </Frame>
       <br />
       <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={jana}>
