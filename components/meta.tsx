@@ -1,55 +1,71 @@
-import Head from 'next/head'
-import { useRouter } from 'next/router'
+import Head from "next/head";
+import { useRouter } from "next/router";
 
 //　サイトに関する情報
-import { siteMeta } from 'lib/constants'
-const{ siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } = siteMeta
+import { siteMeta } from "lib/constants";
+const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } =
+  siteMeta;
 
 //汎用OGP画像
-import siteImg from 'images/others/logo.png'
+import siteImg from "images/others/logo.png";
 
-export default function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }:{pageTitle?:string; pageDesc?:string; pageImg?:string; pageImgW?:string; pageImgH?:string;}) {
-    // ページのタイトル
-    const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
+export default function Meta({
+  pageTitle,
+  pageDesc,
+  pageImg,
+  pageImgW,
+  pageImgH,
+}: {
+  pageTitle?: string;
+  pageDesc?: string;
+  pageImg?: string;
+  pageImgW?: string;
+  pageImgH?: string;
+}) {
+  // ページのタイトル
+  const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle;
 
-    // ページの説明
-    const desc = pageDesc ?? siteDesc
+  // ページの説明
+  const desc = pageDesc ?? siteDesc;
 
-    //ページのURL
-    const router = useRouter()
-    const url = `${siteUrl}${router.asPath}`
+  //ページのURL
+  const router = useRouter();
+  const url = `${siteUrl}${router.asPath}`;
 
-    //OPG画像
-    const img = pageImg || siteImg.src
-    const imgW = pageImgW || siteImg.width.toString()
-    const imgH = pageImgH || siteImg.height.toString()
-    const imgUrl = img.startsWith('https') ? img : `${siteUrl}${img}`
-    
-    return (
-        <Head>
-            <title>{title}</title>
-            <meta property="og:title" content={title} />
+  //OPG画像
+  const img = pageImg || siteImg.src;
+  const imgW = pageImgW || siteImg.width.toString();
+  const imgH = pageImgH || siteImg.height.toString();
+  const imgUrl = img.startsWith("https") ? img : `${siteUrl}${img}`;
 
-            <meta name="description" content={desc} />
-            <meta property="og:description" content={desc} />
+  return (
+    <Head>
+      <title>{title}</title>
+      <meta property="og:title" content={title} />
 
-            <link rel="canonical" href={url} />
-            <meta property="og:url" content={url} />
+      <meta name="description" content={desc} />
+      <meta property="og:description" content={desc} />
 
-            <meta property="og:site_name" content={siteTitle} />
-            <meta property="og:type" content={siteType} />
-            <meta property="og:locale" content={siteLocale} />
+      <link rel="canonical" href={url} />
+      <meta property="og:url" content={url} />
 
-            <link rel="icon" href={siteIcon} />
-            <link rel="apple-touch-icon" href={siteIcon} />
+      <meta property="og:site_name" content={siteTitle} />
+      <meta property="og:type" content={siteType} />
+      <meta property="og:locale" content={siteLocale} />
 
-            <meta property="og:image" content={imgUrl} />
-            <meta property="og:image:width" content={imgW} />
-            <meta property="og:image:height" content={imgH} />
-            <meta name="twitter:card" content="summary_large_image" />
+      <link rel="icon" href={siteIcon} />
+      <link rel="apple-touch-icon" href={siteIcon} />
 
-            {/* for google search console verification */}
-            <meta name="google-site-verification" content="QwflyGqzSZc7prQUOXdTEvo0sglU_XxMhp4gdL75r5w" />
-        </Head>
-    )
-    }
+      <meta property="og:image" content={imgUrl} />
+      <meta property="og:image:width" content={imgW} />
+      <meta property="og:image:height" content={imgH} />
+      <meta name="twitter:card" content="summary_large_image" />
+
+      {/* for google search console verification */}
+      <meta
+        name="google-site-verification"
+        content="QwflyGqzSZc7prQUOXdTEvo0sglU_XxMhp4gdL75r5w"
+      />
+    </Head>
+  );
+}
