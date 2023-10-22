@@ -9,6 +9,20 @@ export default function Nav() {
     setNavIsOpen((prev) => !prev);
   };
 
+  // close the nav when a link is clicked
+  const closeNav = () => {
+    setNavIsOpen(false);
+  };
+
+  const pageLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/activities", label: "活動紹介" },
+    { href: "/member", label: "メンバー" },
+    { href: "/finance", label: "協賛・寄付" },
+    { href: "/contact", label: "お問い合わせ" },
+  ];
+
   return (
     <nav className={navIsOpen ? styles.open : styles.close}>
       {navIsOpen && (
@@ -28,36 +42,13 @@ export default function Nav() {
         <span className="sr-only">MENU</span>
       </button>
       <ul className={styles.list}>
-        <li>
-          <Link href="/" legacyBehavior passHref>
-            <a className="home">Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about" legacyBehavior>
-            <a className="about">About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/activities" legacyBehavior>
-            <a className="activities">活動紹介</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/member" legacyBehavior>
-            <a className="member">メンバー</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/finance" legacyBehavior>
-            <a className="finance">協賛・寄付</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact" legacyBehavior>
-            <a className="contact">お問い合わせ</a>
-          </Link>
-        </li>
+        {pageLinks.map((link) => (
+          <li key={link.href}>
+            <Link href={link.href} onClick={closeNav}>
+              {link.label}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
