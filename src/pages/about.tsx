@@ -190,7 +190,7 @@ export default function About() {
                 Titanic!"の独創性は群を抜いていましたが、残念ながら入賞を逃しました。
                 <Link
                   href="https://2008.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -204,7 +204,7 @@ export default function About() {
                 cells"）立ち上げ、主に夏休みの期間を利用して遂行し、銀賞を受賞しました。
                 <Link
                   href="https://2009.igem.org/Team:Kyoto/GSDD/Abstract"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -217,7 +217,7 @@ export default function About() {
                 Lysisbox"です。バイオハザードの対策を考える中から細胞を溶かすことに注目しました。これはバイオハザードの防止だけでなく、製薬やさらに身近な例としてはバイオアロマなどにも応用できる優れたデバイスです。今年度の大会は11/5～11/8にかけて行われ、金賞を受賞しました。
                 <Link
                   href="https://2010.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -229,7 +229,7 @@ export default function About() {
                 2011年度のテーマは「食虫大腸菌」。1、2回生を中心とする新チームで、栄養不足になると光を発して虫をおびき寄せ、捕えて、消化する、そんな「もっと生き物っぽい」新種の大腸菌の開発を目指しました。初めて行われたアジア予選は惜しくも敗退してしまい、メダルは銀にとどまりました。
                 <Link
                   href="https://2011.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -252,7 +252,7 @@ export default function About() {
                 Championshipに出場しました。
                 <Link
                   href="https://2012.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -267,7 +267,7 @@ export default function About() {
                 Generationでは、動物の体表などに現れる模様のパターンの再現を目指しました。アジア予選では、銀メダルを獲得しました。
                 <Link
                   href="https://2013.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -283,7 +283,7 @@ export default function About() {
                 Jamboreeでは見事金メダルを獲得しました。
                 <Link
                   href="https://2014.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -297,7 +297,7 @@ export default function About() {
                 Jamboreeでは見事金メダルを獲得しました。
                 <Link
                   href="https://2016.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -320,7 +320,7 @@ export default function About() {
                 Jamboreeでは惜しくも銀メダルの獲得となりました。
                 <Link
                   href="https://2017.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -344,7 +344,7 @@ export default function About() {
                 improvementを審査員にきちんと伝えることができなかったのか、悔しくも銀メダルの受賞となりました。
                 <Link
                   href="https://2018.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -367,7 +367,7 @@ export default function About() {
                 Parts Collectionという部門賞に最終候補にノミネートされました。
                 <Link
                   href="https://2019.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -396,7 +396,7 @@ export default function About() {
                 Software Toolという特別賞の最終候補にノミネートされました。
                 <Link
                   href="https://2021.igem.org/Team:Kyoto"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
                   Wiki
                 </Link>
@@ -412,6 +412,11 @@ export default function About() {
                   2023
                 </b>
                 <br />
+                1. 
+                iGEM Kyoto のメンバーによる研究論文が出版されました！
+                高価な試薬を使わずにDNAクローニングを可能にする方法を開発することに成功した研究です。
+                シームレスクローニングという方法に必要な大腸菌抽出液「SLiCE」の成分特定に挑み、2つの酵素が重要であることを特定しました。
+                この成果は国際学術誌 "Genes to Cell" に掲載されました。
                 <Image
                   className="SLiCE"
                   src={SLiCE}
@@ -421,13 +426,21 @@ export default function About() {
                   style={{ borderRadius: "10px" }}
                   priority
                 />
-                iGEM
-                Kyotoのメンバーの研究が、論文として発表されました。詳細はこちらからご覧ください。
                 <Link
                   href="https://www.kyoto-u.ac.jp/ja/research-news/2023-05-17-0"
-                  className="simple_square_btn2"
+                  className="simple_square_btn2 right"
                 >
-                  研究
+                  論文リンク
+                </Link>
+                <br />
+                2. 2023年のテーマは、鹿と大腸菌です。世界的な食料安全保障を達成する上での最大の課題の一つは、野生動物による農作物被害です。日本では食害のうち7割をシカが占めていて京都でも重大な被害をもたらしています。その解決策として、シカの忌避物質を持続的に生産・放出する新しいソリューションを考案しました。これは実際使うことになる農家さんの負担にならないよう、自律的に大腸菌を長期間培養させる必要がありました。そこで、自身の個体数を抑制し、死滅した細胞から栄養をリサイクルするようプログラムすることにしました。さらに、攪拌震盪を自動化するために、水の気化潜熱のみを動力源とするDrinking
+                Bird
+                というおもちゃを元に安価でメンテナンスの容易な装置も設計しました。
+                <Link
+                  href="https://2023.igem.wiki/Kyoto"
+                  className="simple_square_btn2 right"
+                >
+                  Wiki
                 </Link>
               </p>
             </Accordion>
@@ -459,7 +472,10 @@ export default function About() {
               そのため、Wikiというウェブサイト、ポスターあるいはビデオ、口頭プレゼンテーションなど複数のかたちで自分たちのプロジェクトの成果をまとめ上げ、コンテストにおける審査を受けます。
             </p>
             <p>
-              <Link href="https://igem.org" className="simple_square_btn2">
+              <Link
+                href="https://igem.org"
+                className="simple_square_btn2 right"
+              >
                 公式サイト
               </Link>
             </p>
@@ -518,7 +534,7 @@ export default function About() {
             <p>
               <Link
                 href="http://parts.igem.org/Catalog"
-                className="simple_square_btn2"
+                className="simple_square_btn2 right"
               >
                 パーツカタログ
               </Link>

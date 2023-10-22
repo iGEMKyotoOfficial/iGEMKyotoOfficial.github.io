@@ -166,6 +166,10 @@ a.btn-border:hover {
   cursor: pointer;
   text-decoration: none;
 }
+.simple_square_btn2.right {
+  margin-right: 0;
+  margin-left: auto;
+}
 
 .pagination-wrapper {
   text-align: center;

@@ -1,6 +1,7 @@
 import React from "react"
 import {useEffect} from "react"
 import {useRef, useState} from "react"
+import style from "src/styles/tableofcontents.style.module.css"
 
 export type Heading = {
     text: String
@@ -49,8 +50,8 @@ export default function TableOfContents({sprops}:{sprops:Props}) {
     });
 
     return(
-        <div>
-            <h2>Table of Contents</h2>
+        <div className={style.wrapper}>
+            <span>Table of Contents</span>
             <ul>
                 {headings.map((heading, index) => {
                     const id = heading.id||heading.text.toLowerCase();
