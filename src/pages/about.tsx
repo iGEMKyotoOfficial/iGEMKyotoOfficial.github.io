@@ -437,7 +437,7 @@ export default function About() {
                 Bird
                 というおもちゃを元に安価でメンテナンスの容易な装置も設計しました。
                 <Link
-                  href="https://2023.igem.wiki/Kyoto"
+                  href="https://2023.igem.wiki/kyoto"
                   className="simple_square_btn2 right"
                 >
                   Wiki
