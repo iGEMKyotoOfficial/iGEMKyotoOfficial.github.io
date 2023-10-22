@@ -31,31 +31,33 @@
 /* 基本設定 　*/
 body {
   color: var(--black);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sams-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sams-serif;
   font-size: var(--body);
 }
 
-h1{
+h1 {
   font-size: var(--heading1);
 }
 
-h2{
+h2 {
   font-size: var(--heading2);
 }
 
-h3{
+h3 {
   font-size: var(--heading3);
 }
 
-h4{
+h4 {
   font-size: var(--small-heading2);
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
   font-size: var(--heading3);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sams-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sams-serif;
 }
 
 *,
@@ -89,7 +91,6 @@ button.btn {
   border-radius: 0.5rem;
 }
 
-
 a.btn-flat {
   overflow: hidden;
   padding: 1.5rem 6rem;
@@ -108,9 +109,9 @@ a.btn-flat:before {
   left: 0;
   width: 100%;
   height: 100%;
-  content: '';
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  content: "";
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   -webkit-transform: translateX(-96%);
   transform: translateX(-96%);
   background: #f08080;
@@ -120,7 +121,6 @@ a.btn-flat:hover:before {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
 }
-
 
 a.btn-border {
   border: 1px solid #444444;
@@ -145,29 +145,27 @@ a.btn-border:hover {
   color: #ffffff;
 }
 
-
 .simple_square_btn2 {
-	display: block;
-	position: relative;
-	width: 160px;
-	padding: 0.3em;
-	text-align: center;
-	text-decoration: none;
-	color: #222222;
-	background: #fff;
-	border:2px solid var(--gray-25);
-  margin-top:1%;
+  display: block;
+  position: relative;
+  width: 160px;
+  padding: 0.3em;
+  text-align: center;
+  text-decoration: none;
+  color: #222222;
+  background: #fff;
+  border: 2px solid var(--gray-25);
+  margin-top: 1%;
   margin-bottom: 0%;
   border-radius: 0.5em;
   font-size: 100%;
 }
 .simple_square_btn2:hover {
-	 background: #f08080;
-         color: #fff;
-	 cursor: pointer;
-	 text-decoration: none;
+  background: #f08080;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
 }
-
 
 .pagination-wrapper {
   text-align: center;
@@ -203,12 +201,14 @@ a.btn-border:hover {
   line-height: 70px;
   text-decoration: none;
 }
-.page-numbers:hover, .page-numbers.current {
+.page-numbers:hover,
+.page-numbers.current {
   background-color: #f08080;
   color: #ffffff;
   text-decoration: none;
 }
-.page-numbers.prev:hover, .page-numbers.next:hover {
+.page-numbers.prev:hover,
+.page-numbers.next:hover {
   background-color: transparent;
   color: #f08080;
   text-decoration: none;
@@ -236,15 +236,15 @@ a.btn-border:hover {
     text-decoration: none;
     font-size: 25px;
     top: 0;
-   
   }
-  .page-numbers:nth-child(-n+3), .page-numbers:nth-last-child(-n+3) {
+  .page-numbers:nth-child(-n + 3),
+  .page-numbers:nth-last-child(-n + 3) {
     display: block;
   }
-  .page-numbers:nth-last-child(-n+4) {
+  .page-numbers:nth-last-child(-n + 4) {
     padding-right: 14px;
   }
-  .page-numbers:nth-last-child(-n+4)::after {
+  .page-numbers:nth-last-child(-n + 4)::after {
     content: none;
   }
 }
@@ -255,13 +255,21 @@ span > img {
 }
 
 /* リセット */
-body, h1, h2, h3, p, figure, ul {
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -270,36 +278,36 @@ a {
   text-decoration: none;
 }
 
-.twitter-timeline{
+.twitter-timeline {
   margin: auto;
   width: 50%;
 }
 
-.eyecatch{
+.eyecatch {
   border-radius: 10px;
 }
 
-
-.anime_wrap{
+.anime_wrap {
   position: relative;
   overflow: hidden;
   margin-bottom: 1%;
 }
 
-.anime_wrap p{
+.anime_wrap p {
   position: absolute;
   top: 10%;
   left: 8%;
   font-size: 10vw;
   color: #444444;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sams-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sams-serif;
 }
 
 .kenburns-top-right {
-	animation: kenburns-top-right 5s ease-out forwards;
+  animation: kenburns-top-right 5s ease-out forwards;
 }
 
- @keyframes kenburns-top-right {
+@keyframes kenburns-top-right {
   0% {
     transform: scale(1) translate(0, 0);
     transform-origin: 84% 16%;
@@ -311,16 +319,17 @@ a {
 }
 
 .tracking-then-kenburns {
-    animation:
-        tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards,
-        kenburns-top-right 5s ease-out 1s forwards;
+  animation:
+    tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) forwards,
+    kenburns-top-right 5s ease-out 1s forwards;
 }
 
 .tracking-in-contract {
-	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards;
+  animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1)
+    forwards;
 }
 
- @keyframes tracking-in-contract {
+@keyframes tracking-in-contract {
   0% {
     letter-spacing: 0.4em;
     opacity: 0;
@@ -329,123 +338,124 @@ a {
     opacity: 0.5;
   }
   100% {
-    letter-spacing:0.05em;
+    letter-spacing: 0.05em;
     opacity: 1;
   }
 }
 
-
 .cp_card05 {
-	position: relative;
-	overflow: hidden;
+  position: relative;
+  overflow: hidden;
   width: 100%;
-	background: center/cover no-repeat;
-	-webkit-box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
-	        box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  background: center/cover no-repeat;
+  -webkit-box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
   margin-bottom: 0%;
 }
 .cp_card05:hover .description {
-	-webkit-transform: translateY(0);
-	        transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
 }
-.cp_card05 input[type='checkbox'] {
-	display: none;
+.cp_card05 input[type="checkbox"] {
+  display: none;
 }
-.cp_card05 input[type='checkbox']:checked + .meta {
-	-webkit-transform: translateY(-60px);
-	        transform: translateY(-60px);
+.cp_card05 input[type="checkbox"]:checked + .meta {
+  -webkit-transform: translateY(-60px);
+  transform: translateY(-60px);
 }
 .cp_card05:hover .meta span {
-	-webkit-transform: translate(-50%, -10px);
-	        transform: translate(-50%, -10px);
-	opacity: 1;
+  -webkit-transform: translate(-50%, -10px);
+  transform: translate(-50%, -10px);
+  opacity: 1;
 }
 
 .cp_card05 .description {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	-webkit-transition: -webkit-transform 0.3s;
-	        transition: -webkit-transform 0.3s;
-	        transition:         transform 0.3s;
-	        transition:         transform 0.3s, -webkit-transform 0.3s;
-	-webkit-transform: translateY(40px);
-	        transform: translateY(40px);
-	color: #ffffff;
-	background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition:
+    transform 0.3s,
+    -webkit-transform 0.3s;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.4);
 }
 .cp_card05 .description .content {
-	position: relative;
-	z-index: 1;
-	padding: 1em;
+  position: relative;
+  z-index: 1;
+  padding: 1em;
 }
 .cp_card05 .description h1 {
-	font-size: 1.4em;
-	margin-top: 10px;
+  font-size: 1.4em;
+  margin-top: 10px;
 }
 .cp_card05 .description h1 a:hover {
-	color: #f08080;
+  color: #f08080;
 }
 .cp_card05 .description h1 a {
-	color: #ffffff;
-	text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 .cp_card05 .description .text {
-	height: 3em;
-	margin: 0;
+  height: 3em;
+  margin: 0;
 }
 .cp_card05 .description .button {
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 1;
-	position: relative;
-	display: block;
-	width: 100px;
-	margin: 2em auto 1em;
-	text-align: center;
-	color: #ffffff;
-	text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  display: block;
+  width: 100px;
+  margin: 2em auto 1em;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .cp_card05 .description .button:hover {
-	color: #f08080;
+  color: #f08080;
 }
 
 .cp_card05 .meta {
-	float: right;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .cp_card05 .meta::before,
 .cp_card05 .meta::after {
-	display: table;
-	content: '';
+  display: table;
+  content: "";
 }
 .cp_card05 .meta::after {
-	clear: both;
+  clear: both;
 }
 .cp_card05 .meta li {
-	position: relative;
-	display: inline-block;
-	margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
 }
 .cp_card05 .meta a {
-	color: #ffffff;
-	text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 .cp_card05 .meta span {
-	font-size: 10px;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	-webkit-transition: all 0.3s;
-	        transition: all 0.3s;
-	-webkit-transform: translate(-50%, 0);
-	        transform: translate(-50%, 0);
-	opacity: 0;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  opacity: 0;
 }
-div.overlay{
+div.overlay {
   opacity: 0.5;
   width: 100%;
   height: 100%;
@@ -453,12 +463,12 @@ div.overlay{
   z-index: 10;
 }
 @media screen and (max-width: 480px) {
-	.cp_card05 .description .text {
-		height: 3em;
-	}
+  .cp_card05 .description .text {
+    height: 3em;
+  }
 }
 
-.contactlink{
+.contactlink {
   color: #f08080;
   text-decoration: dotted;
   text-decoration-color: #f08080;

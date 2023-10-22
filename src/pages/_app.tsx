@@ -1,39 +1,38 @@
-import { use, useEffect } from 'react'
-import { useRouter } from 'next/router'
-import 'src/styles/globals.css'
-import Layout from 'components/layout'
-import Script from 'next/script'
-import * as gtag from 'lib/gtag'
-import PreLoader from 'components/preloader'
+import { use, useEffect } from "react";
+import { useRouter } from "next/router";
+import "src/styles/globals.css";
+import Layout from "components/layout";
+import Script from "next/script";
+import * as gtag from "lib/gtag";
+import PreLoader from "components/preloader";
 
 // Font Awesomeの設定
-import '@fortawesome/fontawesome-svg-core/styles.css'
-import { config } from '@fortawesome/fontawesome-svg-core'
-config.autoAddCss = false
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
-function MyApp({ Component, pageProps }:
-  { Component: any, pageProps: any }) {
-    PreLoader();
+function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
+  PreLoader();
 
-  const router = useRouter()
+  const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url: string) => {
-      gtag.pageview(url)
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
   return (
     <>
       <Script
-        strategy='afterInteractive'
+        strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_MEASUREMENT_ID}`}
       />
       <Script
         id="gtag-init"
-        strategy='afterInteractive'
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
               window.dataLayer = window.dataLayer || [];
@@ -46,10 +45,10 @@ function MyApp({ Component, pageProps }:
       />
 
       <Layout>
-        <Component{...pageProps} />
+        <Component {...pageProps} />
       </Layout>
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
