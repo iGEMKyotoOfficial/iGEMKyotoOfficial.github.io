@@ -1,9 +1,8 @@
 import Contain from "components/container";
 import Hero from "components/hero";
-import Link from "next/link";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.css";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import Meta from "components/meta";
 
 import discussion from "images/activities/Discussion.jpeg";
@@ -15,13 +14,8 @@ import practice from "images/activities/Human Practice.jpg";
 import education from "images/activities/Education.jpg";
 import jamboree from "images/activities/Jamboree.jpg";
 
-export default function Frame({
-  imageOn = true,
-  src,
-}: {
-  imageOn?: boolean;
-  src: any;
-}) {
+export default function Activities() {
+  const imageOn = true;
   return (
     <Contain>
       <Meta pageTitle="活動紹介" pageDesc="実際の活動内容をご紹介します" />

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Row, Col } from "reactstrap";
@@ -9,10 +9,10 @@ export default function Frame({
   imageOn = true,
   src,
 }: {
-  children: any;
-  subtitle: any;
+  children: React.ReactNode;
+  subtitle: string;
   imageOn?: boolean;
-  src: any;
+  src: StaticImageData | string;
 }) {
   return (
     <Container>

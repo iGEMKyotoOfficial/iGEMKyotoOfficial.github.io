@@ -8,8 +8,8 @@ export default function Hero({
   subtitle,
   imageOn = false,
 }: {
-  title: any;
-  subtitle: any;
+  title: string;
+  subtitle: string;
   imageOn?: boolean;
 }) {
   return (

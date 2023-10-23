@@ -5,7 +5,7 @@ export default function Contain({
   children,
   large = false,
 }: {
-  children: any;
+  children: React.ReactNode;
   large?: boolean;
 }) {
   return (

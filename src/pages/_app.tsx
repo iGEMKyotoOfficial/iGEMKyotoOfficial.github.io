@@ -1,17 +1,18 @@
-import { use, useEffect } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 import "src/styles/globals.css";
 import Layout from "components/layout";
 import Script from "next/script";
 import * as gtag from "lib/gtag";
 import PreLoader from "components/preloader";
+import { AppProps } from "next/app";
 
 // Font Awesomeの設定
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
-function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
+function MyApp({ Component, pageProps }: AppProps) {
   PreLoader();
 
   const router = useRouter();

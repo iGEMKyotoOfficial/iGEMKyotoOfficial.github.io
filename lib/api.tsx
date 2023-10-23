@@ -5,7 +5,7 @@ export const client = createClient({
     apiKey: process.env.API_KEY || "",
 })
 
-export async function getPostBySlug({ slug }: { slug: any }) {
+export async function getPostBySlug({ slug }: { slug: string }) {
     try {
         const post = await client.get({
             endpoint: 'igemkyoto',
@@ -18,6 +18,3 @@ export async function getPostBySlug({ slug }: { slug: any }) {
     }
 }
 
-// function getPostBySlug(slug: any) {
-//     throw new Error('Function not implemented.');
-// }

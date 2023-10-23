@@ -7,8 +7,8 @@ export default function Accordion({
   heading,
   children,
 }: {
-  heading: any;
-  children: any;
+  heading: string;
+  children: React.ReactNode;
 }) {
   const [textIsOpen, setTextIsOpen] = useState(false);
 
