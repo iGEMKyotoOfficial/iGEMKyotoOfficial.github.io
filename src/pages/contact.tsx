@@ -4,6 +4,7 @@ import Link from "next/link";
 import Meta from "components/meta";
 import React, { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
+import PostBody from "components/post-body";
 
 export const FadeInSample = () => {
   const [toggle, setToggle] = useState(false);
@@ -35,12 +36,17 @@ export default function Contact() {
         title="お問い合わせ"
         subtitle="依頼や質問をご希望の方はこちらからお問い合わせください"
       />
-      <Link href="https://forms.gle/Lv8jb4hf8ruA8Gfi6" className="btn btn-flat">
-        <span>お問い合わせフォーム</span>
-      </Link>
-      <div>
-        <br />
-      </div>
+      <PostBody>
+        <Link
+          href="https://forms.gle/Lv8jb4hf8ruA8Gfi6"
+          className="btn btn-flat"
+        >
+          <span>お問い合わせフォーム</span>
+        </Link>
+        <div>
+          <br />
+        </div>
+      </PostBody>
     </Contain>
   );
 }
