@@ -109,42 +109,50 @@ export default function Finance() {
         </p>
 
         <h2>サポーターの皆様</h2>
-                <p>2023年度に、学術系クラウドファンディングサイト「academist（アカデミスト）」でご支援いただいた方々をご紹介します。
-                皆様、本当にありがとうございました。
-                詳細は<Link href='https://academist-cf.com/projects/306?lang=ja' className="contactlink">こちら</Link>からご確認いただけます。
-                <br /><br />
-        Ryo NIWA 様<br />
-        S. J. Shimada 様<br />
-        海野真司 様<br />
-        Yuki Kobayashi 様<br />
-        SMNomura 様<br />
-        Ken Tajiri 様<br />
-        xFOREST Therapeutics 様<br />
-        小松リチャード馨 様<br />
-        wataru 様<br />
-        M Yagyu 様<br />
-        Shunichi KASHIDA 様<br />
-        林オートサービス 様<br />
-        「京大当局は吉田寮自治存続を保証すべき」会有志 様<br />
-        M. Tokoro 様<br />
-        M.O. 様<br />
-        徳法寺 様<br />
-        ICKW 様<br />
-        増本 敬二（東17期） 様<br />
-        唐津東11期卒 戸田芳郎 様<br />
-        Masahi Tsuda 様<br />
-        イカのダンスはすんだのかい 様<br />
-        田中千絵 様<br />
-        タニグチイチロウ 様<br />
-        島添 將誠 様<br />
-        Hidenori Nakaoka 様<br />
-        Keizo Tomonaga 様<br />
-        YS 様<br />
-        合屋智尋 様<br />
-        枝常 拓 様<br />
-        ナカガワメイ 様<br />
-        Alexander Liu 様<br />
-        伊藤俊治 様<br />
+        <p>
+          2023年度に、学術系クラウドファンディングサイト「academist（アカデミスト）」でご支援いただいた方々をご紹介します。
+          皆様、本当にありがとうございました。 詳細は
+          <Link
+            href="https://academist-cf.com/projects/306?lang=ja"
+            className="contactlink"
+          >
+            こちら
+          </Link>
+          からご確認いただけます。
+          <br />
+          <br />
+          Ryo NIWA 様<br />
+          S. J. Shimada 様<br />
+          海野真司 様<br />
+          Yuki Kobayashi 様<br />
+          SMNomura 様<br />
+          Ken Tajiri 様<br />
+          xFOREST Therapeutics 様<br />
+          小松リチャード馨 様<br />
+          wataru 様<br />
+          M Yagyu 様<br />
+          Shunichi KASHIDA 様<br />
+          林オートサービス 様<br />
+          「京大当局は吉田寮自治存続を保証すべき」会有志 様<br />
+          M. Tokoro 様<br />
+          M.O. 様<br />
+          徳法寺 様<br />
+          ICKW 様<br />
+          増本 敬二（東17期） 様<br />
+          唐津東11期卒 戸田芳郎 様<br />
+          Masahi Tsuda 様<br />
+          イカのダンスはすんだのかい 様<br />
+          田中千絵 様<br />
+          タニグチイチロウ 様<br />
+          島添 將誠 様<br />
+          Hidenori Nakaoka 様<br />
+          Keizo Tomonaga 様<br />
+          YS 様<br />
+          合屋智尋 様<br />
+          枝常 拓 様<br />
+          ナカガワメイ 様<br />
+          Alexander Liu 様<br />
+          伊藤俊治 様<br />
         </p>
 
         <h2>ご支援フォーム</h2>
