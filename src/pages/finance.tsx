@@ -57,8 +57,17 @@ export default function Finance() {
         <p>
           我々は幸いにもいくつかの個人や団体様からのご支援をいただき活動を続けることができております。
           <br />
-          2016, 2018, 2019年度大会では 京都大学の SPEC
-          から支出された補助金を利用して、大会参加費を含めた活動資金をまかなうことができました。また、2021年度大会以降、東洋紡様には試薬一式と活動費のご援助を、長瀬産業様には活動費のご援助を賜りました。ご支援いただいた皆様、本当にありがとうございました。
+          2016, 2018, 2019年度大会では{" "}
+          <Link href="https://www.kikin.kyoto-u.ac.jp/spec/2018/02.html">
+            京都大学の SPEC
+          </Link>
+          から支出された補助金を利用して、大会参加費を含めた活動資金をまかなうことができました。
+          <br />
+          また、2021年度大会以降、
+          <Link href="https://www.toyobo.co.jp/">TOYOBO</Link>
+          様には試薬一式と活動費のご援助を、
+          <Link href="https://www.nagase.co.jp/">長瀬産業</Link>
+          様には活動費のご援助を賜りました。ご支援いただいた皆様、本当にありがとうございました。
         </p>
 
         <p>
@@ -106,7 +115,7 @@ export default function Finance() {
             className="btn btn-flat"
           >
             <span>ご支援フォーム</span>
-          </Link>{" "}
+          </Link>
           <br />
         </p>
       </PostBody>
