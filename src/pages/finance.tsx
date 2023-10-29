@@ -100,7 +100,7 @@ export default function Finance() {
           活動については定期的に発行するニュースレターでもお伝えします。
           <br />
           他の形でのご支援についてのご提案や不明な点がありましたら是非
-          <Link href="./contact" className="contactlink">
+          <Link href="./contact">
             お問い合わせフォーム
           </Link>
           の方から問い合わせください。
@@ -114,7 +114,6 @@ export default function Finance() {
           皆様、本当にありがとうございました。 詳細は
           <Link
             href="https://academist-cf.com/projects/306?lang=ja"
-            className="contactlink"
           >
             こちら
           </Link>
