@@ -5,10 +5,10 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Row, Col } from "reactstrap";
 import Meta from "components/meta";
 
-import discussion from "images/activities/Discussion.jpeg";
+import discussion from "images/activities/Discussion.jpg";
 import wet from "images/activities/Wet.jpg";
 import dry from "images/activities/Dry.jpg";
-import wiki from "images/activities/Wiki.jpeg";
+import wiki from "images/activities/Wiki.jpg";
 import collaboration from "images/activities/Collaboration.jpg";
 import practice from "images/activities/Human Practice.jpg";
 import education from "images/activities/Education.jpg";

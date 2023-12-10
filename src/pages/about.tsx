@@ -21,6 +21,7 @@ import history2012 from "images/others/2012_history.jpeg";
 import history2017 from "images/others/2017_history.jpeg";
 import history2018 from "images/others/2018_history.jpeg";
 import history2019 from "images/others/2019_history.jpeg";
+import history2023 from "images/others/2023_history.png";
 import TableOfContents from "components/tableOfContents";
 import { Heading } from "components/tableOfContents";
 import "bootstrap/dist/css/bootstrap.css";
@@ -246,7 +247,7 @@ export default function About() {
                   sizes="100vw"
                   style={{ borderRadius: "10px" }}
                   priority
-                />
+                /><br /><br />
                 2012年度のテーマは"Flower Fairy
                 E.coli"です。御伽噺「花咲か爺さん」のように、自由自在に花を咲かせることのできる大腸菌の開発を目指しました。アジア予選では金メダルを獲得し、見事MITで行われたWorld
                 Championshipに出場しました。
@@ -314,7 +315,7 @@ export default function About() {
                   sizes="100vw"
                   style={{ borderRadius: "10px" }}
                   priority
-                />
+                /><br /><br />
                 2017年度のテーマは"B. xylophilus Busters"です。B. xylophilus
                 Bustersでは、マツノザイセンチュウという小さな虫にとって毒となる配列をもつRNA分子を酵母に発現させました。その虫は松を食い荒らしてしまい、松枯れ病という病気のもとになります。この酵母を緑色蛍光タンパクGFPでマーク付けし、ザイセンチュウが酵母を摂食していることを確かめたり、目的RNA分子を確実に摂食させるために、Rev-RREシステムを用いて分子を酵母核外に輸送させたりしました。大会までに期待した効果を示すことができず、Giant
                 Jamboreeでは惜しくも銀メダルの獲得となりました。
@@ -337,7 +338,7 @@ export default function About() {
                   sizes="100vw"
                   style={{ borderRadius: "10px" }}
                   priority
-                />
+                /><br /><br />
                 2018年度のテーマは"Swallowyces
                 ceerevisiae"です。酵母の液胞表面にナトリウムイオンチャネルを過剰発現することで、ナトリウムの取り込み効率の向上に取り組みました。ナトリウム濃度というのは浸透圧やタンパクの立体構造、その他チャネルの機能に大きな影響を及ぼします。この濃度を上げることは塩を加えることで解決されますが逆に下げることは難しいとされています。私たちは酵母がもともともつトランスポーターの性能を改善し新たにシロイヌナズナ、醤油酵母といったものから塩耐性にまつわる遺伝子を酵母に発現させました。大会ではGold
                 Criteriaともなっていたparts
@@ -361,7 +362,7 @@ export default function About() {
                   sizes="100vw"
                   style={{ borderRadius: "10px" }}
                   priority
-                />
+                /><br /><br />
                 2019年度のテーマは“My Clothes'
                 Plastic”です。近年問題視されている海洋マイクロプラスチック問題、その原因の一つが洗濯した時に服から落ちる合成繊維であることがわかりました。繊維はとても小さいがために下水処理のシステムをすり抜けていきます。そのため、私たちはこの繊維を凝集させより効率的に回収しやすくさせるデバイスの開発に取り組みました。私たちはプラスチック特異的結合タンパク質をエンキャプスリンと呼ばれるタンパク質の表面に提示させることで、繊維同士を凝集させるのりのようなものの開発に成功しました。大会ではプレゼン、ポスターセッション共に高い評価を受け金賞、その上EnvironmentとBest
                 Parts Collectionという部門賞に最終候補にノミネートされました。
@@ -391,7 +392,7 @@ export default function About() {
                   sizes="100vw"
                   style={{ borderRadius: "10px" }}
                   priority
-                />
+                /><br /><br />
                 2021年度のテーマは“FLOWEREVER”です。実は私たちの身近にある花には、栽培時のウイルス感染、虫害、販売時や家庭での花の老化・細菌繁殖など様々な課題があります。これら複数の課題に対し、合成生物学を用いた解決法を考えました。ウイルス感染に対しては葉から抽出したRNAからRT-LAMP法という手法でウイルス由来のDNAを増幅し、CRISPR-Cas12aという配列検出システムを用いて蛍光の有無からウイルス感染の有無を検出する手法を開発しました。さらに機械学習を用いることで葉の写真から健康状態を判断するソフトウェアを開発しました。その他にもRNA干渉を用いた殺虫、ペプチドを利用した殺菌、生体分子の効率的生産のためのシステム開発など、取り組んだプロジェクトは多岐にわたっています。オンラインで開催された大会ではWikiとプレゼンテーションビデオを作成し、審査員とオンラインで質疑応答を行いました。結果金賞を受賞し、Best
                 Software Toolという特別賞の最終候補にノミネートされました。
                 <Link
@@ -416,6 +417,7 @@ export default function About() {
                 高価な試薬を使わずにDNAクローニングを可能にする方法を開発することに成功した研究です。
                 シームレスクローニングという方法に必要な大腸菌抽出液「SLiCE」の成分特定に挑み、2つの酵素が重要であることを特定しました。
                 この成果は国際学術誌 "Genes to Cell" に掲載されました。
+                <br /><br />
                 <Image
                   className="SLiCE"
                   src={SLiCE}
@@ -436,6 +438,16 @@ export default function About() {
                 2023年のテーマは、鹿と大腸菌です。世界的な食料安全保障を達成する上での最大の課題の一つは、野生動物による農作物被害です。日本では食害のうち7割をシカが占めていて京都でも重大な被害をもたらしています。その解決策として、シカの忌避物質を持続的に生産・放出する新しいソリューションを考案しました。これは実際使うことになる農家さんの負担にならないよう、自律的に大腸菌を長期間培養させる必要がありました。そこで、自身の個体数を抑制し、死滅した細胞から栄養をリサイクルするようプログラムすることにしました。さらに、攪拌震盪を自動化するために、水の気化潜熱のみを動力源とするDrinking
                 Bird
                 というおもちゃを元に安価でメンテナンスの容易な装置も設計しました。
+                <br /><br />
+                <Image
+                  className="history2023"
+                  src={history2023}
+                  alt=""
+                  layout="responsive"
+                  sizes="100vw"
+                  style={{ borderRadius: "10px" }}
+                  priority
+                />
                 <Link
                   href="https://2023.igem.wiki/kyoto"
                   className="simple_square_btn2 right"
