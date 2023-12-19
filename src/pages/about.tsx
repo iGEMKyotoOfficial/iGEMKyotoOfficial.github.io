@@ -15,6 +15,7 @@ import Accordion from "components/accordion";
 import iGEM2 from "images/others/iGEM2.jpg";
 import iGEM3 from "images/others/iGEM3.jpeg";
 import iGEM4 from "images/others/iGEM4.jpg";
+import iGEMAbove2023 from "images/others/iGEMAbove2023.jpg";
 import flowerver from "images/others/2021_history.jpg";
 import SLiCE from "images/others/SLiCE.jpeg";
 import history2012 from "images/others/2012_history.jpeg";
@@ -144,7 +145,7 @@ export default function About() {
       <figure>
         <Image
           className="eyecatch"
-          src={eyecatch}
+          src={iGEMAbove2023}
           alt=""
           layout="responsive"
           sizes="100vw"
