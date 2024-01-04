@@ -1,8 +1,5 @@
-import Contain from "components/container";
-import Hero from "components/hero";
-import Link from "next/link";
-import Meta from "components/meta";
 import Frame from "components/member.people";
+import Link from "next/link";
 
 import you from "images/member.2018/2018_Douosumou.jpg";
 import fukuda from "images/member.2018/2018_AkikoFukudasan.jpg";
@@ -16,68 +13,9 @@ import taguchi from "images/member.2018/2018_Marichan.jpg";
 import tamukai from "images/member.2018/2018_Tamuken.jpg";
 import morikawa from "images/member.2018/2018_Moririn.jpg";
 
-export default function About() {
+export default function Member() {
   return (
-    <Contain>
-      <Meta
-        pageTitle="Member"
-        pageDesc="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
-      />
-      <Hero
-        title="Member"
-        subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
-      />
-
-      <div className="pagination-wrapper">
-        <div className="pagination">
-          <Link className="prev page-numbers" href="/2019">
-            prev
-          </Link>
-          <Link className="page-numbers" href="/member">
-            2023
-          </Link>
-          <Link className="page-numbers" href="/2022">
-            2022
-          </Link>
-          <Link className="page-numbers" href="/2021">
-            2021
-          </Link>
-          <Link className="page-numbers" href="/2020">
-            2020
-          </Link>
-          <Link className="page-numbers" href="/2019">
-            2019
-          </Link>
-          <span aria-current="page" className="page-numbers current">
-            2018
-          </span>
-          <Link className="page-numbers" href="/2017">
-            2017
-          </Link>
-          <Link className="page-numbers" href="/2016">
-            2016
-          </Link>
-          <Link className="page-numbers" href="/2015">
-            2015
-          </Link>
-          <Link className="page-numbers" href="/2014">
-            2014
-          </Link>
-          <Link className="page-numbers" href="/2013">
-            2013
-          </Link>
-          <Link className="page-numbers" href="/2012">
-            2012
-          </Link>
-          <Link className="page-numbers" href="/2011">
-            2011
-          </Link>
-          <Link className="next page-numbers" href="/2017">
-            next
-          </Link>
-        </div>
-      </div>
-
+    <>
       <h1>Theme: Swallowyces ceerevisiae</h1>
       <br />
       <Link href="https://2018.igem.org/Team:Kyoto" className="btn btn-border">
@@ -146,6 +84,6 @@ export default function About() {
         Freshman of the Faculty of Pharmacy, Kyoto University <br />
         死なない
       </Frame>
-    </Contain>
+    </>
   );
 }

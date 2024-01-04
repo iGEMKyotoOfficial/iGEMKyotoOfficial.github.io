@@ -1,87 +1,22 @@
-import Contain from "components/container";
-import Hero from "components/hero";
-import Link from "next/link";
-import Meta from "components/meta";
 import Frame from "components/member.people";
-
-import abe from "images/member.2022/2022_abe.jpg";
-import fukuoka from "images/member.2022/2022_fukuoka.jpeg";
-import fukushima from "images/member.2022/2022_fukushima.jpg";
-import goto from "images/member.2022/2022_goto.jpg";
 import hayamatsu from "images/member.2022/2022_hayamatsu.jpg";
-import hayashi from "images/member.2022/2022_hayashi.jpg";
+import abe from "images/member.2022/2022_abe.jpg";
 import ishibashi from "images/member.2022/2022_ishibashi.jpg";
-import jana from "images/member.2022/2022_jana.jpg";
 import kawakami from "images/member.2022/2022_kawakami.jpg";
-import maeta from "images/member.2022/2022_maeta.jpg";
-import mihara from "images/member.2022/2022_mihara.jpg";
-import mitoma from "images/member.2022/2022_mitoma.jpg";
+import goto from "images/member.2022/2022_goto.jpg";
 import sekikawa from "images/member.2022/2022_sekikawa.jpg";
 import tsuchida from "images/member.2022/2022_tsuchida.jpg";
+import hayashi from "images/member.2022/2022_hayashi.jpg";
+import fukuoka from "images/member.2022/2022_fukuoka.jpeg";
+import fukushima from "images/member.2022/2022_fukushima.jpg";
+import maeta from "images/member.2022/2022_maeta.jpg";
+import mitoma from "images/member.2022/2022_mitoma.jpg";
+import mihara from "images/member.2022/2022_mihara.jpg";
+import jana from "images/member.2022/2022_jana.jpg";
 
-export default function About() {
+export default function Member() {
   return (
-    <Contain>
-      <Meta
-        pageTitle="Member"
-        pageDesc="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
-      />
-      <Hero
-        title="Member"
-        subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
-      />
-
-      <div className="pagination-wrapper">
-        <div className="pagination">
-          <Link className="prev page-numbers" href="/member">
-            prev
-          </Link>
-          <Link className="page-numbers" href="/member">
-            2023
-          </Link>
-          <span aria-current="page" className="page-numbers current">
-            2022
-          </span>
-          <Link className="page-numbers" href="/2021">
-            2021
-          </Link>
-          <Link className="page-numbers" href="/2020">
-            2020
-          </Link>
-          <Link className="page-numbers" href="/2019">
-            2019
-          </Link>
-          <Link className="page-numbers" href="/2018">
-            2018
-          </Link>
-          <Link className="page-numbers" href="/2017">
-            2017
-          </Link>
-          <Link className="page-numbers" href="/2016">
-            2016
-          </Link>
-          <Link className="page-numbers" href="/2015">
-            2015
-          </Link>
-          <Link className="page-numbers" href="/2014">
-            2014
-          </Link>
-          <Link className="page-numbers" href="/2013">
-            2013
-          </Link>
-          <Link className="page-numbers" href="/2012">
-            2012
-          </Link>
-          <Link className="page-numbers" href="/2011">
-            2011
-          </Link>
-          <Link className="next page-numbers" href="/2021">
-            next
-          </Link>
-        </div>
-      </div>
-
-      <br />
+    <>
       <Frame subtitle="早松 龍正 (Ryusei HAYAMATSU)" src={hayamatsu}>
         Sophomore of the Department of Applied Life Science, the Faculty of
         Agriculture, Kyoto University <br />
@@ -159,6 +94,6 @@ export default function About() {
         Engineering, Kyoto University <br />
         日本語上手やな
       </Frame>
-    </Contain>
+    </>
   );
 }

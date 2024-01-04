@@ -1,216 +1,109 @@
 import Contain from "components/container";
 import Hero from "components/hero";
-import Link from "next/link";
-import Frame from "components/member.people";
 import Meta from "components/meta";
+import { Tabs, Tab, Box } from "@mui/material";
+import { TabContext, TabPanel } from "@mui/lab";
+import { useState } from "react";
 
-import ishibashi from "images/member.2023/2023_ishibashi.jpg";
-import abe from "images/member.2023/2023_abe.jpg";
-import uchiyama from "images/member.2023/2023_uchiyama.jpg";
-import sekikawa from "images/member.2023/2023_sekikawa.jpg";
-import tsuchida from "images/member.2023/2023_tsuchida.jpg";
-import fukuoka from "images/member.2023/2023_fukuoka.jpg";
-import mitoma from "images/member.2023/2023_mitoma.jpg";
-import mihara from "images/member.2023/2023_mihara.jpg";
-import jana from "images/member.2023/2023_jana.jpg";
-import hayashi from "images/member.2023/2023_hayashi.jpg";
-import kiriyama from "images/member.2023/2023_kiriyama.jpg";
-import okamoto from "images/member.2023/2023_okamoto.jpg";
-import kanai from "images/member.2023/2023_kanai.jpg";
-import inagaki from "images/member.2023/2023_inagaki.jpg";
-import suzawa from "images/member.2023/2023_suzawa.jpg";
+import Member2023 from "components/member/2023";
+import Member2022 from "components/member/2022";
+import Member2021 from "components/member/2021";
+import Member2020 from "components/member/2020";
+import Member2019 from "components/member/2019";
+import Member2018 from "components/member/2018";
+import Member2017 from "components/member/2017";
+import Member2016 from "components/member/2016";
+import Member2015 from "components/member/2015";
+import Member2014 from "components/member/2014";
+import Member2013 from "components/member/2013";
+import Member2012 from "components/member/2012";
+import Member2011 from "components/member/2011";
 
 export default function About() {
+  // To change the default year to show, change the argument of useState.
+  const [tab, setTab] = useState("2023");
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
+    setTab(newValue);
+  };
   return (
     <Contain>
-      <Meta
-        pageTitle="Member"
-        pageDesc="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
-      />
+      <Meta pageTitle="Member" pageDesc="iGEM Kyoto の歴代メンバーの紹介" />
       <Hero
         title="Member"
-        subtitle="歴代メンバーをご紹介します（iGEM Jamboreeに出場した年は、Wikiもご覧いただけます）"
+        subtitle="歴代メンバーを年度毎にご紹介します。iGEM Jamboreeに出場した年はWikiもご覧いただけます。"
       />
-
-      <div className="pagination-wrapper">
-        <div className="pagination">
-          <Link className="prev page-numbers" href="/2011">
-            prev
-          </Link>
-          <span aria-current="page" className="page-numbers current">
-            2023
-          </span>
-          <Link className="page-numbers" href="/2022">
-            2022
-          </Link>
-          <Link className="page-numbers" href="/2021">
-            2021
-          </Link>
-          <Link className="page-numbers" href="/2020">
-            2020
-          </Link>
-          <Link className="page-numbers" href="/2019">
-            2019
-          </Link>
-          <Link className="page-numbers" href="/2018">
-            2018
-          </Link>
-          <Link className="page-numbers" href="/2017">
-            2017
-          </Link>
-          <Link className="page-numbers" href="/2016">
-            2016
-          </Link>
-          <Link className="page-numbers" href="/2015">
-            2015
-          </Link>
-          <Link className="page-numbers" href="/2014">
-            2014
-          </Link>
-          <Link className="page-numbers" href="/2013">
-            2013
-          </Link>
-          <Link className="page-numbers" href="/2012">
-            2012
-          </Link>
-          <Link className="page-numbers" href="/2011">
-            2011
-          </Link>
-          <Link className="next page-numbers" href="/2022">
-            next
-          </Link>
-        </div>
-      </div>
-
-      <h1>Theme: Avoideer</h1>
-      <br />
-      <Link href="https://2023.igem.wiki/kyoto/" className="btn btn-border">
-        Wiki
-      </Link>
-      <br />
-      <br />
-
-      <br />
-      <Frame subtitle="石橋 凌平 (Ryohei ISHIBASHI)" src={ishibashi}>
-        Sophomore of the Faculty of Science, Kyoto University <br />
-        Role: <b>Team Leader</b> <br />
-        Hobby: 旅行、映画 <br />
-        An error occurred. If this issue persists please contact at
-        nemunemunyanko[dot]com
-      </Frame>
-      <br />
-      <Frame subtitle="阿部 惇之介 (Junnosuke ABE)" src={abe}>
-        Sophomore of the Department of Civil, Environmental and Resources
-        Engineering, the Faculty of Engineering, Kyoto University <br />
-        Role: Wet experiment <br />
-        Hobby: 読書風妄想 <br />
-        見ていても動かないが気づけば進んでいる、そんな亀みたいな人間です。どうぞよろしく。
-      </Frame>
-      <br />
-      <Frame subtitle="稲垣 雄太 (Yuta INAGAKI)" src={inagaki}>
-        Freshman of the Department of Applied Life Science, the Faculty of
-        Agriculture, Kyoto University <br />
-        Role: Wet Experiment
-        <br />
-        Hobby: 旅行、空手 <br />
-        時間は創るものですよね……
-      </Frame>
-      <br />
-      <Frame subtitle="内山 新平 (Shimpei UCHIYAMA)" src={uchiyama}>
-        Senior of the Department of Industrial Chemistry, the Faculty of
-        Engineering, Kyoto University <br />
-        Role: Paper Search <br />
-        Hobby: Soccer <br />
-        一番多忙な人間が一番多くの時間を持つ
-      </Frame>
-      <br />
-      <Frame subtitle="岡本 陽（Haru OKAMOTO)" src={okamoto}>
-        Freshman of the Department of Applied Life Science, the Faculty of
-        Agriculture, Kyoto University <br />
-        Role: Wet Experiment
-        <br />
-        Hobby: 魚とり、買い物 <br />
-        英語が読めません。
-      </Frame>
-      <br />
-      <Frame subtitle="金井 志耕(Shiko KANAI)" src={kanai}>
-        Freshman of the Department of Bioresource Science, the Faculty of
-        Agriculture, Kyoto University <br />
-        Role: Wet Experiment
-        <br />
-        Hobby: 魚釣り、雑草 <br />
-        追い詰められると頑張るタイプです
-      </Frame>
-      <br />
-      <Frame subtitle="桐山 賢斗 (Kento Kiriyama)" src={kiriyama}>
-        Freshman of the Department of Pharmaceutical Sciences, Faculty of
-        Pharmaceutical Science, Kyoto University <br />
-        Role: Dry Experiment, Wet Experiment
-        <br />
-        Hobby: tennis <br />
-        桐-Kiri-iGEM編episode of side K
-      </Frame>
-      <br />
-      <Frame subtitle="須澤 令 (Rei SUZAWA)" src={suzawa}>
-        Freshman of the Department of Forest and Biomaterials Science, the
-        Faculty of Agriculture, Kyoto University <br />
-        Role: Wet Experiment <br />
-        Hobby: サッカー、ゲーム、サイクリング、旅行 <br />
-      </Frame>
-      <br />
-      <Frame subtitle="関川 隆 (Ryu SEKIKAWA)" src={sekikawa}>
-        Sophomore of the Department of Medicine, the Faculty of Medicine, Kyoto
-        University <br />
-        Role: Wet Experiment, Human Practice <br />
-        Hobby: 鉄道旅行 <br />
-        一般的な変人京大生です
-      </Frame>
-      <br />
-      <Frame subtitle="土田 美咲 (Misaki TSUCHIDA)" src={tsuchida}>
-        Sophomore of the Department of Applied Life Science, the Faculty of
-        Agriculture, Kyoto University <br />
-        Role: Wiki, Accounting and Design <br />
-        Hobby: Basketball <br />
-        Daily coffee and tea
-      </Frame>
-      <br />
-      <Frame subtitle="林 泰瑶 (Taiyo HAYASHI)" src={hayashi}>
-        Senior of the Faculty of Science, Kyoto University <br />
-        Role: Wiki, Dry Experiment
-        <br />
-        Hobby: 競プロ, ゲーム <br />
-        いつも心に太陽を
-      </Frame>
-      <br />
-      <Frame subtitle="	福岡 大空 (Taku FUKUOKA)" src={fukuoka}>
-        Sophomore of the Department of Forest and Biomaterials Science, the
-        Faculty of Agriculture, Kyoto University <br />
-        Role: Collaboration, Education <br />
-        Hobby: 生け花 <br />
-        目指せ脱力
-      </Frame>
-      <br />
-      <Frame subtitle="三笘 隼人 (Hayato MITOMA)" src={mitoma}>
-        Sophomore of the Faculty of Science, Kyoto University <br />
-        Role: Wet Experiment <br />
-        Hobby: 生物採集 <br />
-        Everything happens for a reason.
-      </Frame>
-      <br />
-      <Frame subtitle="三原 一星 (Issei MIHARA)" src={mihara}>
-        Sophomore of the Faculty of Science, Kyoto University <br />
-        Role: Project Leader <br />
-        Hobby: Piano <br />
-        Where there's a will, there's a way.
-      </Frame>
-      <br />
-      <Frame subtitle="モンタネズ マリヤナ (Marjana MONTANEZ)" src={jana}>
-        Junior of the Department of Industrial Chemistry, the Faculty of
-        Engineering, Kyoto University <br />
-        Role: Paper Search, Wet Experiment <br />
-        Hobby: 執筆 <br />
-        パラジウム触媒万能
-      </Frame>
+      <TabContext value={tab}>
+        <Box
+          display="flex"
+          justifyContent="center"
+          sx={{ backgroundColor: "#FDEFEC" /* var(--rose) */ }}
+        >
+          <Tabs
+            value={tab}
+            onChange={handleChange}
+            textColor="inherit"
+            TabIndicatorProps={{
+              style: {
+                backgroundColor: "#c4545d" /* var(--brownleaf) */,
+              },
+            }}
+            variant="scrollable"
+          >
+            <Tab label="2023" value="2023" /> {/*  sx={{fontSize: "1.2em"}} */}
+            <Tab label="2022" value="2022" />
+            <Tab label="2021" value="2021" />
+            <Tab label="2020" value="2020" />
+            <Tab label="2019" value="2019" />
+            <Tab label="2018" value="2018" />
+            <Tab label="2017" value="2017" />
+            <Tab label="2016" value="2016" />
+            <Tab label="2015" value="2015" />
+            <Tab label="2014" value="2014" />
+            <Tab label="2013" value="2013" />
+            <Tab label="2012" value="2012" />
+            <Tab label="2011" value="2011" />
+          </Tabs>
+        </Box>
+        <TabPanel value={"2023"}>
+          <Member2023 />
+        </TabPanel>
+        <TabPanel value={"2022"}>
+          <Member2022 />
+        </TabPanel>
+        <TabPanel value={"2021"}>
+          <Member2021 />
+        </TabPanel>
+        <TabPanel value={"2020"}>
+          <Member2020 />
+        </TabPanel>
+        <TabPanel value={"2019"}>
+          <Member2019 />
+        </TabPanel>
+        <TabPanel value={"2018"}>
+          <Member2018 />
+        </TabPanel>
+        <TabPanel value={"2017"}>
+          <Member2017 />
+        </TabPanel>
+        <TabPanel value={"2016"}>
+          <Member2016 />
+        </TabPanel>
+        <TabPanel value={"2015"}>
+          <Member2015 />
+        </TabPanel>
+        <TabPanel value={"2014"}>
+          <Member2014 />
+        </TabPanel>
+        <TabPanel value={"2013"}>
+          <Member2013 />
+        </TabPanel>
+        <TabPanel value={"2012"}>
+          <Member2012 />
+        </TabPanel>
+        <TabPanel value={"2011"}>
+          <Member2011 />
+        </TabPanel>
+      </TabContext>
     </Contain>
   );
 }
