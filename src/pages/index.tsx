@@ -15,14 +15,20 @@ export default function Home() {
       <Meta />
       <div className="anime_wrap">
         <Image
-          className="sakura kenburns-top-right"
+          className="kenburns-top-right"
           src={sakura}
           alt=""
           layout="responsive"
           sizes="100vw"
           priority
         />
-        <p className="tracking-then-kenburns">iGEM Kyoto</p>
+        <div className="top-display">
+          <p className="top-title tracking-in-contract">iGEM Kyoto</p>
+          <p className="top-description">
+          京都大学の学生チーム <b>iGEM Kyoto</b> は、合成生物学の世界大会 <b>iGEM</b> への参加を通じて、学生が責任と自主性に基づいて自由に研究活動を行うことを目的としています。
+          2008年の発足以来、京都大学の教員の皆様に研究の安全性を監督・指導いただく一方、在野の専門家や各産業分野で従事されている方にアドバイスを受けながら研究活動を行っています。取材活動や調査で発見した実社会の問題に対し、合成生物学の技術を用いた解決策を提示し、実験や数理モデリングを通してその実現性を検証した上、成果をiGEM大会や広報イベントなどで発表しています。
+          </p>
+        </div>
       </div>
 
       <div className="cp_card05">

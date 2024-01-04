@@ -62,7 +62,6 @@ body {
 }
 
 b {
-  color: var(--black);
   font-family: var(--font-sb);
   line-height: 1.5em;
 }
@@ -335,14 +334,24 @@ a {
   margin-bottom: 1%;
 }
 
-.anime_wrap p {
+.top-display {
   position: absolute;
   top: 10%;
   left: 8%;
-  font-size: 10vw;
   color: #444444;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sams-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sams-serif;
+}
+
+.top-title {
+  font-size: var(--display);
+}
+
+.top-description {
+  font-size: var(--small-heading3);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 50%;
+  padding: var(--space-xs);
 }
 
 .kenburns-top-right {
