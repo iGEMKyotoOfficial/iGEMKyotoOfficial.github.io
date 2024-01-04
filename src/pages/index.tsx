@@ -23,6 +23,7 @@ export default function Home() {
           priority
         />
         <p className="tracking-then-kenburns">iGEM Kyoto</p>
+        <p><h3><br/><br/><br/><br/><br/><br/><br/>合成生物学の大会iGEMに出場する京大生チーム</h3></p>
       </div>
 
       <div className="cp_card05">
