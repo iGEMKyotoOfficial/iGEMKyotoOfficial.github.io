@@ -5,7 +5,7 @@
   }
 
   .list {
-    font-size: var(--heading3);
+    font-size: var(--body);
     font-weight: 500;
     display: inline-block;
     letter-spacing: 0.1em;
