@@ -14,15 +14,7 @@ export default function Home() {
     <Contain large>
       <Meta />
       <div className="anime_wrap">
-        <Image
-          className="kenburns-top-right"
-          src={sakura}
-          alt=""
-          layout="responsive"
-          sizes="100vw"
-          priority
-        />
-        <div className="top-display">
+        <div className="top-display sakura-bg">
           <p className="top-title tracking-in-contract">iGEM Kyoto</p>
           <p className="top-description">
           京都大学の学生チーム <b>iGEM Kyoto</b> は、合成生物学の世界大会 <b>iGEM</b> への参加を通じて、学生が責任と自主性に基づいて自由に研究活動を行うことを目的としています。
