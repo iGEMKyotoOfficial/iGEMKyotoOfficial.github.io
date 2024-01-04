@@ -147,30 +147,29 @@ export default function About() {
       </figure>
 
           <PostBody>
-            <h2 id="1">iGEM Kyoto について</h2>
+            <h1 id="1">iGEM Kyoto について</h1>
             <p>
-              iGEM Kyoto は、iGEM
+              iGEM Kyoto は、合成生物学の世界大会「iGEM」
               への出場を通して、学生が責任と自主性に基づき自由に研究活動を行うことを目的とする、京都大学の学生チームです。
-              2008年に発足して以来、iGEM への参加を続けてきました。
-              現在は農学部、理学部、医学部、工学部などの様々な学部から学生が集まり、活動しています。
-              <br />
-              <br />
-              私たちのチームは学生メンバーだけでは成り立ちません。
-              研究の安全性に対する監督・指導には、学内の先生方にお世話になっています。
-              また、専門家の方、実際にその分野の現場で働いていらっしゃる方、OB・OGの先輩方にアドバイスをいただきながら活動を進めています。
+              2008年に当時の学部生と修士課程の学生によって立ち上げられて以来、学部生のメンバーが主体となってほぼ毎年 iGEM への参加を続けてきました。
+              現在も農学部、理学部、医学部、工学部などの様々な学部から学生が集まり活動しています。
             </p>
-            <Row>
-              <Col>
-                <Link href="/member" className="simple_square_btn2">
-                  メンバー紹介
-                </Link>
-              </Col>
-              <Col>
-                <Link href="/activities" className="simple_square_btn2">
-                  活動紹介
-                </Link>
-              </Col>
-            </Row>
+            <Link href="/member" className="simple_square_btn2 right">
+              メンバー紹介を見る
+            </Link>
+            <p>
+              しかし私たちの活動は学生メンバーだけでは成り立ちません。
+              特に、京都大学学内の教員の先生方には実験や研究全体の安全性に関する監督・指導をお願いしています。
+              実際に研究を進めるに当たってはアカデミアの専門家の方やOB・OGの先輩方、各産業分野の現場で実際に働いていらっしゃる方に随時意見とアドバイスをいただいています。
+            </p>
+            <Link href="/activities" className="simple_square_btn2 right">
+              活動紹介を見る
+            </Link>
+            <p>
+              過去に行った研究プロジェクトについては以下の矢印をクリックしてご覧ください。
+              <br />
+              「Wiki」という、各年のプロジェクトをまとめたWebサイトもリンクからご覧いただけます。Wikiは実際にiGEM大会でKyotoチームによって発表されたものです。
+            </p>
             <Accordion heading="iGEM Kyotoの歴史">
               <p>
                 <b id="2" className="2008">
@@ -185,7 +184,7 @@ export default function About() {
                   href="https://2008.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="3" className="2009">
@@ -199,7 +198,7 @@ export default function About() {
                   href="https://2009.igem.org/Team:Kyoto/GSDD/Abstract"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="4" className="2010">
@@ -212,7 +211,7 @@ export default function About() {
                   href="https://2010.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="5" className="2011">
@@ -224,7 +223,7 @@ export default function About() {
                   href="https://2011.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="6" className="2012">
@@ -247,7 +246,7 @@ export default function About() {
                   href="https://2012.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="7" className="2013">
@@ -262,7 +261,7 @@ export default function About() {
                   href="https://2013.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="8" className="2014">
@@ -278,7 +277,7 @@ export default function About() {
                   href="https://2014.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="9" className="2016">
@@ -292,7 +291,7 @@ export default function About() {
                   href="https://2016.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="10" className="2017">
@@ -315,7 +314,7 @@ export default function About() {
                   href="https://2017.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="11" className="2018">
@@ -339,7 +338,7 @@ export default function About() {
                   href="https://2018.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="12" className="2019">
@@ -362,7 +361,7 @@ export default function About() {
                   href="https://2019.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="13" className="2020">
@@ -391,7 +390,7 @@ export default function About() {
                   href="https://2021.igem.org/Team:Kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
                 <br />
                 <b id="15" className="2022">
@@ -406,6 +405,7 @@ export default function About() {
                 </b>
                 <br />
                 1. iGEM Kyoto のメンバーによる研究論文が出版されました！
+                <br />
                 高価な試薬を使わずにDNAクローニングを可能にする方法を開発することに成功した研究です。
                 シームレスクローニングという方法に必要な大腸菌抽出液「SLiCE」の成分特定に挑み、2つの酵素が重要であることを特定しました。
                 この成果は国際学術誌 "Genes to Cell" に掲載されました。
@@ -426,12 +426,8 @@ export default function About() {
                   論文リンク
                 </Link>
                 <br />
-                2.
-                2023年のテーマは、鹿と大腸菌です。世界的な食料安全保障を達成する上での最大の課題の一つは、野生動物による農作物被害です。日本では食害のうち7割をシカが占めていて京都でも重大な被害をもたらしています。その解決策として、シカの忌避物質を持続的に生産・放出する新しいソリューションを考案しました。これは実際使うことになる農家さんの負担にならないよう、自律的に大腸菌を長期間培養させる必要がありました。そこで、自身の個体数を抑制し、死滅した細胞から栄養をリサイクルするようプログラムすることにしました。さらに、攪拌震盪を自動化するために、水の気化潜熱のみを動力源とするDrinking
-                Bird
-                というおもちゃを元に安価でメンテナンスの容易な装置も設計しました。
-                その結果金賞を受賞し、Best Agriculture Project、Best Wiki、Best Hardwareという三つの特別賞の最終候補にノミネートされました。これはiGEM Kyoto史上、過去最高の成績でした。
-                <br /><br />
+                2. iGEM プロジェクトテーマ "Avoideer"
+                <br />
                 <Image
                   className="history2023"
                   src={history2023}
@@ -441,16 +437,22 @@ export default function About() {
                   style={{ borderRadius: "10px" }}
                   priority
                 />
+                <br />
+                <br />
+                2023年のテーマは、鹿と大腸菌です。世界的な食料安全保障を達成する上での最大の課題の一つは、野生動物による農作物被害です。日本では食害のうち7割をシカが占めていて京都でも重大な被害をもたらしています。その解決策として、シカの忌避物質を持続的に生産・放出する新しいソリューションを考案しました。これは実際使うことになる農家さんの負担にならないよう、自律的に大腸菌を長期間培養させる必要がありました。そこで、自身の個体数を抑制し、死滅した細胞から栄養をリサイクルするようプログラムすることにしました。さらに、攪拌震盪を自動化するために、水の気化潜熱のみを動力源とするDrinking
+                Bird
+                というおもちゃを元に安価でメンテナンスの容易な装置も設計しました。
+                その結果金賞を受賞し、Best Agriculture Project、Best Wiki、Best Hardwareという三つの特別賞の最終候補にノミネートされました。これはiGEM Kyoto史上、過去最高の成績でした。
                 <Link
                   href="https://2023.igem.wiki/kyoto"
                   className="simple_square_btn2 right"
                 >
-                  Wiki
+                  Wiki を見る
                 </Link>
               </p>
             </Accordion>
 
-            <h2 id="17">iGEM について</h2>
+            <h1 id="17">iGEM について</h1>
             <Image
               className="iGEM2"
               src={iGEM2}
@@ -465,27 +467,36 @@ export default function About() {
               competition)
               は、合成生物学の発展への寄与を目的に世界規模で開催される学生コンテストです。
               大会では、45カ国346の学生チームが一堂に会し、研究成果を競い合います。
-              <br />
-              <br />
+              </p>
+              <p>
               実社会で問題となっているテーマの中から、それぞれの社会問題に対して合成生物学的な手法を用いた解決策を提示します。
               具体的には、環境保全や疾病診断、基礎研究など様々なプロジェクト部門に対して、多様なテーマ、切り口のもとで独創的なプロジェクトが集まります。
-              <br />
-              <br />
+              </p>
+              <p>
+              例えば2023年11月の大会で発表したテーマ「Avoideer」では、京都府における野生動物による農作物被害に着目しました。日本では食害のうち7割をシカが占めていることが知られており、私たちの調査の結果、京都でも重大な被害をもたらしていることも分かりました。私たちはその解決策として、シカが忌避する化学物質を持続的に生産・放出するデバイスを含めた新しいソリューションを考案しました。これは実際使用することを想定している農家さんの作業の負担にならないように自律的に大腸菌を長期間培養させることを目標にし、自身の個体数を抑制して死滅した細胞から栄養をリサイクルするような大腸菌を設計しました。さらに、大腸菌を培養するために必要な操作である攪拌震盪を自動化するために、水の気化潜熱のみを動力源とするDrinking Bird というおもちゃを元にした安価でメンテナンスの容易な装置も設計しました。
+              </p>
+              <Link
+                  href="https://2023.igem.wiki/kyoto"
+                  className="simple_square_btn2 right"
+                >
+                  Avoideer について詳しく見る
+                </Link>
+              <p>
               各学生チームは、課題設定とプロジェクト立案、実験による検証、取材などによる実態調査を、iGEM
               の大会コンセプトのもと、自分たちで行います。
               コンテストにおいては、実際のデータを結果としてまとめ、それを発表する力量も求められます。
-              そのため、Wikiというウェブサイト、ポスターあるいはビデオ、口頭プレゼンテーションなど複数のかたちで自分たちのプロジェクトの成果をまとめ上げ、コンテストにおける審査を受けます。
+              そのため、Wikiというウェブサイト、ポスターあるいはビデオ、口頭プレゼンテーションなど複数のかたちで自分たちのプロジェクトの成果をまとめ上げ、コンテストにおいて審査を受けます。
             </p>
             <p>
               <Link
                 href="https://igem.org"
                 className="simple_square_btn2 right"
               >
-                公式サイト
+                iGEM 公式サイトへ
               </Link>
             </p>
 
-            <h2 id="18">合成生物学とは</h2>
+            <h1 id="18">合成生物学とは</h1>
             <Image
               className="iGEM4"
               src={iGEM4}
@@ -498,22 +509,22 @@ export default function About() {
             <p>
               合成生物学（Synthetic
               Biology）は、生物学の分野の一つで、生命現象を理解し、新しい生命システムを設計、構築することを目的としています。
-              <br />
-              <br />
+            </p>
+            <p>
               合成生物学は、生物学、化学、物理学、工学、情報科学など、多様な学問分野が集まって構成されています。
               合成生物学の研究には、遺伝子工学や生体分子工学など、分子レベルでの操作技術が必要です。
               また、人工細胞や人工遺伝子回路などのデバイス開発や、生命現象のモデル化におけるシステム生物学の知見も必要となります。
-              <br />
-              <br />
+            </p>
+            <p>
               合成生物学は、従来の生命科学研究において研究されてきた生命現象の解明から、それを元に新しい生命システムを設計、構築するというアプローチをとります。
               例えば、生物の代謝や細胞分裂などの生命現象を理解し、それを改変することで、医療や環境問題の解決に向けた新しい技術や製品の開発が期待されています。
-              <br />
-              <br />
+            </p>
+            <p>
               合成生物学の応用分野は広く、医療、環境、食品、エネルギーなど、多岐にわたります。
               また、合成生物学は、自然界に存在しない新しい生命体の設計、構築にも取り組んでおり、その可能性は未知数とされています。
             </p>
 
-            <h2 id="19">iGEM の大会コンセプト</h2>
+            <h1 id="19">iGEM の大会コンセプト</h1>
             <Image
               className="iGEM3"
               src={iGEM3}
@@ -525,23 +536,23 @@ export default function About() {
             />
             <p>
               iGEMは、大会においてプロジェクトで用いられた新しい機能的DNA配列を「Bio
-              Brick」として、データベースに集積することにより、合成生物学におけるパーツの充実に寄与しています。
-              <br />
-              <br />
-              また、大会では、審査基準が求める活動を通して、教育プログラムとして充実した経験の機会が与えられます。
-              例えば、取材による実態調査は、研究活動において、研究室の中での空想に留まることなく現実世界における異なる立場の人々と議論することの重要性を示してくれます。
+              Brick」という形式に則ってデータベースに集積することにより、合成生物学におけるパーツの充実に寄与しています。
+            </p>
+            <p>
+              また、大会では審査基準が求める種々の活動を通し、教育プログラムとしても充実した経験の機会が与えられます。
+              例えば、取材による実態調査は、研究活動において研究室の中での空想に留まることなく現実世界における異なる立場の人々と議論することの重要性を示してくれます。
               私たちは、このような環境の中で、大学の講義だけでは知ることのできないような倫理観や思考を学んでいます。
-              <br />
-              <br />
-              さらには、現地開催での大会においては、ポスターセッションにおけるディスカッションなどを通して海外の学生チームと交流する機会が与えられます。
-              サイエンスを学ぶ同世代の優秀な学生の発表に生身で触れることができ、私たちにとって刺激を受ける場になっているだけでなく、コラボレーションなどを通して将来の研究者のオープンコミュニティ形成に繋がる場にもなっています。
+            </p>
+            <p>
+              さらに一年に一度海外で開催される大会では、ポスターセッションでのディスカッションなどを通して海外の学生チームと交流する機会があります。
+              サイエンスを学ぶ同世代の優秀な学生の発表に生身で触れることができ、私たちにとって刺激を受ける場になっています。それだけでなく、チーム同士のコラボレーションを通じて、将来の研究者がオープンコミュニティを形成することに繋がる場にもなっています。
             </p>
             <p>
               <Link
                 href="http://parts.igem.org/Catalog"
                 className="simple_square_btn2 right"
               >
-                パーツカタログ
+                iGEM公式パーツカタログ
               </Link>
             </p>
             <br />
