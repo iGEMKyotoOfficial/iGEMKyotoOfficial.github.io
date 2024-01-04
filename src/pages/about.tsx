@@ -2,12 +2,6 @@ import Meta from "components/meta";
 import Contain from "components/container";
 import Hero from "components/hero";
 import PostBody from "components/post-body";
-import Contact from "components/contact";
-import {
-  TwoColumn,
-  TwoColumnMain,
-  TwoColumnSidebar,
-} from "components/two-column";
 import Image from "next/image";
 import Link from "next/link";
 import eyecatch from "images/others/butterfly.jpg";
@@ -23,7 +17,6 @@ import history2017 from "images/others/2017_history.jpeg";
 import history2018 from "images/others/2018_history.jpeg";
 import history2019 from "images/others/2019_history.jpeg";
 import history2023 from "images/others/2023_history.png";
-import TableOfContents from "components/tableOfContents";
 import { Heading } from "components/tableOfContents";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Row, Col } from "reactstrap";
@@ -153,8 +146,6 @@ export default function About() {
         />
       </figure>
 
-      <TwoColumn>
-        <TwoColumnMain>
           <PostBody>
             <h2 id="1">iGEM Kyoto について</h2>
             <p>
@@ -555,15 +546,6 @@ export default function About() {
             </p>
             <br />
           </PostBody>
-        </TwoColumnMain>
-        <TwoColumnSidebar>
-          <div className="hidden md:block col-span-4">
-            <div className="sticky top-4">
-              <TableOfContents sprops={scrollbarData} />
-            </div>
-          </div>
-        </TwoColumnSidebar>
-      </TwoColumn>
     </Contain>
   );
 }
