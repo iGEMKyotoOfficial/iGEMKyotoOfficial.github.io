@@ -1,3 +1,6 @@
+.list {
+  z-index: 199; /* to overlay on everything but .btn */
+}
 /* デスクトップ */
 @media (min-width: 768px) {
   .btn {
@@ -29,7 +32,7 @@
     width: 42px;
     height: 42px;
     position: relative;
-    z-index: 200;
+    z-index: 200; /* to overlay on .list */
   }
 
   .close .btn {
