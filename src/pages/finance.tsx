@@ -21,7 +21,15 @@ export default function Finance() {
       />
 
       <PostBody>
-        <h2>ご支援のお願い</h2>
+        <p style={{ margin: "2em auto" }}>
+          <Link
+            href="https://forms.gle/EYVjfnL8je1Ajthy9"
+            className="btn btn-flat"
+          >
+            <span>ご支援フォーム</span>
+          </Link>
+          <br />
+        </p>
         <Image
           className="iGEM5"
           src={iGEMAbove2023}
@@ -156,17 +164,6 @@ export default function Finance() {
             伊藤俊治 様<br />
           </div>
         </div>
-
-        <h2>ご支援フォーム</h2>
-        <p style={{ margin: "2em auto" }}>
-          <Link
-            href="https://forms.gle/EYVjfnL8je1Ajthy9"
-            className="btn btn-flat"
-          >
-            <span>ご支援フォーム</span>
-          </Link>
-          <br />
-        </p>
       </PostBody>
     </Contain>
   );
