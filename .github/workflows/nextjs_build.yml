@@ -49,7 +49,7 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Dependency installation
-        run: ${{ steps.detect-package-manager.outputs.runner }} ${{ steps.detect-package-manager.outputs.command }}
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build test and output
         run: ${{ steps.detect-package-manager.outputs.runner }} next build 2>&1 | tee next-build.log
       - name: Upload build log
