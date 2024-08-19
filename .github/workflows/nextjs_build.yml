@@ -51,7 +51,7 @@ jobs:
       - name: Dependency installation
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build test and output
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build 2>&1 | tee next-build.log
+        run: ${{ steps.detect-package-manager.outputs.runner }} next build > next-build.log 2>&1 || (cat next-build.log && exit 1)
       - name: Upload build log
         uses: actions/upload-artifact@v4
         with:
