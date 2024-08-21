@@ -5,6 +5,7 @@ import { Tabs, Tab, Box } from "@mui/material";
 import { TabContext, TabPanel } from "@mui/lab";
 import { useState } from "react";
 
+import Member2024 from "components/member/2024";
 import Member2023 from "components/member/2023";
 import Member2022 from "components/member/2022";
 import Member2021 from "components/member/2021";
@@ -21,7 +22,7 @@ import Member2011 from "components/member/2011";
 
 export default function About() {
   // To change the default year to show, change the argument of useState.
-  const [tab, setTab] = useState("2023");
+  const [tab, setTab] = useState("2024");
   const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setTab(newValue);
   };
@@ -49,6 +50,7 @@ export default function About() {
             }}
             variant="scrollable"
           >
+            <Tab label="2024" value="2024" />
             <Tab label="2023" value="2023" /> {/*  sx={{fontSize: "1.2em"}} */}
             <Tab label="2022" value="2022" />
             <Tab label="2021" value="2021" />
@@ -64,6 +66,9 @@ export default function About() {
             <Tab label="2011" value="2011" />
           </Tabs>
         </Box>
+        <TabPanel value={"2024"}>
+          <Member2024 />
+        </TabPanel>
         <TabPanel value={"2023"}>
           <Member2023 />
         </TabPanel>
