@@ -9,6 +9,7 @@ import yabuki from "images/member.2024/2024_yabuki.jpg";
 import iwata from "images/member.2024/2024_iwata.jpg";
 import minamiyama from "images/member.2024/2024_minamiyama.jpg";
 import kataoka from "images/member.2024/2024_kataoka.jpg";
+import baba from "images/member.2024/2024_baba.jpg";
 
 export default function Member() {
   return (
@@ -68,6 +69,13 @@ export default function Member() {
   Role: Wiki <br />
   Hobby: ピラティス、ヨガ、カフェ巡り <br />
   朝型
+</Frame>
+<br />
+<Frame subtitle="馬場 萌枝 (Moe Baba)" src={baba}>
+  Freshman of the Department of Forest Science, the Faculty of Agriculture, Kyoto University <br />
+  Role: Wet Experiment, Wiki <br />
+  Hobby:  ヴァイオリン、苔採集<br />
+  睡眠時間8時間確保！
 </Frame>
 <br />
     </>
