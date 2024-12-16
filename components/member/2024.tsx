@@ -67,7 +67,7 @@ export default function Member() {
 <Frame subtitle="片岡 茉優 (Mayu Kataoka)" src={kataoka}>
   Freshman of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University <br />
   Role: Wiki <br />
-  Hobby: ピラティス、ヨガ、カフェ巡り <br />
+  Hobby: ピラティス、珈琲<br />
   朝型
 </Frame>
 <br />
