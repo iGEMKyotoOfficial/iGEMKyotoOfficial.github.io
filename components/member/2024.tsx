@@ -10,6 +10,7 @@ import iwata from "images/member.2024/2024_iwata.jpg";
 import minamiyama from "images/member.2024/2024_minamiyama.jpg";
 import kataoka from "images/member.2024/2024_kataoka.jpg";
 import baba from "images/member.2024/2024_baba.jpg";
+import song from "images/member.2024/2924_song.jpg";
 
 export default function Member() {
   return (
@@ -63,7 +64,6 @@ export default function Member() {
   大学まで片道2時間です
 </Frame>
 <br />
-
 <Frame subtitle="片岡 茉優 (Mayu Kataoka)" src={kataoka}>
   Freshman of the Department of Industrial Chemistry, the Faculty of Engineering, Kyoto University <br />
   Role: Wiki <br />
@@ -76,6 +76,13 @@ export default function Member() {
   Role: Wet Experiment, Wiki <br />
   Hobby:  ヴァイオリン、苔採集<br />
   睡眠時間8時間確保！
+</Frame>
+<br />
+<Frame subtitle="宋 嘉楽 (Jiale Song)" src={song}>
+  Freshman of the Faculty of Science, Kyoto University <br />
+  Role: Wet Experiment, Modeling <br />
+  Hobby:  昆虫採集、遠出<br />
+  瓜生山の幽霊
 </Frame>
 <br />
     </>
