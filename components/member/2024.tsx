@@ -10,7 +10,7 @@ import iwata from "images/member.2024/2024_iwata.jpg";
 import minamiyama from "images/member.2024/2024_minamiyama.jpg";
 import kataoka from "images/member.2024/2024_kataoka.jpg";
 import baba from "images/member.2024/2024_baba.jpg";
-import song from "images/member.2024/2924_song.jpg";
+import song from "images/member.2024/2024_song.jpg";
 
 export default function Member() {
   return (
