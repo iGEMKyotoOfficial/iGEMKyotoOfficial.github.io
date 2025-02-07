@@ -15,6 +15,15 @@ import song from "images/member.2024/2024_song.jpg";
 export default function Member() {
   return (
     <>
+    <h1>Theme: ShowgNs</h1>
+    <br />
+    <Link href="https://2024.igem.wiki/kyoto/" className="btn btn-border">
+      Wiki
+    </Link>
+    <br />
+    <br />
+
+    <br />
     <Frame subtitle="桐山 賢斗 (Kento Kiriyama)" src={kiriyama}>
   Sophomore of Faculty of Pharmacy, Kyoto University <br />
   Role: <b>Team Leader, Modeling Leader</b> <br />
