@@ -38,7 +38,7 @@ export default function Contact() {
       />
       <PostBody>
         <Link
-          href="https://forms.gle/Lv8jb4hf8ruA8Gfi6"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdhO43d21VPx_M_O6DxX9KLQajo-mMr_94C3sz2q06tcvBC6w/viewform?usp=dialog"
           className="btn btn-flat"
         >
           <span>お問い合わせフォーム</span>

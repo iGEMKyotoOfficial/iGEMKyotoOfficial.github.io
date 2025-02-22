@@ -7,6 +7,39 @@ import iGEM6 from "images/others/iGEM6.jpg";
 import iGEMAbove2023 from "images/others/iGEMAbove2023.jpg";
 import Meta from "components/meta";
 import styles from "src/styles/finance.module.css";
+import React, { useState } from 'react';
+
+const LogoLink: React.FC<{ href:string; src:string;  alt:string; width:number; height: number }> = ({ href, src, alt, width, height }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+return (
+  <Link href={href} legacyBehavior>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.logoContainer}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      style={{
+        transition: "all 0.3s ease-in-out",
+        borderRadius: "10px",
+        boxShadow: isHovered ? "0px 4px 10px rgba(0, 0, 0, 0.2)" : "none",
+        backgroundColor: isHovered ? "rgba(200, 200, 200, 0.3)" : "transparent",
+        transform: isHovered ? "scale(1.05)" : "scale(1)",
+        padding: "20px",
+        display:"flex",
+        justifyContent:"center",
+        alignItems: "center",
+        width: "220px",
+        height: "120px"
+      }}
+    >
+      <Image src={src} alt={alt} layout="responsive" width={width} height={height} />
+    </a>
+  </Link>
+);
+};
+
 
 export default function Finance() {
   return (
@@ -23,7 +56,7 @@ export default function Finance() {
       <PostBody>
         <p style={{ margin: "2em auto" }}>
           <Link
-            href="https://forms.gle/EYVjfnL8je1Ajthy9"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScZVOomL7uDvMqfHU8bfAcw6nT9sMJgHQBk-z3TXOd6Qoo45A/viewform?usp=dialog"
             className="btn btn-flat"
           >
             <span>ご支援フォーム</span>
@@ -116,6 +149,30 @@ export default function Finance() {
         </p>
 
         <h2>サポーターの皆様</h2>
+        <p>
+          2024年度、ご支援いただいた方々を紹介します。
+        </p>
+        <div className={styles.supporterLogos}>
+        <div className={styles.upperRow} style={{display:'flex', justifyContent:'space-around', gap:'30px', marginTop:'20px'}}>
+            <LogoLink href="https://miyakocapital.com/" src="https://miyakocapital.com/wp-content/themes/original/assets/img/logo.png" alt="Miyako Capital" width={200} height={100} />
+              
+            <LogoLink href="https://anri.vc/" src="https://tokyosuteam.metro.tokyo.lg.jp/cms/wp-content/uploads/2023/10/006-157.jpg" alt="anri" width={200} height={100} />
+          </div>
+          <div className={styles.lowerRow} style={{ display:'flex', justifyContent:'space-around', gap: '20px', marginTop: '20px'}}>
+            <LogoLink href="https://www.epistra.jp/" src="https://image.pitchbook.com/KaJReh7l9gYHJaEo4QtUCX9lciB1691052034266_200x200" alt="epistra" width={160} height={80} />
+            <LogoLink href="https://www.xforestx.com/jp" src="https://www.axcelead.com/wp-content/uploads/2021/10/MicrosoftTeams-image-15-1.png" alt="xforest" width={160} height={80} />
+            <LogoLink href="https://www.cosmobio.co.jp/" src="https://www.cosmobio.com/images/en/mainlogo-en.png" alt="Cosmobio" width={160} height={40} />
+          </div>
+        </div>
+        <p>
+          <div className={styles.greatsupporter}>
+          xFOREST Therapeutics 田尻健 様
+          </div>
+        </p>
+        <p>
+          その他にも多くの方々からご支援、ご助言を頂きました。皆様のおかげで活動ができたこと、大変嬉しく思います。ありがとうございました。
+        </p>
+
         <p>
           2023年度に、学術系クラウドファンディングサイト「academist（アカデミスト）」でご支援いただいた方々をご紹介します。
           皆様、本当にありがとうございました。 詳細は
