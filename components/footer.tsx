@@ -11,7 +11,7 @@ export default function Footer() {
           <Link href="/" legacyBehavior>
             <a className="home">iGEM Kyoto</a>
           </Link>
-          <Social />© 2023 iGEM Kyoto
+          <Social />© 2025 iGEM Kyoto
         </div>
       </Contain>
     </footer>
