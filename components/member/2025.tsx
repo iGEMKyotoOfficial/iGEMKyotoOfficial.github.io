@@ -9,6 +9,7 @@ import minamiyama from "images/member.2025/2025_minamiyama.jpg";
 import baba from "images/member.2025/2025_baba.jpg";
 import yabuki from "images/member.2025/2025_yabuki.jpg";
 import kataoka from "images/member.2025/2025_kataoka.jpg";
+import ota from "images/memebr.2025/2025_ota.jpg";
 
 
 
@@ -35,7 +36,7 @@ export default function Member() {
         </Frame>
         <Frame subtitle="八木 宥暁(Hiroaki Yagi)" src={yagi}>
             理学部理学科<br />
-            Role: Software<br/>
+            Role: Software, Modeling<br/>
             Hobby: 二度寝、数学<br />
             若返りたい
         </Frame>
@@ -74,6 +75,12 @@ export default function Member() {
             Role: Wiki<br/>
             Hobby: 珈琲、ピラティス、旅行<br/>
             経験にお金をかけて上品な女性になります
+        </Frame>
+        <Frame subtitle="太田 長杜(Taketo Ota)" src={ota}>
+            理学部理学科<br/>
+            Role: Human Practice<br/>
+            Hobby: バードウォッチング、昆虫採集<br/>
+            採集した昆虫から写真を提供してもらいました
         </Frame>
         
         </>
