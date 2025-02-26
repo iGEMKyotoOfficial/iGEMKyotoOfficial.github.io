@@ -9,7 +9,7 @@ import minamiyama from "images/member.2025/2025_minamiyama.jpg";
 import baba from "images/member.2025/2025_baba.jpg";
 import yabuki from "images/member.2025/2025_yabuki.jpg";
 import kataoka from "images/member.2025/2025_kataoka.jpg";
-import ota from "images/memebr.2025/2025_ota.jpg";
+import ota from "images/member.2025/2025_ota.jpg";
 
 
 
