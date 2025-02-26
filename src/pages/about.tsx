@@ -103,6 +103,16 @@ const scrollbarData: Heading[] = [
     id: "16",
   },
   {
+    level: 3,
+    text: "2024",
+    id: "16",
+  },
+  {
+    level: 3,
+    text: "2025",
+    id: "16",
+  },
+  {
     level: 2,
     text: "iGEMについて",
     id: "17",
