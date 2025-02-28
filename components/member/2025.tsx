@@ -10,6 +10,7 @@ import baba from "images/member.2025/2025_baba.jpg";
 import yabuki from "images/member.2025/2025_yabuki.jpg";
 import kataoka from "images/member.2025/2025_kataoka.jpg";
 import ota from "images/member.2025/2025_ota.jpg";
+import segawa from "images/member.2025/2025_segawa.jpg";
 
 
 
@@ -24,7 +25,7 @@ export default function Member() {
         </Frame>
         <Frame subtitle="岡 央大(Yota Oka)" src={oka}>
             理学部理学科<br />
-            Role: Wet<br/>
+            Role: Wet, Dry<br/>
             Hobby: カラオケ、製菓<br />
             必死に、生きています。
         </Frame>
@@ -81,6 +82,12 @@ export default function Member() {
             Role: Human Practice<br/>
             Hobby: バードウォッチング、昆虫採集<br/>
             採集した昆虫から写真を提供してもらいました
+        </Frame>
+        <Frame subtitle="瀬川 はると(Haruto Segawa)" src={segawa}>
+            農学部資源生物科学科<br/>
+            Role: Wet, Human Practice<br/>
+            Hobby: ルービックキューブ<br/>
+            皆で仲良く頑張ります
         </Frame>
         
         </>
