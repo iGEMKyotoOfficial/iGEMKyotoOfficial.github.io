@@ -126,7 +126,7 @@ export default function Member() {
   Hobby: 二度寝、数学<br />
 </Frame>
 <br />
-<Frame subtitle="南山 遥輝(Haruki Minamiyama" src={minamiyama}>
+<Frame subtitle="南山 遥輝(Haruki Minamiyama)" src={minamiyama}>
   Freshman of the Department of Forest Science, the Faculty of Agriculture, Kyoto University<br />
   Role: Human Practice<br />
   Hobby: 写真撮影、料理<br />
