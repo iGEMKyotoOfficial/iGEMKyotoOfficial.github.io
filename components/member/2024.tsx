@@ -7,10 +7,16 @@ import nakai from "images/member.2024/2024_nakai.jpg";
 import hashimoto from "images/member.2024/2024_hashimoto.jpg";
 import yabuki from "images/member.2024/2024_yabuki.jpg";
 import iwata from "images/member.2024/2024_iwata.jpg";
-import minamiyama from "images/member.2024/2024_minamiyama.jpg";
+import minamiyama from "images/member.2025/2025_minamiyama.jpg";
 import kataoka from "images/member.2024/2024_kataoka.jpg";
 import baba from "images/member.2024/2024_baba.jpg";
 import song from "images/member.2024/2024_song.jpg";
+import nakamura from "images/member.2025/2025_nakamura.jpg";
+import oka from "images/member.2025/2025_oka.jpg";
+import okayama from "images/member.2025/2025_okayama.jpg";
+import yagi from "images/member.2025/2025_yagi.jpg";
+import ota from "images/member.2025/2025_ota.jpg";
+import segawa from "images/member.2025/2025_segawa.jpg";
 
 export default function Member() {
   return (
@@ -94,14 +100,53 @@ export default function Member() {
   瓜生山の幽霊
 </Frame>
 <br />
-    </>
-    )
+<Frame subtitle="中村 陽斗(Haruto Nakamura)" src={nakamura}>
+  Freshman of the Department of Forest Science, the Faculty of Agriculture, Kyoto University <br />
+  Role: Hardware <br />
+  Hobby: ロードバイク <br/>
+  勝つ
+</Frame>
+<br />
+<Frame subtitle="岡 央大(Yota Oka)" src={oka}>
+  Freshman of the Faculty of Scinece, Kyoto University<br />
+  Role: Human Practice <br />
+  Hobby: カラオケ、製菓<br />
+  必死に、生きています。
+</Frame>
+<br />
+<Frame subtitle="岡山 太陽(Taiyo Okayama)" src={okayama}>
+  Freshman of the Faculty of Science, Kyoto University<br />
+  Role: Modeling<br />
+  Hobby: 読書、Minecraft、Youtube <br />
+</Frame>
+<br />
+<Frame subtitle="八木 宥暁(Hiroaki Yagi)" src={yagi}>
+  Freshman of the Faculty of Science, Kyoto University<br />
+  Role: Software<br />
+  Hobby: 二度寝、数学<br />
+</Frame>
+<br />
+<Frame subtitle="南山 遥輝(Haruki Minamiyama" src={minamiyama}>
+  Freshman of the Department of Forest Science, the Faculty of Agriculture, Kyoto University<br />
+  Role: Human Practice<br />
+  Hobby: 写真撮影、料理<br />
+</Frame>
+<br />
+<Frame subtitle="太田 長杜(Taketo Ota)" src={ota}>
+  Freshman of the Faculty of Science, Kyoto University<br />
+  Role: Human Practice<br />
+  Hobby: バードウォッチング、昆虫採集<br />
+  採集した昆虫から写真を提供してもらいました
+</Frame>
+<br />
+<Frame subtitle="瀬川 はると(Haruto Segawa)" src={segawa}>
+  Freshman of the Department of Bioresource Science, the Faculty of Agriculture, Kyoto University<br />
+  Role: Software<br />
+  Hobby: ルービックキューブ<br />
+  皆で仲良く頑張ります
+</Frame>
 
-       
+</>
 
-
-          
-            
-
-
-  }
+  );
+}
