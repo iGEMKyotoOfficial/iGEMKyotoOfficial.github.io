@@ -89,7 +89,11 @@ export default function Member() {
             Hobby: ルービックキューブ<br/>
             皆で仲良く頑張ります
         </Frame>
-        
+<Frame subtitle="新田　沙也（Nitta Saya)" src={}>
+            農学部食品生物科学科<br/>
+            Role: 未定<br/>
+            Hobby: お散歩、美味しいものを食べること<br/>
+            専門知識はないですが、体力だけはあるので精一杯頑張ります！
         </>
 
 
