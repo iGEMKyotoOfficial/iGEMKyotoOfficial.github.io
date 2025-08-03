@@ -94,7 +94,7 @@ export default function Member() {
             Role: 未定<br/>
             Hobby: お散歩、美味しいものを食べること<br/>
             専門知識はないですが、体力だけはあるので精一杯頑張ります！
-        </>
+        </Frame>
 
 
 
