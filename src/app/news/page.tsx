@@ -2,10 +2,23 @@ import { Newspaper } from "lucide-react";
 
 export default function NewsPage() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-8 pt-24">
-      <Newspaper className="h-12 w-12 text-gray-400" />
-      <h1 className="text-3xl font-bold">NEWS</h1>
-      <p className="text-gray-600 dark:text-gray-400">Latest Updates</p>
+    <div className="min-h-screen px-6 py-24">
+      <div className="mx-auto max-w-4xl">
+        <div className="mb-12 text-center">
+          <Newspaper className="mx-auto mb-4 h-12 w-12 text-purple-500" />
+          <h1 className="mb-4 text-4xl font-bold text-gray-900 dark:text-white">
+            NEWS
+          </h1>
+          <p className="text-lg text-gray-600 dark:text-gray-400">
+            Latest Updates
+          </p>
+        </div>
+        <div className="rounded-2xl border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800 dark:bg-gray-900">
+          <p className="text-gray-500 dark:text-gray-400">
+            コンテンツは準備中です
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
