@@ -11,7 +11,7 @@ subtitle: Our Research Projects
 
 # Schedule
 
-homepage\_project0
+![project0](../public/images/homepage_project0.png)
 
 # Wet
 
