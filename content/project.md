@@ -15,7 +15,7 @@ subtitle: Our Research Projects
 
 # Wet
 
-homepage\_project1
+![projhect1](../public/images/homepage_project1.webp)
 
 Wetとは、バイオの研究において、実際に生物を用いて実験する部分のことを指します。  
 名前から連想されるように、水や試薬を実際に使って研究することから、生命科学や生物の研究では、実験分野をWetと呼びます。
