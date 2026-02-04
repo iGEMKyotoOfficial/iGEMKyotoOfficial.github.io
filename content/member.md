@@ -8,10 +8,14 @@ subtitle: Our Team
 
 ### 新田紗也（Saya　Nitta）
 Grade：２回生
-<br>Fculty：農学部
-<br>Role：チームリーダー、HP、Wet
-<br>Hobby：お菓子作り、運動
-<br>一言：24時間働ける人になりたい
+<br>Fculty：農学部  
+
+<br>Role：チームリーダー、HP、Wet  
+
+<br>Hobby：お菓子作り、運動  
+
+<br>一言：24時間働ける人になりたい  
+
 
 
 ### 西坂勇星（Nishizaka Yusei）
