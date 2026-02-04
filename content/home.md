@@ -25,17 +25,17 @@ iGEM Kyotoは、iGEM大会への参加を通して合成生物学による社会
 3. 実験計画  
 一年という限られた時間の中では、実際に実験に充てることのできる期間は2，3か月程と、ごく短期間です。そのため円滑に実験を進められるよう、綿密な実験計画を立てることが必要不可欠となります。いつ、だれが、どこで、何を使って、どのような実験を行い、どのような結果が期待できるのかを想定し予定を組んでいきます。
 
-![home3](https://github.com/iGEMKyotoOfficial/homepage/blob/main/public/images/Home3.png)
+![home3](../public/images/Home3.png)
 
 4. 実験  
 計画をたてると、いよいよ実験スタートです。夏休みをメインに研究室にこもります。実験に失敗はつきものであり、なかなか計画通りには進まないものですが、根気強く実験に励みます。逐次先生方と話し合い、時には実験をやり直したり軌道修正をしたりすることもあります。
 
-![home4](https://github.com/iGEMKyotoOfficial/homepage/blob/main/public/images/home.4.png)
+![home4](../public/images/home.4.png)
 
 5. 分析  
 実験によって出てきた結果を解析装置やモデリングを用いて分析していきます。思い通りの結果が出なかった場合はあらゆる原因を考えます。さらに時間が許す限り再実験を行い貪欲に結果を求めます。
 
-![home5](https://github.com/iGEMKyotoOfficial/homepage/blob/main/public/images/Home5.jpg)
+![home5](../public/images/Home5.jpg)
 
 6. プロジェクトまとめ  
 行ったプロジェクトをwikiというiGEM専用の研究内容をまとめたサイトを作成します。どうやったら自分たちのプロジェクトが魅力的に見えるか、どうやったら読み手にわかりやすく伝えられるかをメンバーと議論を重ね仕上げていきます。
@@ -45,8 +45,8 @@ iGEM Kyotoは、iGEM大会への参加を通して合成生物学による社会
 7. 発表・コンテスト  
 Jamboreeというパリの現地大会で研究成果の発表を行います。ポスターセッションで各国のチームメンバーと交流したり、ジャッジングセッションで審査員から質疑応答を受けたりします。ここでプロジェクトの最終的な評価が決まります。最終日のフィナーレですべての部門の受賞チームが発表されます。
 
-![home7-1](https://github.com/iGEMKyotoOfficial/homepage/blob/main/public/images/Home7-1.jpg)
-![home7-2](https://github.com/iGEMKyotoOfficial/homepage/blob/main/public/images/home.7-2.png)
+![home7-1](../public/images/Home7-1.jpg)
+![home7-2](../public/images/home.7-2.png)
 
 ## 資金・新メンバーについて
 
