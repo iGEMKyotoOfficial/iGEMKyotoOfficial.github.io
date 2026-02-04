@@ -46,7 +46,7 @@ iGEM Kyotoは、iGEM大会への参加を通して合成生物学による社会
 Jamboreeというパリの現地大会で研究成果の発表を行います。ポスターセッションで各国のチームメンバーと交流したり、ジャッジングセッションで審査員から質疑応答を受けたりします。ここでプロジェクトの最終的な評価が決まります。最終日のフィナーレですべての部門の受賞チームが発表されます。
 
 ![home7-1](https://github.com/iGEMKyotoOfficial/homepage/blob/main/public/images/Home7-1.jpg)
-![home7-2](
+![home7-2](https://github.com/iGEMKyotoOfficial/homepage/blob/main/public/images/home.7-2.png)
 
 ## 資金・新メンバーについて
 
