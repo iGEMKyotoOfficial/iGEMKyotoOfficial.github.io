@@ -19,7 +19,7 @@ export async function getMarkdownContent(
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
   const { data, content } = matter(fileContents);
-  const adjustedContent = content.replace(/\.\.\/public\//g, '/');
+  const adjustedContent = content.replace(/\.\.\/public\//g, '/homepage/');
   const processedContent = await remark().use(html).process(adjustedContent);
   const contentHtml = processedContent.toString();
 
