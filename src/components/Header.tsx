@@ -20,61 +20,50 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/90 backdrop-blur-md dark:border-gray-800 dark:bg-gray-950/90">
-      <div className="mx-auto max-w-6xl px-6">
-        <div className="flex h-16 items-center justify-between">
-          <Link
-            href="/"
-            className="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
-          >
-            iGEM Kyoto
-          </Link>
+    <header className="fixed top-4 right-4 left-4 z-50 md:left-auto">
+      {/* Desktop Navigation - 右上に浮かせる */}
+      <nav className="hidden rounded-full border border-gray-200 bg-white/90 px-2 py-2 shadow-lg backdrop-blur-md dark:border-gray-700 dark:bg-gray-900/90 md:flex md:items-center md:gap-1">
+        {navItems.map((item) => {
+          const isActive = pathname === item.href;
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                isActive
+                  ? "bg-gray-900 text-white dark:bg-white dark:text-gray-900"
+                  : "text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+              }`}
+            >
+              {item.label}
+            </Link>
+          );
+        })}
+      </nav>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden items-center gap-1 md:flex">
+      {/* Mobile Menu Button */}
+      <div className="md:hidden">
+        <button
+          className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 bg-white/90 shadow-lg backdrop-blur-md transition-colors dark:border-gray-700 dark:bg-gray-900/90"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
+        >
+          {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+        </button>
+
+        {/* Mobile Navigation */}
+        {isOpen && (
+          <nav className="absolute right-0 top-14 w-56 rounded-2xl border border-gray-200 bg-white/95 p-2 shadow-lg backdrop-blur-md dark:border-gray-700 dark:bg-gray-900/95">
             {navItems.map((item) => {
               const isActive = pathname === item.href;
               return (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
+                  className={`block rounded-xl px-4 py-3 text-sm font-medium transition-colors ${
                     isActive
-                      ? "bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
-                      : "text-gray-600 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800/50 dark:hover:text-white"
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
-          </nav>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="flex h-10 w-10 items-center justify-center rounded-lg text-gray-600 transition-colors hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </button>
-        </div>
-      </div>
-
-      {/* Mobile Navigation */}
-      {isOpen && (
-        <div className="border-t border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-950 md:hidden">
-          <nav className="mx-auto max-w-6xl px-6 py-4">
-            {navItems.map((item) => {
-              const isActive = pathname === item.href;
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`block rounded-lg px-3 py-3 text-sm font-medium transition-colors ${
-                    isActive
-                      ? "bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white"
-                      : "text-gray-600 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800/50 dark:hover:text-white"
+                      ? "bg-gray-900 text-white dark:bg-white dark:text-gray-900"
+                      : "text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
@@ -83,8 +72,8 @@ export default function Header() {
               );
             })}
           </nav>
-        </div>
-      )}
+        )}
+      </div>
     </header>
   );
 }

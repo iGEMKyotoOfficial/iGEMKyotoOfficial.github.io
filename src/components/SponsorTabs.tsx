@@ -33,8 +33,8 @@ export default function SponsorTabs({
 
   return (
     <div className="min-h-screen">
-      {/* Tabs - ヘッダー直下に固定 */}
-      <div className="sticky top-16 z-40 border-b border-gray-200 bg-white/90 backdrop-blur-md dark:border-gray-800 dark:bg-gray-950/90">
+      {/* Tabs - 上部に固定 */}
+      <div className="sticky top-0 z-40 border-b border-gray-200 bg-white/90 backdrop-blur-md dark:border-gray-800 dark:bg-gray-950/90">
         <div className="mx-auto max-w-6xl px-6">
           <div className="flex gap-1 py-2">
             {tabs.map((tab) => {
