@@ -7,7 +7,9 @@ subtitle: Get in Touch
 
 ご質問やお問い合わせは、以下のメールアドレスまでお願いいたします。
 
-**Email:** igem.official.2026@gmail.com
+個人へのコンタクトもここで受け付けております。
+
+**Email:** igemkyoto.official@gmail.com
 
 ## SNS
 

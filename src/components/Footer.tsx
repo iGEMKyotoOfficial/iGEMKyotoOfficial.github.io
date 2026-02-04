@@ -11,11 +11,11 @@ export default function Footer() {
 
           {/* Email */}
           <a
-            href="mailto:igem.official.2026@gmail.com"
+            href="mailto:igemkyoto.official@gmail.com"
             className="flex items-center gap-2 text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
           >
             <Mail className="h-5 w-5" />
-            igem.official.2026@gmail.com
+            igemkyoto.official@gmail.com
           </a>
 
           {/* Social Links */}
