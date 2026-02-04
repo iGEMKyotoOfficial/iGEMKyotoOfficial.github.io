@@ -7,7 +7,8 @@ subtitle: Our Team
 
 
 ### 新田紗也（Saya　Nitta）
-Grade：２回生
+Grade：２回生  
+
 <br>Fculty：農学部  
 
 <br>Role：チームリーダー、HP、Wet  
@@ -19,7 +20,8 @@ Grade：２回生
 
 
 ### 西坂勇星（Nishizaka Yusei）
-Grade：２回生
+Grade：２回生  
+
 <br>Facluty：薬学部  
 
 <br>Role：Wetリーダー  
