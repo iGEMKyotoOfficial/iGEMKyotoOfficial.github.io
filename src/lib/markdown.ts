@@ -20,7 +20,7 @@ export async function getMarkdownContent(
 
   const { data, content } = matter(fileContents);
   const adjustedContent = content.replace(/\.\.\/public\//g, '/');
-  const processedContent = await remark().use(html).process(content);
+  const processedContent = await remark().use(html).process(adjustedContent);
   const contentHtml = processedContent.toString();
 
   return {
