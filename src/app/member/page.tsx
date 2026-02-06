@@ -2,7 +2,7 @@ import { Users } from "lucide-react";
 import { members } from "@/data/members";
 import MemberCard from "@/components/MemberCard";
 
-const basePath = process.env.NODE_ENV === "production" ? "/homepage" : "";
+const basePath = "/homepage";
 
 export default function MemberPage() {
   return (

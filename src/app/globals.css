@@ -24,9 +24,25 @@
 
 body {
   background-color: var(--background);
-  background-image: radial-gradient(var(--dot-color) 1.5px, transparent 1.5px);
-  background-size: 48px 48px;
+  background-image:
+    radial-gradient(var(--dot-color) 1.5px, transparent 1.5px),
+    linear-gradient(135deg, #eef2ff 0%, #f0f4ff 25%, #e8f0fe 50%, #f5f0ff 75%, #eef2ff 100%);
+  background-size: 48px 48px, 100% 100%;
   background-attachment: fixed;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image:
+      radial-gradient(var(--dot-color) 1.5px, transparent 1.5px),
+      linear-gradient(135deg, #080a14 0%, #0a0f1e 25%, #0d0a1a 50%, #0a0f1e 75%, #080a14 100%);
+  }
+}
+
+.home-page h1,
+.home-page h2,
+.home-page h3 {
+  font-family: var(--font-serif-jp), "Noto Serif JP", serif;
 }
