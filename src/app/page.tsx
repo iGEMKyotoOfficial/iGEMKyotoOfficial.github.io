@@ -36,7 +36,7 @@ export default function HomePage() {
             <div className="h-[400px] w-[300px] overflow-hidden rounded-[50%] shadow-2xl md:h-[500px] md:w-[380px]">
               <img
                 src={`${basePath}/images/Home1.jpg`}
-                alt="iGEM Kyoto"
+                alt=""
                 className="h-full w-full object-cover"
               />
             </div>
