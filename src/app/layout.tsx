@@ -35,8 +35,16 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSerifJP.variable} antialiased`}
       >
+        {/* Background Logo - ドットより上、コンテンツより下 */}
+        <div className="pointer-events-none fixed top-4 left-1/2 -translate-x-1/2 z-[1]">
+          <img
+            src="/homepage/favicon.ico"
+            alt=""
+            className="w-[108vw] max-w-[720px] opacity-20 dark:opacity-15"
+          />
+        </div>
         <Header />
-        <main>{children}</main>
+        <main className="relative z-[2]">{children}</main>
         <Footer />
       </body>
     </html>
