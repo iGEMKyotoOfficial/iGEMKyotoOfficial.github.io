@@ -18,15 +18,15 @@ interface SponsorTabsProps {
 }
 
 const tabs = [
-  { id: "sponsors", label: "スポンサー紹介", icon: Users },
   { id: "support", label: "寄付・協賛のご案内", icon: HandHeart },
+  { id: "sponsors", label: "スポンサー紹介", icon: Users },
 ];
 
 export default function SponsorTabs({
   introContent,
   supportContent,
 }: SponsorTabsProps) {
-  const [activeTab, setActiveTab] = useState("sponsors");
+  const [activeTab, setActiveTab] = useState("support");
 
   const currentContent =
     activeTab === "sponsors" ? introContent : supportContent;
