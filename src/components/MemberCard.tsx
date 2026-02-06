@@ -58,7 +58,7 @@ export default function MemberCard({ member, basePath = "" }: MemberCardProps) {
         </div>
         <div className="mt-4 rounded-lg bg-gray-50 p-3 dark:bg-gray-800">
           <p className="text-sm italic text-gray-600 dark:text-gray-300">
-            "{member.comment}"
+            &ldquo;{member.comment}&rdquo;
           </p>
         </div>
       </div>
