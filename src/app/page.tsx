@@ -36,7 +36,7 @@ export default function HomePage() {
             <div className="h-[400px] w-[300px] overflow-hidden rounded-[50%] shadow-2xl md:h-[500px] md:w-[380px]">
               <img
                 src={`${basePath}/images/Home1.jpg`}
-                alt="iGEM Kyoto"
+                alt=""
                 className="h-full w-full object-cover"
               />
             </div>
@@ -78,10 +78,10 @@ export default function HomePage() {
       <section className="px-8 py-24 md:px-16 lg:px-24">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-6 text-center text-4xl font-bold text-gray-900 dark:text-white md:text-5xl">
-            iGEMの１年
+            iGEMで何をするか？
           </h2>
           <p className="mb-20 text-center text-sm tracking-widest text-gray-500 dark:text-gray-400">
-            &mdash; Annual Activities &mdash;
+            &mdash; What We Do? &mdash;
           </p>
 
           <div className="space-y-32">
