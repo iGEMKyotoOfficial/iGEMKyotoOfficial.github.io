@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Member } from "@/data/members";
 
 interface MemberCardProps {
