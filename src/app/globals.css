@@ -46,3 +46,36 @@ body {
 .home-page h3 {
   font-family: var(--font-serif-jp), "Noto Serif JP", serif;
 }
+
+/* First View Animations */
+@keyframes fv-rise {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fv-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fv-title {
+  animation: fv-rise 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+}
+
+.fv-subtitle {
+  animation: fv-rise 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.7s both;
+}
+
+.fv-scroll {
+  animation: fv-fade 1s ease 1.5s both;
+}

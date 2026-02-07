@@ -1,11 +1,15 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import FirstView from "@/components/FirstView";
 
 const basePath = "/homepage";
 
 export default function HomePage() {
   return (
     <div className="home-page min-h-screen overflow-hidden">
+      {/* First View */}
+      <FirstView />
+
       {/* Hero Section */}
       <section className="relative flex min-h-screen items-center px-8 py-32 md:px-16 lg:px-24">
         {/* Watermark */}
