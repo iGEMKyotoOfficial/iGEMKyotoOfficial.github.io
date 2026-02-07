@@ -51,7 +51,7 @@ export const members: Member[] = [
     image: "/images/members/wakita.jpg",
     grade: "2回生",
     faculty: "工学部情報学科",
-    role: "Wiki",
+    role: "Wikiリーダー",
     hobby: "ギター、旅行",
     comment: "丁寧な生活を心がけたい",
   },
@@ -66,4 +66,15 @@ export const members: Member[] = [
     hobby: "読書",
     comment: "すべて世は事も無し",
   },
+   {
+    id: "igeta",
+    name: "井桁快音",
+    nameEn: "Kaito Igeta",
+    image: "/images/members/igeta.jpg",
+    grade: "2回生",
+    faculty: "理学部",
+    role: "ドライ",
+    hobby: "ベース、数学",
+    comment: "いろんな多様体上に住んでみたい",
+  }
 ];

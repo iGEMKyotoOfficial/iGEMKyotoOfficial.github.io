@@ -19,8 +19,19 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
+  const basePath = "/homepage";
+
   return (
-    <header className="fixed top-4 right-4 left-4 z-50 md:left-auto">
+    <header className="fixed top-4 right-4 left-4 z-50 flex items-start justify-between">
+      {/* Logo - 左上 */}
+      <Link href="/">
+        <img
+          src={`${basePath}/favicon.ico`}
+          alt="iGEM Kyoto"
+          className="h-24 w-24"
+        />
+      </Link>
+
       {/* Desktop Navigation - 右上に浮かせる */}
       <nav className="hidden rounded-full border border-gray-200 bg-white/90 px-2 py-2 shadow-lg backdrop-blur-md dark:border-gray-700 dark:bg-gray-900/90 md:flex md:items-center md:gap-1">
         {navItems.map((item) => {
@@ -42,7 +53,7 @@ export default function Header() {
       </nav>
 
       {/* Mobile Menu Button */}
-      <div className="md:hidden">
+      <div className="ml-auto md:hidden">
         <button
           className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 bg-white/90 shadow-lg backdrop-blur-md transition-colors dark:border-gray-700 dark:bg-gray-900/90"
           onClick={() => setIsOpen(!isOpen)}
