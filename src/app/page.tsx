@@ -10,6 +10,9 @@ export default function HomePage() {
       {/* First View */}
       <FirstView />
 
+      {/* Divider under First View */}
+      <hr className="mx-auto w-full border-t border-gray-300/70 dark:border-gray-700" />
+
       {/* iGEM Kyoto? Section */}
       <section className="relative flex min-h-screen items-center px-8 py-32 md:px-16 lg:px-24">
         {/* Watermark */}

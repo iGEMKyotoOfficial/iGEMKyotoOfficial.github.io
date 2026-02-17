@@ -51,6 +51,7 @@ export default function ProjectPage() {
             height={300}
             className="float-left mr-4 w-1/2"
           />
+          <div>
           <p className="text-gray-600 dark:text-gray-400">
             Wetとは、バイオの研究において、実際に生物を用いて実験する部分のことを指します。
             名前から連想されるように、水や試薬を実際に使って研究することから、生命科学や生物の研究では、実験分野をWetと呼びます。
@@ -86,7 +87,8 @@ export default function ProjectPage() {
             設計したDNA配列は、プロモーターやタグ、目的遺伝子の配置などを含めてプラスミドとして構築します。
             この段階で、発現量の調整や精製のしやすさ、後の解析方法までを考慮し、実験全体が無理なくつながるように設計します。
           </p>
-
+          </div>
+          <div>
           <h3 className="mt-6 text-xl font-bold text-gray-900 dark:text-white">
             実験の遂行
           </h3>
@@ -143,6 +145,8 @@ export default function ProjectPage() {
             height={300}
             className="float-left mr-4 w-1/2"
           />
+          </div>
+          <div>
           <p className="text-gray-600 dark:text-gray-400">
             Dryとは、バイオ研究においてコンピュータ上で理論設計や解析を行う分野を指します。
             実験台の上で試薬を扱うWetに対して、Dryでは数式・アルゴリズム・シミュレーションを用いて、生命現象や分子のふるまいを理論的に解析・予測します。
@@ -178,7 +182,8 @@ export default function ProjectPage() {
             現実の挙動に整合するようなモデルを構築することを目標とし、論文等を参照にしながら、最適なパラメーターや閾値などを決定します。
             このモデル化の段階では、Wetからの実験結果をもとに設計したり、構築したモデルにおける結果を振り返って再構成したりして、試行錯誤を繰り返すことによって最善のモデルを構築します。
           </p>
-
+          </div>
+          <div>
           <h3 className="mt-6 text-xl font-bold text-gray-900 dark:text-white">
             シミュレーション
           </h3>
@@ -211,7 +216,7 @@ export default function ProjectPage() {
             プログラミングや数理モデルに初めて触れる1-2回生にとって、Dryは決して簡単な分野ではありません。
             しかし、チームで議論を重ね、理論と実験が一致した瞬間には、大きな達成感を得ることができます。
           </p>
-
+          <div>
           <h2 className="mt-8 text-2xl font-bold text-gray-900 dark:text-white">
             Human Practice
           </h2>
@@ -270,7 +275,8 @@ export default function ProjectPage() {
           <p className="text-gray-600 dark:text-gray-400">
             バックグラウンドの異なる様々な方と対話することは、時に自分たちの前提を覆される苦労もありますが、その分、プロジェクトが社会に真に貢献できる形へと研ぎ澄まされていく喜びがあります。
           </p>
-
+          </div>
+          <div>
           <h2 className="mt-8 text-2xl font-bold text-gray-900 dark:text-white">
             Wiki制作
           </h2>
