@@ -62,12 +62,12 @@ export default function ProjectPage() {
             />
             <div className="sm:w-1/2">
               <p className="mt-0 text-gray-600 dark:text-gray-400">
-                Wetとは、バイオの研究において、実際に生物を用いて実験する部分のことを指します。
+                <strong>Wetとは、バイオの研究において、実際に生物を用いて実験する部分のこと</strong>を指します。
                 名前から連想されるように、水や試薬を実際に使って研究することから、生命科学や生物の研究では、実験分野をWetと呼びます。
               </p>
               <p className="text-gray-600 dark:text-gray-400">
                 Wetでは、DNAやタンパク質、微生物を実際に用いて実験し、理論が正しいのか、考案した機構がうまくワークするのかを確かめます。
-                当団体のWetでは、実験計画を立てるところから研究室での実験、データの収集まで、学生メンバーが主体となって研究を進めています。
+                当団体のWetでは、<strong>実験計画を立てるところから研究室での実験、データの収集まで、学生メンバーが主体となって研究</strong>を進めています。
               </p>
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function ProjectPage() {
             />
             <div className="sm:w-1/2">
               <p className="mt-0 text-gray-600 dark:text-gray-400">
-                Dryとは、バイオ研究においてコンピュータ上で理論設計や解析を行う分野を指します。
+                <strong>Dryとは、バイオ研究においてコンピュータ上で理論設計や解析を行う分野</strong>を指します。
                 実験台の上で試薬を扱うWetに対して、Dryでは数式・アルゴリズム・シミュレーションを用いて、生命現象や分子のふるまいを理論的に解析・予測します。
                 まさにWetとDryは、生命科学の研究において互いに補完し合う両輪です。
               </p>
@@ -171,7 +171,7 @@ export default function ProjectPage() {
             </div>
           </div>
           <p className="text-gray-600 dark:text-gray-400">
-            当団体のDryでは、学生は主に自主的な学習によって、計画立案からモデルの構築、シミュレーションの解析までに必要なスキルを獲得し、試行錯誤を繰り返しながらプロジェクトを進めています。
+            当団体のDryでは、学生は<strong>主に自主的な学習によって、計画立案からモデルの構築、シミュレーションの解析までに必要なスキルを獲得し、試行錯誤を繰り返しながらプロジェクトを進めています</strong>。
           </p>
 
           <h3 className="mt-6 text-xl font-bold text-gray-900 dark:text-white">
@@ -238,7 +238,7 @@ export default function ProjectPage() {
             />
             <div className="sm:w-1/2">
               <p className="mt-0 text-gray-600 dark:text-gray-400">
-                Human Practiceとは、研究や技術を社会との関係の中で捉え、より良い形で実装するための活動を指します。
+                <strong>Human Practiceとは、研究や技術を社会との関係の中で捉え、より良い形で実装するための活動</strong>を指します。
                 プロジェクトの取り組む社会問題における関係者や一般の人々、プロジェクトの分野における有識者へ話を伺い、社会問題における詳細な課題点やプロジェクト分野の専門的知識の理解を深めることを目標とします。
               </p>
               <p className="text-gray-600 dark:text-gray-400">
@@ -275,7 +275,7 @@ export default function ProjectPage() {
             />
             <div className="sm:w-1/2">
               <p className="mt-0 text-gray-600 dark:text-gray-400">
-                Wiki制作では、iGEMの大会において、プロジェクトの成果をまとめたウェブページ「Wiki」を作成し、インターネットを通じて世界に発信します。
+                <strong>Wiki制作では、iGEMの大会において、プロジェクトの成果をまとめたウェブページ「Wiki」を作成し、、インターネットを通じて世界に発信</strong>します。
               </p>
               <p className="text-gray-600 dark:text-gray-400">
                 iGEMでは、社会問題の背景やプロジェクトの概要の説明、WetやDryの結果だけでなく、Human Practice、トライ&エラーの過程まで含めてWiki上で公開することが求められています。
@@ -338,14 +338,14 @@ export default function ProjectPage() {
             />
             <div className="sm:w-1/2">
               <p className="mt-0 text-gray-600 dark:text-gray-400">
-                広報活動では、iGEMやiGEM Kyotoの取り組みについて専門外の方にも分かりやすく伝え、合成生物学やiGEMについて興味を持ってもらうとともに、社会の方々と関わりを持つことを目的とします。
+                <strong>広報活動では、iGEMやiGEM Kyotoの取り組みについて専門外の方にも分かりやすく伝え、合成生物学やiGEMについて興味を持ってもらうとともに、社会の方々と関わりを持つことを目的</strong>としています。
                 SNSやニュースレターを通じた情報発信や、イベントを通じた発信を行っています。
               </p>
             </div>
           </div>
           <p className="text-gray-600 dark:text-gray-400">
-            iGEMへの参加や研究活動には、試薬費や機材費、参加費など多くの費用が必要です。
-            そのため当団体では、企業・団体・個人の方々からの支援を受けながら活動しています。
+            iGEMへの参加や研究活動には、<strong>試薬費や機材費、参加費など多くの費用が必要</strong>です。
+            そのため当団体では、<strong>企業・団体・個人の方々からの支援を受けながら活動</strong>しています。
             協賛・寄付していただいた資金は、iGEM大会への登録費および参加費、実験に必要な試薬や機器の調達に使用します。
           </p>
 
