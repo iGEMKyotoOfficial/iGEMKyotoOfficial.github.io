@@ -27,9 +27,9 @@ export default function HomePage() {
           <div className="space-y-6">
             <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               私たちiGEM
-              Kyotoは毎年11月にパリで開催される、「合成生物学」を用いて世界をよりよくするアイデアを競う国際大会&ldquo;iGEM&rdquo;に向けて日々活動しています。
-              毎年学部1,2年生を中心にチームを編成しており、活動は会議室内にとどまらず、様々な研究室にお世話になったり、各地の関係者の方々への取材や出前授業に行ったりと広範囲に及びます。
-              京都大学生の知能を集結させ、白熱した議論を交わしながらプロジェクトをより良いものへと導けるよう努めています。
+              Kyotoは毎年11月にパリで開催される、<strong>「合成生物学」を用いて世界をよりよくするアイデアを競う国際大会&ldquo;iGEM&rdquo;</strong>に向けて日々活動しています。
+              毎年<strong>学部1,2年生を中心にチーム</strong>を編成しており、活動は会議室内にとどまらず、様々な研究室にお世話になったり、各地の関係者の方々への取材や出前授業に行ったりと広範囲に及びます。
+              <strong>京都大学生</strong>の知能を集結させ、白熱した議論を交わしながらプロジェクトをより良いものへと導けるよう努めています。
             </p>
             <Link
               href="/about"
@@ -76,7 +76,7 @@ export default function HomePage() {
           </h2>
           <p className="mx-auto max-w-3xl text-center text-base leading-loose text-gray-700 dark:text-gray-300">
             iGEM
-            Kyotoは、iGEM大会への参加を通して合成生物学による社会への貢献、延いてはこの世界のより良い形への変革を目指しています。そのためのステップとして、当団体はプロジェクトでの研究を経て学術的な知見を深め、また外部との交流によって外向的な人間性を養える場で在れるよう日々努力を重ねています。京都大学の学部生によって構成された当団体は、国際水準の能力を持つ次世代のリーダーとなる人材の育成をMissionとしています。
+            Kyotoは、iGEM大会への参加を通して<strong>合成生物学による社会への貢献、延いてはこの世界のより良い形への変革</strong>を目指しています。そのためのステップとして、当団体はプロジェクトでの研究を経て学術的な知見を深め、また外部との交流によって外向的な人間性を養える場で在れるよう日々努力を重ねています。京都大学の学部生によって構成された当団体は、<strong>国際水準の能力を持つ次世代のリーダーとなる人材の育成をMission</strong>としています。
           </p>
           <div className="mt-10 flex justify-center">
             <Link
@@ -102,7 +102,7 @@ export default function HomePage() {
             実績
           </h2>
           <p className="mx-auto max-w-3xl text-center text-base leading-loose text-gray-700 dark:text-gray-300">
-            大会に向けたテーマ決めから資金獲得、実験、Web制作を含めた発表まで学生自身で行う私たちは、これまでに15回のiGEM大会出場、累計9回の金賞獲得を達成しており、また、卒業生として様々な起業家や研究者を輩出しています。
+            大会に向けたテーマ決めから資金獲得、実験、Web制作を含めた発表まで学生自身で行う私たちは、これまでに<strong>15回のiGEM大会出場</strong>、<strong>累計9回の金賞獲得</strong>を達成しており、また、<strong>卒業生</strong>として様々な<strong>起業家</strong>や<strong>研究者</strong>を輩出しています。
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link
@@ -159,7 +159,7 @@ export default function HomePage() {
             <p className="mb-10 text-base leading-loose text-gray-700 dark:text-gray-300">
               我々はiGEM大会への参加を軸に多様なメンバーから構成されています。
               生物学のみならず、数学・プログラミング・起業等様々な分野に興味のあるメンバーによって成り立っており、研究活動以外にも資金集めや教育活動・サークル運営など多種多様な仕事が重要となってきます。
-              研究活動に興味のある方や、合成生物学の世界大会に参加するというロマンに惹かれる方を幅広く募集しており、我々は新たなメンバーとの発想の創発を楽しみにしています。
+              <strong>研究活動に興味のある方や、合成生物学の世界大会に参加するというロマンに惹かれる方を幅広く募集</strong>しており、我々は<strong>新たなメンバーとの発想の創発を楽しみ</strong>にしています。
             </p>
             <Link
               href="/contact"
