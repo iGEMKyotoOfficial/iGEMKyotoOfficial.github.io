@@ -409,7 +409,7 @@ export default function ProjectPage() {
                   また、iGEMのプロジェクトとは別で、iGEM Kyotoのメンバーによる研究論文が出版されました。
                   高価な試薬を使わずにDNAクローニングを可能にする方法を開発することに成功した研究です。
                   シームレスクローニングという方法に必要な大腸菌抽出液「SLiCE」の成分特定に挑み、2つの酵素が重要であることを特定しました。
-                  この成果は国際学術誌 "Genes to Cell" に掲載されました。
+                  この成果は国際学術誌 &quot;Genes to Cells&quot; に掲載されました。
                 </p>
                 <p className="mt-2">
                   <a href="https://2023.igem.wiki/kyoto" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400">wikiはこちら</a>
@@ -434,7 +434,7 @@ export default function ProjectPage() {
                   2021年 - FLOWEREVER
                 </h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-400">
-                  2021年度のテーマは"FLOWEREVER"です。
+                  2021年度のテーマは&quot;FLOWEREVER&quot;です。
                   実は私たちの身近にある花には、栽培時のウイルス感染、虫害、販売時や家庭での花の老化・細菌繁殖など様々な課題があります。
                   これら複数の課題に対し、合成生物学を用いた解決法を考えました。ウイルス感染に対しては葉から抽出したRNAからRT-LAMP法という手法でウイルス由来のDNAを増幅し、CRISPR-Cas12aという配列検出システムを用いて蛍光の有無からウイルス感染の有無を検出する手法を開発しました。さらに機械学習を用いることで葉の写真から健康状態を判断するソフトウェアを開発しました。その他にもRNA干渉を用いた殺虫、ペプチドを利用した殺菌、生体分子の効率的生産のためのシステム開発など、取り組んだプロジェクトは多岐にわたっています。
                   オンラインで開催された大会ではWikiとプレゼンテーションビデオを作成し、審査員とオンラインで質疑応答を行いました。結果金賞を受賞し、Best Software Toolという特別賞の最終候補にノミネートされました。
