@@ -101,7 +101,7 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 mx-auto max-w-5xl">
           <h2 className="mb-12 text-center text-4xl font-bold text-gray-900 dark:text-white md:text-5xl">
-            Mission
+            ミッション
           </h2>
           <p className="mx-auto max-w-3xl text-center text-base leading-loose text-gray-700 dark:text-gray-300">
             iGEM
