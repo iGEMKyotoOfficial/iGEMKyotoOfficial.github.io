@@ -40,19 +40,42 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Center - Image with Soft Edges */}
+          {/* Center - Image with Color Fade */}
           <div className="flex justify-center">
             <div 
-              className="h-[400px] w-[300px] overflow-hidden rounded-2xl shadow-2xl md:h-[500px] md:w-[380px]"
-              style={{
-                maskImage: 'radial-gradient(ellipse at center, black 75%, transparent 100%)',
-                WebkitMaskImage: 'radial-gradient(ellipse at center, black 75%, transparent 100%)',
+              className="h-[400px] w-[400px] md:h-[500px] md:w-[500px]"
+              style={{ 
+                position: 'relative',
+                borderRadius: '200px',
+                overflow: 'hidden',
               }}
             >
+              {/* Blurred background layer */}
               <img
                 src={`${basePath}/images/Home1.jpg`}
                 alt=""
-                className="h-full w-full object-cover"
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  filter: 'blur(50px)',
+                  opacity: 0.7,
+                  transform: 'scale(1.3)',
+                }}
+              />
+              {/* Clear image layer */}
+              <img
+                src={`${basePath}/images/Home1.jpg`}
+                alt=""
+                style={{
+                  position: 'relative',
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  zIndex: 10,
+                }}
               />
             </div>
           </div>
