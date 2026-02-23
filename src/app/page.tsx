@@ -40,9 +40,15 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Center - Oval Image */}
+          {/* Center - Image with Soft Edges */}
           <div className="flex justify-center">
-            <div className="h-[400px] w-[300px] overflow-hidden rounded-[50%] shadow-2xl md:h-[500px] md:w-[380px]">
+            <div 
+              className="h-[400px] w-[300px] overflow-hidden rounded-2xl shadow-2xl md:h-[500px] md:w-[380px]"
+              style={{
+                maskImage: 'radial-gradient(ellipse at center, black 75%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse at center, black 75%, transparent 100%)',
+              }}
+            >
               <img
                 src={`${basePath}/images/Home1.jpg`}
                 alt=""
