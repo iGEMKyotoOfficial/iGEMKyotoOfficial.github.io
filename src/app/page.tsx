@@ -153,10 +153,10 @@ export default function HomePage() {
       </section>
 
       {/* ご支援のお願い & メンバー募集 Section */}
-      <section className="relative px-8 py-32 md:px-16 lg:px-24">
+      <section className="relative px-8 py-32 md:px-16 lg:px-24 overflow-hidden">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
-          <span className="whitespace-nowrap text-[10vw] font-bold tracking-wider text-gray-900/[0.03] dark:text-white/[0.03]">
-            Join Us
+          <span className="whitespace-nowrap text-[10vw] font-bold tracking-wider text-gray-900/[0.08] dark:text-white/[0.08]">
+            SUPPORT US & JOIN US
           </span>
         </div>
         <div className="relative z-10 mx-auto max-w-4xl space-y-24">
