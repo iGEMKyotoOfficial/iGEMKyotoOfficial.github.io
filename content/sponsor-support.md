@@ -17,7 +17,7 @@ subtitle: How to Support Us
   ※振込手数料は自己負担になります
 
 
-写真1
+![support1](../public/images/support1)
 
 ## 次世代を担う合成生物学の旗手として
 iGEM Kyotoは、次世代の基幹技術である合成生物学に情熱を注ぎ、その可能性を追求する京都大学の学生チームです。
