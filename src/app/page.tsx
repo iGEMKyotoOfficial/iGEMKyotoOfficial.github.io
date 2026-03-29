@@ -46,7 +46,7 @@ export default function HomePage() {
               className="h-[400px] w-[400px] md:h-[500px] md:w-[500px]"
               style={{ 
                 position: 'relative',
-                borderRadius: '200px', // ここで丸くしている
+                borderRadius: '200px',
                 overflow: 'hidden',
               }}
             >
@@ -97,19 +97,15 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Left - Image & Title */}
           <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色 (画像の外側に見える) */}
+            {/* セル自体の背景色 */}
             <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
 
-            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
-              className="absolute inset-0 h-full w-full"
+              className="absolute inset-4 md:inset-8 lg:inset-12"
               style={{ 
-                position: 'absolute',
-                borderRadius: '200px', // iGEM Kyoto?と同じ
+                borderRadius: '150px',
                 overflow: 'hidden',
-                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
-                transform: 'scale(1.5)', // 大きく拡大
-                transformOrigin: 'center center',
               }}
             >
               <img
@@ -195,16 +191,12 @@ export default function HomePage() {
             {/* セル自体の背景色 */}
             <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
 
-            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
-              className="absolute inset-0 h-full w-full"
+              className="absolute inset-4 md:inset-8 lg:inset-12"
               style={{ 
-                position: 'absolute',
-                borderRadius: '200px', // iGEM Kyoto?と同じ
+                borderRadius: '150px',
                 overflow: 'hidden',
-                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
-                transform: 'scale(1.5)', // 大きく拡大
-                transformOrigin: 'center center',
               }}
             >
               <img
@@ -236,16 +228,12 @@ export default function HomePage() {
             {/* セル自体の背景色 */}
             <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
 
-            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
-              className="absolute inset-0 h-full w-full"
+              className="absolute inset-4 md:inset-8 lg:inset-12"
               style={{ 
-                position: 'absolute',
-                borderRadius: '200px', // iGEM Kyoto?と同じ
+                borderRadius: '150px',
                 overflow: 'hidden',
-                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
-                transform: 'scale(1.5)', // 大きく拡大
-                transformOrigin: 'center center',
               }}
             >
               <img
@@ -328,16 +316,12 @@ export default function HomePage() {
             {/* セル自体の背景色 */}
             <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
 
-            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
-              className="absolute inset-0 h-full w-full"
+              className="absolute inset-4 md:inset-8 lg:inset-12"
               style={{ 
-                position: 'absolute',
-                borderRadius: '200px', // iGEM Kyoto?と同じ
+                borderRadius: '150px',
                 overflow: 'hidden',
-                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
-                transform: 'scale(1.5)', // 大きく拡大
-                transformOrigin: 'center center',
               }}
             >
               <img
@@ -363,5 +347,3 @@ export default function HomePage() {
     </div>
   );
 }
-
-
