@@ -6,10 +6,15 @@ subtitle: Our Sponsors
 # サポーターの皆様
 2025年度、ご支援いただいた方々を紹介します。
 
-![support2](../public/images/support2.png)
-![support3](../public/images/support3.webp)
-
-xFOREST Therapeutics 田尻健 様  
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start; margin-bottom:1rem;">
+  <div style="flex:1; min-width:220px;">
+    <img src="../public/images/support2.png" alt="support2" style="width:100%; height:auto; object-fit:contain;" />
+  </div>
+  <div style="flex:1; min-width:220px; display:flex; flex-direction:column; align-items:center; gap:0.5rem;">
+    <img src="../public/images/support3.webp" alt="support3" style="width:100%; height:auto; object-fit:contain;" />
+    <p style="margin:0; text-align:center;">xFOREST Therapeutics 田尻健 様</p>
+  </div>
+</div>
 
 その他にも多くの方々からご支援、ご助言を頂きました。皆様のおかげで活動ができたこと、大変嬉しく思います。ありがとうございました。  
 
