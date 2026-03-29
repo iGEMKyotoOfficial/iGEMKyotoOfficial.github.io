@@ -98,7 +98,7 @@ export default function HomePage() {
           {/* Left - Image & Title */}
           <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh]">
             <img
-              src={`${basePath}/images/Home1.jpg`}
+              src={`${basePath}/images/mission.jpg`}
               alt=""
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -171,7 +171,7 @@ export default function HomePage() {
           {/* Right - Image & Title (Desktop) / order-1 on mobile */}
           <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh]">
             <img
-              src={`${basePath}/images/Home1.jpg`}
+              src={`${basePath}/images/achievements.jpg`}
               alt=""
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -190,7 +190,7 @@ export default function HomePage() {
           {/* Left - Image & Title */}
           <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh]">
             <img
-              src={`${basePath}/images/Home1.jpg`}
+              src={`${basePath}/images/supportus.jpg`}
               alt=""
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -260,7 +260,7 @@ export default function HomePage() {
           {/* Right - Image & Title (Desktop) / order-1 on mobile */}
           <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh]">
             <img
-              src={`${basePath}/images/Home1.jpg`}
+              src={`${basePath}/images/joinus.jpg`}
               alt=""
               className="absolute inset-0 h-full w-full object-cover"
             />
