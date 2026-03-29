@@ -97,8 +97,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Left - Image & Title */}
           <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色 */}
-            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
 
             {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
@@ -188,8 +187,7 @@ export default function HomePage() {
 
           {/* Right - Image & Title (Desktop) / order-1 on mobile */}
           <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色 */}
-            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
 
             {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
@@ -225,8 +223,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Left - Image & Title */}
           <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色 */}
-            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
 
             {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
@@ -313,8 +310,7 @@ export default function HomePage() {
 
           {/* Right - Image & Title (Desktop) / order-1 on mobile */}
           <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色 */}
-            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
 
             {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
             <div 
@@ -347,3 +343,5 @@ export default function HomePage() {
     </div>
   );
 }
+
+
