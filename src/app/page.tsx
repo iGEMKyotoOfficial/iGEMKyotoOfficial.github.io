@@ -152,11 +152,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ご支援のお願い & メンバー募集 Section */}
+      {/* ご支援のお願い Section */}
       <section className="relative px-8 py-32 md:px-16 lg:px-24 overflow-hidden">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
           <span className="whitespace-nowrap text-[10vw] font-bold tracking-wider text-gray-900/[0.08] dark:text-white/[0.08]">
-            SUPPORT US & JOIN US
+            SUPPORT US
           </span>
         </div>
         <div className="relative z-10 mx-auto max-w-4xl space-y-24">
@@ -179,8 +179,16 @@ export default function HomePage() {
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
-
+        </div>
+      </section>
           {/* メンバー募集 */}
+      <section className="relative px-8 py-32 md:px-16 lg:px-24 overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
+          <span className="whitespace-nowrap text-[10vw] font-bold tracking-wider text-gray-900/[0.08] dark:text-white/[0.08]">
+            JOIN US
+          </span>
+        </div>
+        <div className="relative z-10 mx-auto max-w-4xl space-y-24">
           <div className="text-center">
             <h2 className="mb-8 text-4xl font-bold text-gray-900 dark:text-white md:text-5xl">
               メンバー募集
