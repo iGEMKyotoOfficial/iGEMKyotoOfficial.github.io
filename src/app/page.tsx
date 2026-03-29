@@ -57,10 +57,18 @@ const textData = {
   ]
 };
 
+// === TypeScriptの型定義を追加 ===
+type TextSegment = {
+  text: string;
+  bold?: boolean;
+};
+
 // === タイピングアニメーション用コンポーネント ===
-// 文字数からリンクの表示タイミングを計算するために、文字の配列を展開してアニメーションさせます。
-const TypewriterText = ({ segments }) => {
-  const chars = [];
+// { segments } の後ろに型を指定します
+const TypewriterText = ({ segments }: { segments: TextSegment[] }) => {
+  // chars 配列にも型を指定します
+  const chars: { char: string; bold?: boolean }[] = [];
+  
   segments.forEach((seg) => {
     // 絵文字なども崩れないように Array.from を使用
     const segChars = Array.from(seg.text);
@@ -106,11 +114,13 @@ const TypewriterText = ({ segments }) => {
   );
 };
 
-// リンクが表示されるまでの待機時間を計算する関数 (1.0秒待機 + タイピング時間 + 0.3秒余韻)
-const getLinkDelay = (segments) => {
+// こちらの関数にも型 (segments: TextSegment[]) を追加します
+const getLinkDelay = (segments: TextSegment[]) => {
   const charCount = segments.reduce((acc, seg) => acc + Array.from(seg.text).length, 0);
   return 1.0 + charCount * 0.015 + 0.3;
 };
+
+
 
 export default function HomePage() {
   return (
