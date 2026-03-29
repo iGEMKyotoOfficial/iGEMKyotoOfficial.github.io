@@ -6,8 +6,8 @@ subtitle: Our Sponsors
 # サポーターの皆様
 2025年度、ご支援いただいた方々を紹介します。
 
-![support2](../public/images/support2)
-![support3](../public/images/support3)
+![support2](../public/images/support2.png)
+![support3](../public/images/support3.webp)
 
 xFOREST Therapeutics 田尻健 様  
 
