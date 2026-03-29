@@ -13,121 +13,72 @@ export default function HomePage() {
       {/* Divider under First View */}
       <hr className="mx-auto w-full border-t border-gray-300/70 dark:border-gray-700" />
 
-      {/* iGEM Kyoto? Section */}
-      <section className="relative flex min-h-screen items-center px-8 py-32 md:px-16 lg:px-24">
-        {/* Watermark */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
-          <span className="whitespace-nowrap text-[10vw] font-bold tracking-wider text-gray-900/[0.03] dark:text-white/[0.03]">
-            iGEM Kyoto
-          </span>
-        </div>
-
-        <div className="relative z-10 grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-3">
-          {/* Left - Description */}
-          <div className="space-y-6">
-            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
-              私たちiGEM
-              Kyotoは毎年11月にパリで開催される、<strong>「合成生物学」を用いて世界をよりよくするアイデアを競う国際大会&ldquo;iGEM&rdquo;</strong>に向けて日々活動しています。
-              毎年<strong>学部1,2年生を中心にチーム</strong>を編成しており、活動は会議室内にとどまらず、様々な研究室にお世話になったり、各地の関係者の方々への取材や出前授業に行ったりと広範囲に及びます。
-              <strong>京都大学生</strong>の知能を集結させ、白熱した議論を交わしながらプロジェクトをより良いものへと導けるよう努めています。
-            </p>
-            <Link
-              href="/about"
-              className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-800 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100"
-            >
-              団体について
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </div>
-
-          {/* Center - Image with Color Fade */}
-          <div className="flex justify-center">
-            <div 
-              className="h-[400px] w-[400px] md:h-[500px] md:w-[500px]"
-              style={{ 
-                position: 'relative',
-                borderRadius: '200px',
-                overflow: 'hidden',
-              }}
-            >
-              {/* Blurred background layer */}
-              <img
-                src={`${basePath}/images/Home1.jpg`}
-                alt=""
-                style={{
-                  position: 'absolute',
-                  inset: 0,
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  filter: 'blur(50px)',
-                  opacity: 0.7,
-                  transform: 'scale(1.3)',
-                }}
-              />
-              {/* Clear image layer */}
-              <img
-                src={`${basePath}/images/Home1.jpg`}
-                alt=""
-                style={{
-                  position: 'relative',
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  zIndex: 10,
-                }}
-              />
-            </div>
-          </div>
-
-          {/* Right - Large Heading */}
-          <div className="space-y-4 text-right">
-            <p className="text-sm tracking-widest text-gray-500 dark:text-gray-400">
-              &mdash;&mdash; International Genetically Engineered Machine
-            </p>
-            <h2 className="text-4xl font-bold leading-tight tracking-wide text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-              iGEM Kyoto?
-            </h2>
-          </div>
-        </div>
-      </section>
-
-      {/* Mission Section (Left: Image/Title, Right: Text/Link) */}
+      {/* iGEM Kyoto? Section (Left: Image/Title, Right: Text/Link) - 統一されたスタイル */}
       <section className="relative w-full overflow-hidden border-t border-gray-300/70 dark:border-gray-700">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Left - Image & Title */}
           <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
-
             {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
-            <div 
+            <div
               className="absolute inset-4 md:inset-8 lg:inset-12"
-              style={{ 
-                borderRadius: '150px',
-                overflow: 'hidden',
+              style={{
+                borderRadius: "150px",
+                overflow: "hidden",
               }}
             >
               <img
-                src={`${basePath}/images/mission.jpg`}
+                src={`${basePath}/images/Home1.jpg`}
                 alt=""
                 style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
                 }}
               />
               {/* 画像の上にオーバーレイ */}
               <div className="absolute inset-0 bg-black/50" />
             </div>
 
-            {/* タイトル (z-10で最前面) */}
+            {/* タイトル (z-10で最前面) - サイズは他のセクションと合わせる */}
             <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
-              ミッション
+              iGEM Kyoto?
             </h2>
           </div>
 
           {/* Right - Text & Link */}
           <div className="relative flex flex-col justify-center px-8 py-24 md:px-16 lg:px-24">
+            {/* Watermark (サイズは他と合わせる) */}
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
+              <span className="whitespace-nowrap text-[8vw] font-bold tracking-wider text-gray-900/[0.03] dark:text-white/[0.03]">
+                iGEM Kyoto
+              </span>
+            </div>
+            <div className="relative z-10 space-y-10">
+              <p className="text-base leading-loose text-gray-700 dark:text-gray-300">
+                私たちiGEM
+                Kyotoは毎年11月にパリで開催される、<strong>「合成生物学」を用いて世界をよりよくするアイデアを競う国際大会&ldquo;iGEM&rdquo;</strong>に向けて日々活動しています。
+                毎年<strong>学部1,2年生を中心にチーム</strong>を編成しており、活動は会議室内にとどまらず、様々な研究室にお世話になったり、各地の関係者の方々への取材や出前授業に行ったりと広範囲に及びます。
+                <strong>京都大学生</strong>の知能を集結させ、白熱した議論を交わしながらプロジェクトをより良いものへと導けるよう努めています。
+              </p>
+              <div>
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-8 py-4 text-sm font-medium text-white transition-colors hover:bg-gray-800 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100"
+                >
+                  団体について
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission Section (Left: Text/Link, Right: Image/Title) */}
+      <section className="relative w-full overflow-hidden border-t border-gray-300/70 dark:border-gray-700">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
+          {/* Left - Text & Link (Desktop) / order-2 on mobile so image comes first */}
+          <div className="order-2 relative flex flex-col justify-center px-8 py-24 md:px-16 lg:order-1 lg:px-24">
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
               <span className="whitespace-nowrap text-[8vw] font-bold tracking-wider text-gray-900/[0.03] dark:text-white/[0.03]">
                 Mission
@@ -149,14 +100,72 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+
+          {/* Right - Image & Title (Desktop) / order-1 on mobile */}
+          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
+            <div
+              className="absolute inset-4 md:inset-8 lg:inset-12"
+              style={{
+                borderRadius: "150px",
+                overflow: "hidden",
+              }}
+            >
+              <img
+                src={`${basePath}/images/mission.jpg`}
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
+              ミッション
+            </h2>
+          </div>
         </div>
       </section>
 
-      {/* 実績 Section (Left: Text/Link, Right: Image/Title) */}
+      {/* 実績 Section (Left: Image/Title, Right: Text/Link) */}
       <section className="relative w-full overflow-hidden border-t border-gray-300/70 dark:border-gray-700">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          {/* Left - Text & Link (Desktop) / order-2 on mobile so image comes first */}
-          <div className="order-2 relative flex flex-col justify-center px-8 py-24 md:px-16 lg:order-1 lg:px-24">
+          {/* Left - Image & Title */}
+          <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
+            <div
+              className="absolute inset-4 md:inset-8 lg:inset-12"
+              style={{
+                borderRadius: "150px",
+                overflow: "hidden",
+              }}
+            >
+              <img
+                src={`${basePath}/images/achievements.jpg`}
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
+              実績
+            </h2>
+          </div>
+
+          {/* Right - Text & Link */}
+          <div className="relative flex flex-col justify-center px-8 py-24 md:px-16 lg:px-24">
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
               <span className="whitespace-nowrap text-[8vw] font-bold tracking-wider text-gray-900/[0.03] dark:text-white/[0.03]">
                 Achievement
@@ -184,76 +193,14 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-
-          {/* Right - Image & Title (Desktop) / order-1 on mobile */}
-          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
-
-            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
-            <div 
-              className="absolute inset-4 md:inset-8 lg:inset-12"
-              style={{ 
-                borderRadius: '150px',
-                overflow: 'hidden',
-              }}
-            >
-              <img
-                src={`${basePath}/images/achievements.jpg`}
-                alt=""
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                }}
-              />
-              {/* 画像の上にオーバーレイ */}
-              <div className="absolute inset-0 bg-black/50" />
-            </div>
-
-            {/* タイトル (z-10で最前面) */}
-            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
-              実績
-            </h2>
-          </div>
         </div>
       </section>
 
-      {/* ご支援のお願い Section (Left: Image/Title, Right: Text/Link) */}
+      {/* ご支援のお願い Section (Left: Text/Link, Right: Image/Title) */}
       <section className="relative w-full overflow-hidden border-t border-gray-300/70 dark:border-gray-700">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          {/* Left - Image & Title */}
-          <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
-
-            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
-            <div 
-              className="absolute inset-4 md:inset-8 lg:inset-12"
-              style={{ 
-                borderRadius: '150px',
-                overflow: 'hidden',
-              }}
-            >
-              <img
-                src={`${basePath}/images/supportus.jpg`}
-                alt=""
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                }}
-              />
-              {/* 画像の上にオーバーレイ */}
-              <div className="absolute inset-0 bg-black/50" />
-            </div>
-
-            {/* タイトル (z-10で最前面) */}
-            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
-              ご支援のお願い
-            </h2>
-          </div>
-
-          {/* Right - Text & Link */}
-          <div className="relative flex flex-col justify-center px-8 py-24 md:px-16 lg:px-24">
+          {/* Left - Text & Link (Desktop) / order-2 on mobile */}
+          <div className="order-2 relative flex flex-col justify-center px-8 py-24 md:px-16 lg:order-1 lg:px-24">
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
               <span className="whitespace-nowrap text-[8vw] font-bold tracking-wider text-gray-900/[0.03] dark:text-white/[0.03]">
                 SUPPORT US
@@ -263,7 +210,7 @@ export default function HomePage() {
               <p className="text-base leading-loose text-gray-700 dark:text-gray-300">
                 現在iGEM
                 Kyotoではサークルの運営資金を募っております。
-                私たちはiGEM大会への参加を目指していますが、大会の参加には<strong>資金面での問題</strong>が多く存在します。
+                私たちはiGEM大会への参加を目指していますが、大会の参加には<strong>資金面での問題</strong>が多く存在します4。
                 特に、<strong>大会登録費（約100万円）や大会参加費（約50万円）、実験費用（30-40万円）、交通費（ひとり約30万円）</strong>は学生団体である私たちにはあまりにも大きな額であり、一学生団体とその周囲のご協力だけでの<strong>大会参加は困難な</strong>状況にあります。
               </p>
               <div>
@@ -277,14 +224,72 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+
+          {/* Right - Image & Title (Desktop) / order-1 on mobile */}
+          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
+            <div
+              className="absolute inset-4 md:inset-8 lg:inset-12"
+              style={{
+                borderRadius: "150px",
+                overflow: "hidden",
+              }}
+            >
+              <img
+                src={`${basePath}/images/supportus.jpg`}
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
+              ご支援のお願い
+            </h2>
+          </div>
         </div>
       </section>
 
-      {/* メンバー募集 Section (Left: Text/Link, Right: Image/Title) */}
+      {/* メンバー募集 Section (Left: Image/Title, Right: Text/Link) */}
       <section className="relative w-full overflow-hidden border-t border-gray-300/70 dark:border-gray-700">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          {/* Left - Text & Link (Desktop) / order-2 on mobile */}
-          <div className="order-2 relative flex flex-col justify-center px-8 py-24 md:px-16 lg:order-1 lg:px-24">
+          {/* Left - Image & Title */}
+          <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
+            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
+            <div
+              className="absolute inset-4 md:inset-8 lg:inset-12"
+              style={{
+                borderRadius: "150px",
+                overflow: "hidden",
+              }}
+            >
+              <img
+                src={`${basePath}/images/joinus.jpg`}
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
+              メンバー募集
+            </h2>
+          </div>
+
+          {/* Right - Text & Link */}
+          <div className="relative flex flex-col justify-center px-8 py-24 md:px-16 lg:px-24">
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden select-none">
               <span className="whitespace-nowrap text-[8vw] font-bold tracking-wider text-gray-900/[0.03] dark:text-white/[0.03]">
                 JOIN US
@@ -307,41 +312,8 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-
-          {/* Right - Image & Title (Desktop) / order-1 on mobile */}
-          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
-            {/* セル自体の背景色（bg-gray-50 dark:bg-gray-950）を削除して透明に */}
-
-            {/* 丸く加工された画像コンテナ (はみ出さないようにマージンを設ける) */}
-            <div 
-              className="absolute inset-4 md:inset-8 lg:inset-12"
-              style={{ 
-                borderRadius: '150px',
-                overflow: 'hidden',
-              }}
-            >
-              <img
-                src={`${basePath}/images/joinus.jpg`}
-                alt=""
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                }}
-              />
-              {/* 画像の上にオーバーレイ */}
-              <div className="absolute inset-0 bg-black/50" />
-            </div>
-
-            {/* タイトル (z-10で最前面) */}
-            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
-              メンバー募集
-            </h2>
-          </div>
         </div>
       </section>
     </div>
   );
 }
-
-
