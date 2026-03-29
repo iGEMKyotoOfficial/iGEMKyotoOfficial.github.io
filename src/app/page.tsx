@@ -46,7 +46,7 @@ export default function HomePage() {
               className="h-[400px] w-[400px] md:h-[500px] md:w-[500px]"
               style={{ 
                 position: 'relative',
-                borderRadius: '200px',
+                borderRadius: '200px', // ここで丸くしている
                 overflow: 'hidden',
               }}
             >
@@ -96,15 +96,37 @@ export default function HomePage() {
       <section className="relative w-full overflow-hidden border-t border-gray-300/70 dark:border-gray-700">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Left - Image & Title */}
-          <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh]">
-            <img
-              src={`${basePath}/images/mission.jpg`}
-              alt=""
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            {/* Overlay for text readability */}
-            <div className="absolute inset-0 bg-black/40" />
-            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl">
+          <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
+            {/* セル自体の背景色 (画像の外側に見える) */}
+            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+
+            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            <div 
+              className="absolute inset-0 h-full w-full"
+              style={{ 
+                position: 'absolute',
+                borderRadius: '200px', // iGEM Kyoto?と同じ
+                overflow: 'hidden',
+                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
+                transform: 'scale(1.5)', // 大きく拡大
+                transformOrigin: 'center center',
+              }}
+            >
+              <img
+                src={`${basePath}/images/mission.jpg`}
+                alt=""
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
               ミッション
             </h2>
           </div>
@@ -169,15 +191,37 @@ export default function HomePage() {
           </div>
 
           {/* Right - Image & Title (Desktop) / order-1 on mobile */}
-          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh]">
-            <img
-              src={`${basePath}/images/achievements.jpg`}
-              alt=""
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            {/* Overlay for text readability */}
-            <div className="absolute inset-0 bg-black/40" />
-            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl">
+          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
+            {/* セル自体の背景色 */}
+            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+
+            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            <div 
+              className="absolute inset-0 h-full w-full"
+              style={{ 
+                position: 'absolute',
+                borderRadius: '200px', // iGEM Kyoto?と同じ
+                overflow: 'hidden',
+                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
+                transform: 'scale(1.5)', // 大きく拡大
+                transformOrigin: 'center center',
+              }}
+            >
+              <img
+                src={`${basePath}/images/achievements.jpg`}
+                alt=""
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
               実績
             </h2>
           </div>
@@ -188,15 +232,37 @@ export default function HomePage() {
       <section className="relative w-full overflow-hidden border-t border-gray-300/70 dark:border-gray-700">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Left - Image & Title */}
-          <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh]">
-            <img
-              src={`${basePath}/images/supportus.jpg`}
-              alt=""
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            {/* Overlay for text readability */}
-            <div className="absolute inset-0 bg-black/40" />
-            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl">
+          <div className="relative flex min-h-[400px] items-center justify-center p-12 lg:min-h-[80vh] overflow-hidden">
+            {/* セル自体の背景色 */}
+            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+
+            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            <div 
+              className="absolute inset-0 h-full w-full"
+              style={{ 
+                position: 'absolute',
+                borderRadius: '200px', // iGEM Kyoto?と同じ
+                overflow: 'hidden',
+                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
+                transform: 'scale(1.5)', // 大きく拡大
+                transformOrigin: 'center center',
+              }}
+            >
+              <img
+                src={`${basePath}/images/supportus.jpg`}
+                alt=""
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
               ご支援のお願い
             </h2>
           </div>
@@ -258,15 +324,37 @@ export default function HomePage() {
           </div>
 
           {/* Right - Image & Title (Desktop) / order-1 on mobile */}
-          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh]">
-            <img
-              src={`${basePath}/images/joinus.jpg`}
-              alt=""
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            {/* Overlay for text readability */}
-            <div className="absolute inset-0 bg-black/40" />
-            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl">
+          <div className="order-1 relative flex min-h-[400px] items-center justify-center p-12 lg:order-2 lg:min-h-[80vh] overflow-hidden">
+            {/* セル自体の背景色 */}
+            <div className="absolute inset-0 bg-gray-50 dark:bg-gray-950" />
+
+            {/* 丸く加工された画像コンテナ (iGEM Kyoto? のスタイルを適用) */}
+            <div 
+              className="absolute inset-0 h-full w-full"
+              style={{ 
+                position: 'absolute',
+                borderRadius: '200px', // iGEM Kyoto?と同じ
+                overflow: 'hidden',
+                // 画像を背景として扱うため、セル全体を覆うように拡大・配置
+                transform: 'scale(1.5)', // 大きく拡大
+                transformOrigin: 'center center',
+              }}
+            >
+              <img
+                src={`${basePath}/images/joinus.jpg`}
+                alt=""
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                }}
+              />
+              {/* 画像の上にオーバーレイ */}
+              <div className="absolute inset-0 bg-black/50" />
+            </div>
+
+            {/* タイトル (z-10で最前面) */}
+            <h2 className="relative z-10 text-4xl font-bold text-white md:text-5xl text-center">
               メンバー募集
             </h2>
           </div>
@@ -275,3 +363,5 @@ export default function HomePage() {
     </div>
   );
 }
+
+
