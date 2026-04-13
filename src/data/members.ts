@@ -22,7 +22,6 @@ export const members: Member[] = [
     hobby: "お菓子作り、運動",
     comment: "24時間働ける人になりたい",
   },
-  export const members: Member[] = [
   {
     id: "kanki",
     name: "神吉花栄",
@@ -73,7 +72,7 @@ export const members: Member[] = [
     nameEn: "Tomoaki Asai",
     image: "/images/members/asai.jpg",
     grade: "2回生",
-    faculty: "理学部理学科",
+    faculty: "理学部",
     role: "ドライリーダー",
     hobby: "読書",
     comment: "すべて世は事も無し",
@@ -84,7 +83,7 @@ export const members: Member[] = [
     nameEn: "Kaito Igeta",
     image: "/images/members/igeta.jpg",
     grade: "2回生",
-    faculty: "理学部理学科",
+    faculty: "理学部",
     role: "ドライ",
     hobby: "ベース、数学",
     comment: "いろんな多様体上に住んでみたい",
