@@ -33,6 +33,17 @@ export const members: Member[] = [
     hobby: "ランニング、ドラマ鑑賞",
     comment: "24時間歩けます。",
   },
+    {
+    id: "shiogai",
+    name: "塩貝真礼",
+    nameEn: "Mahiri Shiogai",
+    image: "/images/members/shiogai.jpg",
+    grade: "2回生",
+    faculty: "工学部理工化学科",
+    role: "Wet",
+    hobby: "旅行、写真撮影",
+    comment: "ナマケモノとパンダが癒しです",
+    }
   {
     id: "nishizaka",
     name: "西坂勇星",
