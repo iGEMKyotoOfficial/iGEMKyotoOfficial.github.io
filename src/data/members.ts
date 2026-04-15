@@ -23,6 +23,17 @@ export const members: Member[] = [
     comment: "24時間働ける人になりたい",
   },
   {
+    id: "shiogai",
+    name: "塩貝真礼",
+    nameEn: "Shiogai",
+    image: "/images/members/shiogai.jpg",
+    grade: "2回生",
+    faculty: "工学部理工化学科",
+    role: "Wet",
+    hobby: "お菓子作り、運動",
+    comment: "ナマケモノとパンダが癒しです",
+  },
+  {
     id: "kanki",
     name: "神吉花栄",
     nameEn: "Hanae Kanki",
