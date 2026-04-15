@@ -43,7 +43,7 @@ export const members: Member[] = [
     role: "Wet",
     hobby: "旅行、写真撮影",
     comment: "ナマケモノとパンダが癒しです",
-    }
+    }, 
   {
     id: "nishizaka",
     name: "西坂勇星",
