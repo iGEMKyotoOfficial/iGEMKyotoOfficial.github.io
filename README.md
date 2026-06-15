@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# igemkyotoofficial.github.io（組織ルート）
 
-## Getting Started
+このリポジトリは GitHub Pages の**組織ルート** `https://igemkyotoofficial.github.io/` を担当します。
 
-First, run the development server:
+サイト本体ではなく、**正規サイト `https://igemkyotoofficial.github.io/homepage/`（repo: [iGEMKyotoOfficial/homepage](https://github.com/iGEMKyotoOfficial/homepage)）へリダイレクトするだけ**の構成です。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 仕組み
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `dist/index.html` … ルートに来たアクセスを `/homepage/` へ転送
+- `dist/404.html` … ルート配下の未一致パスも `/homepage/` へ転送
+- `.github/workflows/deploy.yml` … `dist/` を GitHub Pages へ配信（ビルドなし）
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+サイトの内容を編集したい場合は、このリポジトリではなく **`homepage` リポジトリ**を編集してください。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> 補足: 以前はこのリポジトリにもサイト本体（Next.js 一式）が入っていましたが、`basePath: /homepage` ビルドをルート配信していたためアセットが 404 になり表示が崩れていました。リダイレクト方式に一本化したことで解消しています。`src/` 等の旧 Next.js プロジェクト一式は不要なので、後で削除して構いません。
